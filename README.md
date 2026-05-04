@@ -54,15 +54,7 @@ Feel free to open issues or submit pull requests.
 If this project was useful to you, consider giving it a star <img src="https://opengameart.org/sites/default/files/Magical%20rainbow%20star%20128px%20gif.gif" height="30" /> .
 It helps the project grow and reach more users.
 
-
-
-<p align="center">
-  <a href="https://termux-desktop.netlify.app/" target="_blank">
-    <img src="https://img.shields.io/badge/Official%20Website-Visit%20Now-3B82F6?style=for-the-badge">
-  </a>
-</p>
-
-<p align="center"> <a href="https://t.me/ayush0x10" target="_blank"> <img src="https://img.shields.io/badge/Telegram-Contact-blue?style=for-the-badge&logo=telegram"> </a> <a href="mailto:ayush7code@gmail.com"> <img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail"> </a>
+<p align="center"> <a href="https://t.me/ayush0x10" target="_blank"> <img src="https://img.shields.io/badge/Telegram-Contact-blue?style=for-the-badge&logo=telegram"> </a> <a href="mailto:ayush7code@gmail.com"> </a>
 
 
 <p align="center">
