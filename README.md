@@ -44,6 +44,15 @@ aesthetic and distraction-free desktop experience <img src="https://github.com/u
 
 <img src="https://f-droid.org/repo/com.termux/en-US/icon_7jMZ7XD80oeucmGEaTwktIRZexLtGWvJfKdVD6Wu2SI=.png" width="5%" alt="Termux Desktop Screenshot">
 
+<div align="center">
+
+<img
+  src="https://readme-typing-svg.demolab.com?font=Inconsolata&weight=900&size=53&duration=4000&pause=300&color=3B82F6&center=true&vCenter=true&multiline=true&repeat=false&width=1300&height=140&lines=;Termux+%E2%80%A2+Termux x11+%E2%80%A2+Termux api"
+  style="max-width: 100%; height: auto;"
+/>
+<br/>
+
+
 ### Contributing
 
 Hi, I’m <a href="https://github.com/Keytaro2" target="_blank">**Keytaro**</a><img src="https://github.com/user-attachments/assets/0f78fe4d-2c78-4078-a035-a9dcb18d36d9" height="30" /> 
