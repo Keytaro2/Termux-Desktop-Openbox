@@ -40,7 +40,7 @@ aesthetic and distraction-free desktop experience <img src="https://github.com/u
 
 <img src="https://f-droid.org/repo/com.termux/en-US/icon_7jMZ7XD80oeucmGEaTwktIRZexLtGWvJfKdVD6Wu2SI=.png" width="5%" alt="Termux Desktop Screenshot">
 
-<img src="https://github.com/user-attachments/assets/c5430c35-b4d1-44d9-a0fe-40bc8e1b09d8" width="5%" alt="Termux Desktop Logo">
+<img src="https://github.com/user-attachments/assets/a0d048dc-68a0-4913-8234-14ffbb4b7d3e" width="5%" alt="Termux Desktop Logo">
 
 <img src="https://f-droid.org/repo/com.termux/en-US/icon_7jMZ7XD80oeucmGEaTwktIRZexLtGWvJfKdVD6Wu2SI=.png" width="5%" alt="Termux Desktop Screenshot">
 
