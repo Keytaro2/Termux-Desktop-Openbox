@@ -80,7 +80,7 @@ Open a GitHub Issue with the error screenshot or log
 
 | | | | |
 |---|---|---|---|
-| ![](images/img3.png) | ![](https://archive.org/download/whats-app-image-2026-01-15-at-04.43.29imgss/WhatsApp%20Image%202026-01-15%20at%2004.43.30.jpeg) | ![](https://archive.org/download/whats-app-image-2026-01-15-at-04.43.29imgss/WhatsApp%20Image%202026-01-15%20at%2004.43.29%281%29.jpeg) |
+| ![](images/img3.png) | ![](https://github.com/user-attachments/assets/da5921c9-24f6-4414-9959-7f5c91985f35) | ![](https://github.com/user-attachments/assets/59c7ef85-4a2a-42eb-a561-8c8970cb0879) |
 
 
 
