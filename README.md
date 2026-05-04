@@ -71,15 +71,25 @@ Open a GitHub Issue with the error screenshot or log
 
 | | | | |
 |---|---|---|---|
-| ![](https://github.com/user-attachments/assets/34a3bec0-00f3-4d55-8a54-859cc8f48d09) | ![](TU_IMAGEN_2) | ![](TU_IMAGEN_3) | ![](TU_IMAGEN_4) |
+| ![](https://github.com/user-attachments/assets/34a3bec0-00f3-4d55-8a54-859cc8f48d09) | ![](https://github.com/user-attachments/assets/e21e2d37-b7c0-463f-9976-367053204cad) | ![](https://github.com/user-attachments/assets/d1a0bb73-d569-4024-bee2-4b9cdf05253d) | ![](https://github.com/user-attachments/assets/34a3bec0-00f3-4d55-8a54-859cc8f48d09) |
 
-<br>
+||
 
-| ![](TU_IMAGEN_5) | ![](TU_IMAGEN_6) |
+| ![](https://github.com/user-attachments/assets/aa1140e2-667e-406a-b1de-ebe441e40a3e) | ![](https://github.com/user-attachments/assets/d5a1dcda-116b-453f-8153-9403c8669487) |
 
-<br>
+||
 
 | | | | |
 |---|---|---|---|
-| ![](TU_IMAGEN_7) | ![](TU_IMAGEN_8) | ![](TU_IMAGEN_9) |
+| ![](https://github.com/user-attachments/assets/34a3bec0-00f3-4d55-8a54-859cc8f48d09) | ![](https://github.com/user-attachments/assets/aa1140e2-667e-406a-b1de-ebe441e40a3e) | ![](https://github.com/user-attachments/assets/34a3bec0-00f3-4d55-8a54-859cc8f48d09) |
+
+
+
+
+
+
+
+
+
+
 
