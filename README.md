@@ -8,8 +8,6 @@
 
 <img width="240" height="240" alt="Image" src="https://github.com/user-attachments/assets/631b3650-778d-4aa8-ac91-cb67acdf4f11" />
 
-<img src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif" height="70" />
-
 </div>
 
 ---
