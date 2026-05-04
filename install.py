@@ -28,13 +28,11 @@ def main():
     # 2. Creating base directories
     run("mkdir -p ~/.config")
     run("mkdir -p ~/.local/share/fonts")
-    run("mkdir -p ~/.themes")
-    run("mkdir -p ~/.icons")
 
     # 3. Deploying configuration files (.config)
     config_items = [
-        "Audacious", "cava", "eww", "neofetch", "openbox",
-        "picom", "rofi", "Thunar", "tint2", "Wallpaper", "starship.toml"
+        "audacious", "cava", "eww", "neofetch", "openbox",
+        "picom", "rofi", "thunar", "tint2", "Wallpaper", "starship.toml"
     ]
 
     print(f"{Colors.GREEN}[+] Installing folders in ~/.config...{Colors.RESET}")
@@ -68,22 +66,16 @@ def main():
         print(f"  -> Updated sources.")
 
     # 6. Display Themes, Icons, Zsh and Cache on the HOME (~)
-    dot_folders = [".themes", ".icons", ".cache", ".zsh"]
-    
-    print(f"{Colors.BLUE}[+] Installing system files and folders in ~...{Colors.RESET}")
-    
-    # Mover el archivo .zshrc
-    if os.path.exists(".zshrc"):
-        run("cp .zshrc ~/")
-        print("  -> .zshrc deployed in ~")
-    
-    # Mover las carpetas de puntos
-    for folder in dot_folders:
-        if os.path.isdir(folder):
-            run(f"cp -r {folder} ~/")
-            print(f"  -> {folder} deployed in ~")
+    dot_items = [".themes", ".icons", ".cache", ".zsh", ".zshrc"]
+
+    print(f"{Colors.BLUE}[+] Installing system files from config/ to ~...{Colors.RESET}")
+    for item in dot_items:
+        path = f"config/{item}"
+        if os.path.exists(path):
+            run(f"cp -r {path} ~/")
+            print(f"  -> {item} deployed in ~")
         else:
-            print(f"{Colors.PINK}[!] Omitted: {folder} was not found in the repository.{Colors.RESET}")
+            print(f"{Colors.PINK}[!] Omitted: {item} was not found in config/ folder.{Colors.RESET}")
 
     print(f"\n{Colors.GREEN}Installation completed successfully!{Colors.RESET}")
     print(f"{Colors.BLUE}You can now use your commands: colortest-slim, panes and lavat.{Colors.RESET}")
