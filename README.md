@@ -51,7 +51,7 @@ Feel free to open issues or submit pull requests.
 
 ## Support
 
-If this project was useful to you, consider giving it a star <img src="https://github.com/user-attachments/assets/8faa8495-c7e1-42af-831a-ec30aea04bad" /> .
+If this project was useful to you, consider giving it a star <img src="https://github.com/user-attachments/assets/8faa8495-c7e1-42af-831a-ec30aea04bad" height="30" /> .
 It helps the project grow and reach more users.
 
 <a href="https://www.reddit.com/u/Vgloomy/s/xlFm2VyXy2" target="_blank">
