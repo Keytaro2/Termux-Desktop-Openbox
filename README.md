@@ -54,7 +54,7 @@ Feel free to open issues or submit pull requests.
 If this project was useful to you, consider giving it a star <img src="https://opengameart.org/sites/default/files/Magical%20rainbow%20star%20128px%20gif.gif" height="30" /> .
 It helps the project grow and reach more users.
 
-<p align="center"> <a href="https://t.me/ayush0x10" target="_blank"> <img src="https://github.com/user-attachments/assets/d186eab6-8df1-490e-8ed0-6bc2046d7c43" /> </a> <a href="mailto:ayush7code@gmail.com"> </a>
+<p align="center"> <a href="https://t.me/ayush0x10" target="_blank"> <img src="https://github.com/user-attachments/assets/d186eab6-8df1-490e-8ed0-6bc2046d7c43" /> </a>
 
 
 <p align="center">
