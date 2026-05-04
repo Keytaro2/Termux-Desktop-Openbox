@@ -42,6 +42,8 @@ aesthetic and distraction-free desktop experience <img src="https://github.com/u
 
 <img src="https://github.com/user-attachments/assets/c5430c35-b4d1-44d9-a0fe-40bc8e1b09d8" width="5%" alt="Termux Desktop Logo">
 
+<img src="https://f-droid.org/repo/com.termux/en-US/icon_7jMZ7XD80oeucmGEaTwktIRZexLtGWvJfKdVD6Wu2SI=.png" width="5%" alt="Termux Desktop Screenshot">
+
 ### Contributing
 
 Hi, I’m <a href="https://github.com/Keytaro2" target="_blank">**Keytaro**</a><img src="https://github.com/user-attachments/assets/0f78fe4d-2c78-4078-a035-a9dcb18d36d9" height="30" /> 
