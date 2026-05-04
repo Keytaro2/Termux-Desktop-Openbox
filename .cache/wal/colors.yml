@@ -1,0 +1,24 @@
+wallpaper: "/data/data/com.termux/files/home/storage/dcim/Restored/IMG-20240726-WA0001.jpg"
+
+special:
+    background: "#090b15"
+    foreground: "#c1c2c4"
+    cursor: "#c1c2c4"
+
+colors:
+    color0: "#090b15"
+    color1: "#2F558E"
+    color2: "#35609F"
+    color3: "#355FA0"
+    color4: "#3967AC"
+    color5: "#3B6BB3"
+    color6: "#3D6EBA"
+    color7: "#c1c2c4"
+    color8: "#585b6c"
+    color9: "#2F558E"
+    color10: "#35609F"
+    color11: "#355FA0"
+    color12: "#3967AC"
+    color13: "#3B6BB3"
+    color14: "#3D6EBA"
+    color15: "#c1c2c4"

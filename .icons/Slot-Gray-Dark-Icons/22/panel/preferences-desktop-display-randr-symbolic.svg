@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="22"
+   height="22"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="preferences-desktop-display-randr-symbolic.svg"
+   inkscape:version="1.4.3 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="17.318182"
+     inkscape:cx="10.711286"
+     inkscape:cy="20.585302"
+     inkscape:window-width="1920"
+     inkscape:window-height="1004"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1"
+     showgrid="false">
+    <inkscape:grid
+       id="grid1"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="1"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14902"
+       empspacing="5"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="false" />
+  </sodipodi:namedview>
+  <style
+     type="text/css"
+     id="current-color-scheme">
+.ColorScheme-Text { 
+    color:#d3dae3;
+}
+.ColorScheme-Background { color:#eff0f1; }
+.ColorScheme-ViewBackground { color:#fcfcfc; }
+.ColorScheme-ButtonFocus { color:#3daee9; }
+.ColorScheme-PositiveText { color:#27ae60; }
+.ColorScheme-NeutralText { color:#f67400; }
+.ColorScheme-NegativeText { color: #da4453; }
+</style>
+  <g
+     id="g1"
+     transform="translate(4.25,-21.999518)">
+    <path
+       d="M 14.250004,26.001871 H -0.75000039 v 0 C -1.3750002,26.001871 -2,26.585111 -2,27.168359 v 9.915097 c 0,0.583249 0.6249998,1.166484 1.24999961,1.166484 v 0 H 5.5000033 v 0.76699 l -1.1395206,1.13e-4 c -0.2827991,5.71e-4 -0.5557038,0.10078 -0.7672352,0.281755 -0.2113946,0.180972 -0.3469924,0.430157 -0.3810477,0.70072 H 10.285024 C 10.250916,39.728941 10.115487,39.479756 9.903972,39.298798 9.6924513,39.117818 9.4196656,39.01763 9.1367342,39.017043 H 7.9999961 V 38.24994 h 6.2500079 v 0 c 0.624991,0 1.249996,-0.583235 1.249996,-1.166484 v -9.915097 c 0,-0.583248 -0.625005,-1.166488 -1.249996,-1.166488 -0.01072,-0.01122 0.0213,0.02257 0,0 z M 7.717496,37.666705 H 5.7793712 c -0.1509751,0 -0.2793679,-0.146161 -0.2793679,-0.291624 0,-0.145465 0.1283928,-0.291625 0.2793679,-0.291625 H 7.717496 c 0.1511047,0 0.2825001,0.14615 0.2825001,0.291625 0,0.145463 -0.1313954,0.291624 -0.2825001,0.291624 z M 14.625,36.499939 H -1.1250001 V 26.87494 c 0,0 0.2368254,0 0.87500009,0 H 13.75 c 0.625286,0 0.875,0 0.875,0 z"
+       id="path43-3"
+       style="fill:currentColor;fill-opacity:1;stroke-width:0.0306699"
+       sodipodi:nodetypes="cccccccccccccccccccccccsssssssccccccc"
+       class="ColorScheme-Text" />
+    <path
+       d="m 13.20313,35.078066 h -1.362797 c -0.153445,2e-6 -0.277842,0.120002 -0.277833,0.273438 -9e-6,0.153441 0.12437,0.273442 0.277818,0.273435 h 1.424172 v 0 0 0 H 13.75 v -0.242755 -0.24275 0 0 -1.424176 c -4e-6,-0.153441 -0.119992,-0.277817 -0.273427,-0.277818 -0.153437,-8e-6 -0.273445,0.09208 -0.273443,0.245489 z"
+       style="fill:#d3dae3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.185205"
+       id="path2830-6"
+       sodipodi:nodetypes="ccccccccccccccccc" />
+    <path
+       d="M 0.29687708,28.296812 H 1.659665 c 0.1534402,-4e-6 0.277835,-0.119997 0.277835,-0.273434 0,-0.153446 -0.1243801,-0.273447 -0.2778229,-0.273438 H 0.23550466 v 0 0 0 h -0.48550467 v 0.242751 0.24275 0 0 1.424176 c 1.03e-6,0.153446 0.11999977,0.277821 0.27343895,0.277822 0.15343408,8e-6 0.2734391,-0.09208 0.27343814,-0.24549 z"
+       style="fill:#d3dae3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.185205"
+       id="path2830-3-7"
+       sodipodi:nodetypes="ccccccccccccccccc" />
+  </g>
+</svg>

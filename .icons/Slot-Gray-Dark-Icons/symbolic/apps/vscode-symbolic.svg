@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="16"
+   height="16"
+   version="1.1"
+   viewBox="0 0 4.2332 4.2332"
+   id="svg3"
+   sodipodi:docname="vscode-symbolic.svg"
+   inkscape:version="1.4.2 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs3" />
+  <sodipodi:namedview
+     id="namedview3"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="16.705398"
+     inkscape:cx="4.7888713"
+     inkscape:cy="6.5846981"
+     inkscape:current-layer="svg3" />
+  <g
+     id="g3"
+     transform="matrix(0.8571743,0,0,0.8571743,0.30906179,0.30226871)"
+     style="stroke-width:1.16663">
+    <path
+       d="M 2.947,0.26561 A 0.26143,0.26143 0 0 0 2.8297,0.309534 C 2.93191,0.253615 3.04054,0.306388 3.04054,0.491944 v 0.771 1.7063 0.00103 0.76996 c 0,0.18065 -0.10249,0.23484 -0.20205,0.18655 0.041306,0.023712 0.097864,0.046939 0.14883,0.040824 A 0.16449,0.16449 0 0 0 3.040029,3.952105 l 0.7617,-0.37361 c 0.083343,-0.040794 0.16691,-0.074279 0.16691,-0.16639 v -2.5905 c 0,-0.092116 -0.083568,-0.1256 -0.16691,-0.16639 l -0.7617,-0.37413 A 0.16405,0.16405 0 0 0 2.947013,0.2661026 v -5.1676e-4 z"
+       fill="#aaaaaa"
+       fill-rule="evenodd"
+       stroke-width="0.135607"
+       style="paint-order:stroke fill markers;fill:#f2f2f2;fill-opacity:1"
+       id="path1" />
+    <path
+       d="M 2.9135,0.28835 C 2.871387,0.2857669 2.824519,0.305175 2.78224,0.344159 l -1.4371,1.3281 0.5798,0.44389 1.1157,-0.85316 v -0.771 c 0,-0.13434 -0.056933,-0.1993 -0.12712,-0.2036 z M 0.8646,2.11615 0.3034,2.63497 C 0.255149,2.679274 0.220724,2.75742 0.281696,2.81532 l 0.23151,0.22014 c 0.091239,0.086852 0.19528,0.011507 0.23564,-0.019637 l 0.59633,-0.45578 -0.48058,-0.44389 z"
+       fill="#aaaaaa"
+       fill-rule="evenodd"
+       opacity="0.7"
+       stroke-width="0.135607"
+       style="paint-order:stroke fill markers;fill:#efefef;fill-opacity:1"
+       id="path2" />
+    <path
+       d="m 0.30332,1.5972 2.4788,2.2911 C 2.89485,3.99226 3.04048,3.955413 3.04048,3.74004 V 2.96933 L 0.74898,1.21653 C 0.708624,1.184947 0.60423,1.10994 0.51299,1.196352 l -0.23161,0.22064 c -0.060972,0.057902 -0.026319,0.13598 0.021932,0.18028 z"
+       fill="#aaaaaa"
+       fill-rule="evenodd"
+       opacity="0.85"
+       stroke-width="0.135607"
+       style="paint-order:stroke fill markers;fill:#f0f0f0;fill-opacity:1"
+       id="path3" />
+  </g>
+</svg>

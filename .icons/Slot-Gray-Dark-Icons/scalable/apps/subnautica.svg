@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="62"
+   height="62"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="subnautica.svg"
+   inkscape:version="1.4 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="5.84375"
+     inkscape:cx="74.352941"
+     inkscape:cy="33.283422"
+     inkscape:window-width="1920"
+     inkscape:window-height="998"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <g
+     id="g2">
+    <rect
+       style="opacity:0.2;stroke-width:0.965216"
+       width="55.034481"
+       height="55"
+       x="-59"
+       y="-58.5"
+       rx="27.517241"
+       ry="27.5"
+       transform="matrix(0,-1,-1,0,0,0)"
+       id="rect1" />
+    <rect
+       style="fill:#2a7fff;fill-opacity:1;stroke-width:0.965216"
+       width="55.034481"
+       height="55"
+       x="-58.034481"
+       y="-58.5"
+       rx="27.517241"
+       ry="27.5"
+       transform="matrix(0,-1,-1,0,0,0)"
+       id="rect2" />
+    <path
+       style="opacity:0.2;fill:#ffffff;stroke-width:0.965216"
+       d="M 30.999993,3 C 15.764993,3 3.5,15.272682 3.5,30.517234 c 0,0.161955 0.00855,0.321488 0.011308,0.482759 0.2567919,-15.01908 12.415538,-27.0344757 27.488685,-27.0344757 15.073148,0 27.231894,12.0153957 27.488685,27.0344757 0.0028,-0.161271 0.01131,-0.320804 0.01131,-0.482759 C 58.499988,15.272682 46.234993,3 30.999993,3 Z"
+       id="path4" />
+    <g
+       id="g1"
+       transform="translate(-111.27814,14.000004)">
+      <circle
+         cx="142.27814"
+         cy="16.999996"
+         r="19.000059"
+         id="circle2"
+         style="fill:#ffcc00" />
+      <circle
+         cx="142.27814"
+         cy="16.999996"
+         r="12.000237"
+         id="circle3"
+         style="stroke-width:3.7796;paint-order:stroke markers fill;fill:#eef1f7;fill-opacity:1" />
+      <circle
+         cx="142.27814"
+         cy="16.999996"
+         r="10.000827"
+         id="circle4"
+         style="stroke-width:3.7796;paint-order:stroke markers fill;fill:#2d3d53;fill-opacity:1" />
+      <circle
+         cx="146.27695"
+         cy="13.031456"
+         r="1.9994094"
+         fill="#ffffff"
+         opacity="0.35"
+         id="circle5"
+         style="stroke-width:3.7796;paint-order:stroke markers fill" />
+    </g>
+  </g>
+</svg>

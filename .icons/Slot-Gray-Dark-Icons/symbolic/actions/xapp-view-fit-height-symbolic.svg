@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="16"
+   height="16"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="xapp-view-fit-height-symbolic.svg"
+   inkscape:version="1.4.2 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="23.625"
+     inkscape:cx="16.888889"
+     inkscape:cy="7.3227513"
+     inkscape:current-layer="svg1" />
+  <g
+     id="g1"
+     transform="matrix(0.85714286,0,0,0.85714286,1.1428571,1.1428571)"
+     style="stroke-width:1.16667">
+    <path
+       d="M 15,1 H 1 v 1 h 14 z m 0,13 H 1 v 1 H 15 Z M 10.8281,5.8281 8,3 5.1719,5.8281 5.87893,6.53513 7.50003,4.91403 v 6.1719 L 5.87893,9.46483 5.1719,10.17186 8,12.99996 l 2.8281,-2.8281 -0.70703,-0.70703 -1.6211,1.6211 v -6.1719 l 1.6211,1.6211 z"
+       fill="#dedede"
+       fill-rule="evenodd"
+       stop-color="#000000"
+       id="path1"
+       style="stroke-width:1.16667" />
+  </g>
+</svg>

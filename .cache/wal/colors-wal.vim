@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/data/data/com.termux/files/home/storage/dcim/Restored/IMG-20240726-WA0001.jpg"
+let background = "#090b15"
+let foreground = "#c1c2c4"
+let cursor     = "#c1c2c4"
+
+" Colors
+let color0  = "#090b15"
+let color1  = "#2F558E"
+let color2  = "#35609F"
+let color3  = "#355FA0"
+let color4  = "#3967AC"
+let color5  = "#3B6BB3"
+let color6  = "#3D6EBA"
+let color7  = "#c1c2c4"
+let color8  = "#585b6c"
+let color9  = "#2F558E"
+let color10 = "#35609F"
+let color11 = "#355FA0"
+let color12 = "#3967AC"
+let color13 = "#3B6BB3"
+let color14 = "#3D6EBA"
+let color15 = "#c1c2c4"

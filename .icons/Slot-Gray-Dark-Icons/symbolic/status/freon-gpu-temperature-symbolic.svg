@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   style="clip-rule:evenodd;fill-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2"
+   viewBox="0 0 22 22"
+   version="1.1"
+   id="svg2"
+   sodipodi:docname="freon-gpu-temperature-symbolic.svg"
+   width="22"
+   height="22"
+   inkscape:version="1.4.2 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="namedview2"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="true"
+     inkscape:zoom="23.625"
+     inkscape:cx="9.6296296"
+     inkscape:cy="13.62963"
+     inkscape:current-layer="svg2">
+    <inkscape:grid
+       id="grid3"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="1"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="true" />
+  </sodipodi:namedview>
+  <g
+     id="g3"
+     transform="translate(0.8313577,1.0139993)">
+    <path
+       d="m 5.0970926,5.4840435 11.6766614,0.012203 0.129153,1.1145811 V 16.515956 H 9.0967713 l -0.9284786,-1.032207 -3.0712001,0.003 z"
+       fill-opacity="0.3"
+       fill="#dfdfdf"
+       id="path1"
+       style="stroke-width:0.999998;fill:#f3f3f3;fill-opacity:0.15000001" />
+    <g
+       transform="translate(2.1686423,2.4840974)"
+       id="g2"
+       style="stroke-width:0.983329">
+      <path
+         d="M 1,0 V 0.991 H 2 V 5 H 0 V 8 H 2 V 9 H 0 v 3 h 2 v 3.001903 l 0.928,0.018 V 1.02 c 0,-1 -1,-1 -1,-1 z m 2.809,3 v 1.127 h 10.925 v 9.905 H 6.928 v -2 H 3.809 V 13 H 6 v 2 h 8.408 c 0.422,0 0.827,-0.168 1.126,-0.466 C 15.832,14.235 16,13.83 16,13.408 V 4.592 C 16,3.713 15.287,3 14.408,3 Z M 0.682,5.98 h 1 v 1 h -1 z M 6,6 v 4 H 7 V 6 Z m 2,0 v 4 H 9 V 6 Z m 2,0 v 4 h 1 V 6 Z m 2,0 v 4 h 1 V 6 Z M 0.682,9.98 h 1 v 1 h -1 z"
+         fill="#dfdfdf"
+         id="path2"
+         style="stroke-width:0.983329;fill:#f2f2f2;fill-opacity:1"
+         sodipodi:nodetypes="cccccccccccccsccccccccccccscsssccccccccccccccccccccccccccccccc" />
+    </g>
+  </g>
+</svg>

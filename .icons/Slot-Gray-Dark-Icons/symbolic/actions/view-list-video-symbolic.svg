@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="22"
+   height="22"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="view-list-video-symbolic.svg"
+   inkscape:version="1.4.2 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="23.625"
+     inkscape:cx="11.428571"
+     inkscape:cy="11.470899"
+     inkscape:current-layer="svg1" />
+  <path
+     class="ColorScheme-Text"
+     d="m 5,4.5 c -1.108,0 -2,0.892 -2,2 v 9 c 0,1.108 0.892,2 2,2 h 12 c 1.108,0 2,-0.892 2,-2 v -9 c 0,-1.108 -0.892,-2 -2,-2 z m 0,1 h 1 v 1 H 4 c 0,-0.554 0.446,-1 1,-1 z m 2,0 h 8 v 5 H 7 Z m 9,0 h 1 c 0.554,0 1,0.446 1,1 h -2 z m -12,2 h 2 v 1 H 4 Z m 12,0 h 2 v 1 h -2 z m -12,2 h 2 v 1 H 4 Z m 12,0 h 2 v 1 h -2 z m -12,2 h 2 v 1 H 4 Z m 3,0 h 8 v 5 H 7 Z m 9,0 h 2 v 1 h -2 z m -12,2 h 2 v 1 H 4 Z m 12,0 h 2 v 1 h -2 z m -12,2 h 2 v 1 H 5 c -0.554,0 -1,-0.446 -1,-1 z m 12,0 h 2 c 0,0.554 -0.446,1 -1,1 h -1 z"
+     fill="#dedede"
+     id="path1"
+     style="fill:#f2f2f2;fill-opacity:1" />
+</svg>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="16"
+   height="16"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="list-edit-symbolic.svg"
+   inkscape:version="1.4.2 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="23.625"
+     inkscape:cx="17.650794"
+     inkscape:cy="4.4444444"
+     inkscape:current-layer="svg6" />
+  <g
+     transform="matrix(0.85718522,0,0,0.85718522,-33.154034,-621.17792)"
+     id="g6"
+     style="stroke-width:1.16663;fill:#f2f2f2;fill-opacity:1">
+    <g
+       transform="matrix(1,0,0,1.4998,0.14645,-367.46)"
+       id="g5"
+       style="stroke-width:1.16663;fill:#f2f2f2;fill-opacity:1">
+      <g
+         transform="translate(-0.15531,-0.25003)"
+         id="g4"
+         style="stroke-width:1.16663;fill:#f2f2f2;fill-opacity:1">
+        <g
+           transform="matrix(0.70711,-0.47145,1.0606,0.70711,-765.06,237.8)"
+           id="g3"
+           style="stroke-width:1.16663;fill:#f2f2f2;fill-opacity:1">
+          <g
+             transform="matrix(0.70711,0.47145,-1.0606,0.70711,793.33,192.29)"
+             fill="#aaaaaa"
+             id="g2"
+             style="stroke-width:1.16663;fill:#f2f2f2;fill-opacity:1">
+            <path
+               d="m 41.164,738.22 9,-6.0006 c 1,0 2,0.66674 2,1.3335 l -9,6.0006 h -2 z"
+               fill-rule="evenodd"
+               id="path1"
+               style="stroke-width:1.16663;fill:#f2f2f2;fill-opacity:1" />
+            <path
+               d="m 51.164,731.55 c 1,0 2,0.66674 2,1.3335 l 2,-1.3335 c 0,-0.66674 -0.75185,-1.3335 -2,-1.3335 z"
+               enable-background="new"
+               id="path2"
+               style="stroke-width:1.16663;fill:#f2f2f2;fill-opacity:1" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

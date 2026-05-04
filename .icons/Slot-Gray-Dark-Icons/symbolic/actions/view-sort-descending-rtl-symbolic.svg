@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   viewBox="0 0 22 22"
+   id="svg5"
+   sodipodi:docname="view-sort-descending-rtl-symbolic.svg"
+   inkscape:version="1.4.2 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs5" />
+  <sodipodi:namedview
+     id="namedview5"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="24.29876"
+     inkscape:cx="13.045933"
+     inkscape:cy="9.0951143"
+     inkscape:current-layer="svg5"
+     showgrid="true">
+    <inkscape:grid
+       id="grid1"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="1"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14902"
+       empspacing="5"
+       enabled="true"
+       visible="true" />
+  </sodipodi:namedview>
+  <style
+     id="current-color-scheme"
+     type="text/css">.ColorScheme-Text{color:#dedede;}</style>
+  <g
+     id="g5"
+     transform="translate(-8)">
+    <rect
+       transform="scale(1,-1)"
+       x="15"
+       y="-17"
+       width="0.99998999"
+       height="13"
+       ry="2.4076999e-07"
+       id="rect1"
+       style="color:#dedede;fill:#dedede"
+       rx="2.4076999e-07" />
+    <path
+       d="m 15.5,19 -3.5,-3.5 0.70704,-0.70704 2.293,2.293 v -4.086 h 0.99999 v 4.086 l 2.293,-2.293 0.70704,0.70704 z"
+       id="path1"
+       style="color:#dedede;fill:#dedede" />
+  </g>
+  <path
+     d="m 13.00005,4.00001 c -0.554,0 -0.99999,0.44598 -0.99999,0.99999 v 1 c 0,0.554 0.44598,0.99999 0.99999,0.99999 h 3.9999 c 0.554,0 0.99999,-0.44598 0.99999,-0.99999 V 5 c 0,-0.554 -0.44598,-0.99999 -0.99999,-0.99999 z m 0,0.99999 h 3.9999 v 1 h -3.9999 z"
+     id="path2"
+     style="color:#dedede;fill:#dedede" />
+  <path
+     d="m 13.00005,8.00001 c -0.554,0 -0.99999,0.44598 -0.99999,0.99999 v 1 c 0,0.554 0.44598,0.99999 0.99999,0.99999 h 3.9999 c 0.554,0 0.99999,-0.44598 0.99999,-0.99999 V 9 c 0,-0.554 -0.44598,-0.99999 -0.99999,-0.99999 z m 0,0.99999 h 3.9999 v 1 h -3.9999 z"
+     id="path3"
+     style="color:#dedede;fill:#dedede" />
+  <path
+     d="m 13.00005,12.00001 c -0.554,0 -0.99999,0.44598 -0.99999,0.99999 v 1 c 0,0.554 0.44598,0.99999 0.99999,0.99999 h 3.9999 c 0.554,0 0.99999,-0.44598 0.99999,-0.99999 v -1 c 0,-0.554 -0.44598,-0.99999 -0.99999,-0.99999 z m 0,0.99999 h 3.9999 v 1 h -3.9999 z"
+     id="path4"
+     style="color:#dedede;fill:#dedede" />
+  <path
+     d="m 13.00005,16.00001 c -0.554,0 -0.99999,0.44598 -0.99999,0.99999 v 1 c 0,0.554 0.44598,0.99999 0.99999,0.99999 h 3.9999 c 0.554,0 0.99999,-0.44598 0.99999,-0.99999 v -1 c 0,-0.554 -0.44598,-0.99999 -0.99999,-0.99999 z m 0,0.99999 h 3.9999 v 1 h -3.9999 z"
+     id="path5"
+     style="color:#dedede;fill:#dedede" />
+</svg>

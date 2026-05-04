@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="64"
+   height="64"
+   version="1"
+   id="svg8"
+   sodipodi:docname="hyper.svg"
+   inkscape:version="1.4 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview8"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="10"
+     inkscape:cx="27.35"
+     inkscape:cy="30.35"
+     inkscape:window-width="1920"
+     inkscape:window-height="996"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8">
+    <inkscape:grid
+       id="grid8"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="1"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="false" />
+  </sodipodi:namedview>
+  <g
+     id="g8"
+     transform="matrix(0.98214286,0,0,0.98245614,0.57142848,0.07017544)">
+    <path
+       style="opacity:0.2"
+       d="M 20.800781,5 C 11.493581,5 4,12.493581 4,21.800781 V 33 44.199219 C 4,53.506419 11.493581,61 20.800781,61 H 43.199219 C 52.506419,61 60,53.506419 60,44.199219 V 33 21.800781 C 60,12.493581 52.506419,5 43.199219,5 Z"
+       id="path1" />
+    <path
+       style="fill:#f73baf;fill-opacity:1"
+       d="M 20.8,4 H 43.2 C 52.5072,4 60,11.4928 60,20.8 V 32 H 4 V 20.8 C 4,11.4928 11.4928,4 20.8,4 Z"
+       id="path2" />
+    <path
+       style="fill:#fbb750;fill-opacity:1"
+       d="M 20.8,60 H 43.2 C 52.5072,60 60,52.5072 60,43.2 V 32 H 4 V 43.2 C 4,52.5072 11.4928,60 20.8,60 Z"
+       id="path3" />
+    <path
+       style="opacity:0.1"
+       d="m 21,11 h 22 c 6.189135,0 11,4.810865 11,11 v 22 c 0,6.189135 -4.810865,11 -11,11 H 21 C 14.810865,55 10,50.189135 10,44 V 22 c 0,-6.189135 4.810865,-11 11,-11 z"
+       id="path4" />
+    <path
+       style="fill:#2d3f53;fill-opacity:1"
+       d="m 21,10 h 22 c 6.189135,0 11,4.810865 11,11 v 22 c 0,6.189135 -4.810865,11 -11,11 H 21 C 14.810865,54 10,49.189135 10,43 V 21 c 0,-6.189135 4.810865,-11 11,-11 z"
+       id="path5" />
+    <path
+       style="opacity:0.2"
+       d="M 23.75,16 15,23.710938 18.75,25.714844 16.25,33 25,25.289062 21.25,23.285156 Z M 28,30 v 3 h 10 v -3 z"
+       id="path6" />
+    <path
+       style="fill:#f2f2f2;fill-opacity:1"
+       d="M 23.75,15 15,22.710938 18.75,24.714844 16.25,32 25,24.289062 21.25,22.285156 Z M 28,29 v 3 h 10 v -3 z"
+       id="path7" />
+    <path
+       style="opacity:0.2;fill:#ffffff"
+       d="M 20.800781,4 C 11.493581,4 4,11.493581 4,20.800781 v 1 C 4,12.493581 11.493581,5 20.800781,5 H 43.199219 C 52.506419,5 60,12.493581 60,21.800781 v -1 C 60,11.493581 52.506419,4 43.199219,4 Z"
+       id="path8" />
+  </g>
+</svg>

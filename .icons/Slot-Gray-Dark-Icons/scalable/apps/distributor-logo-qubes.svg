@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="62"
+   height="62"
+   version="1.1"
+   viewBox="0 0 62 62"
+   id="svg5"
+   sodipodi:docname="distributor-logo-qubes.svg"
+   inkscape:version="1.4.2 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs5">
+    <linearGradient
+       id="linearGradient1"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#aaccff;stop-opacity:1"
+         offset="0"
+         id="stop1" />
+      <stop
+         style="stop-color:#d5e5ff;stop-opacity:1"
+         offset="1"
+         id="stop4" />
+    </linearGradient>
+    <linearGradient
+       id="a-3"
+       x1="32"
+       x2="32"
+       y1="2"
+       y2="62"
+       gradientTransform="matrix(0.93333301,0,0,0.93333301,0.3692245,0.89239499)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#f5faff"
+         offset="0"
+         id="stop2" />
+      <stop
+         stop-color="#cfdef0"
+         offset="1"
+         id="stop3" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1"
+       id="linearGradient4"
+       x1="33.085266"
+       y1="57.829502"
+       x2="32.170773"
+       y2="2.0842743"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview5"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="6.15625"
+     inkscape:cx="-0.24365482"
+     inkscape:cy="33.705584"
+     inkscape:window-width="1920"
+     inkscape:window-height="998"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5" />
+  <g
+     id="g1"
+     transform="translate(1,1)">
+    <circle
+       cx="30"
+       cy="30"
+       r="28"
+       id="circle3"
+       style="fill:url(#linearGradient4)" />
+    <g
+       id="g5"
+       transform="matrix(1.1008669,0,0,1.1008669,-5.2274096,-5.2274096)">
+      <path
+         d="m 31.9997,16.739 -12.9129,7.63035 c 0.68321,3.241138 3.277529,2.954706 5.8695,3.5217 l 7.0434,-4.10865 7.0434,4.10865 c 3.298659,1.226725 4.908076,-0.07513 5.8695,-3.5217 z"
+         fill="#7dadff"
+         id="path2"
+         style="stroke-width:1.1739" />
+      <path
+         d="m 39.0431,27.89105 v 8.2173 L 31.9997,40.217 c -2.419408,2.3478 -1.439201,4.6956 0,7.0434 l 12.9129,-7.63035 v -15.2607 z"
+         fill="#2764c9"
+         id="path3"
+         style="stroke-width:1.1739" />
+      <path
+         d="m 19.0868,24.36935 v 15.2607 L 31.9997,47.2604 V 40.217 l -7.0434,-4.10865 v -8.2173 z"
+         fill="#418bff"
+         id="path4"
+         style="stroke-width:1.1739" />
+      <path
+         d="m 36.6953,39.0431 8.2173,4.6956 v 2.3478 l -2.3478,1.1739 H 40.217 l -8.2173,-4.6956 z"
+         fill="#2764c9"
+         id="path5"
+         style="stroke-width:1.1739" />
+    </g>
+  </g>
+</svg>

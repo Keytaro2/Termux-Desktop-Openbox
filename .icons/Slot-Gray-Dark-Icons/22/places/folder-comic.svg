@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 22 22"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="kmouth-phrasebook.svg"
+   inkscape:version="1.4.2 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="24.330902"
+     inkscape:cx="16.933199"
+     inkscape:cy="12.350549"
+     inkscape:current-layer="svg1" />
+  <defs
+     id="defs3051">
+    <style
+       type="text/css"
+       id="current-color-scheme">.ColorScheme-Text {color:#fcfcfc;}</style>
+  </defs>
+  <path
+     style="fill:currentColor;fill-opacity:1;stroke:none;stroke-width:1"
+     d="m 6.4285708,5.2857141 c 0,2.2857143 0,1.1428573 0,1.1428573 H 4.1428566 c 0,0 -2.285714,0 -2.285714,2.285714 0,2.2857156 0,6.8571406 0,6.8571406 L 5.2857137,19 v -3.428574 c 0,0 5.7142843,0 7.9999973,0 2.285716,0 2.285716,-2.285712 2.285716,-2.285712 v -1.142858 h 1.142857 v 3.42857 l 3.428573,-3.42857 c 0,0 0,-4.5714276 0,-6.8571419 0,-2.285714 -2.285715,-2.285714 -2.285715,-2.285714 H 8.7142849 c 0,0 -2.2857141,0 -2.2857141,2.285714 z M 8.7142849,4.1428572 h 9.1428571 c 0,0 1.142857,0 1.142857,1.1428569 0,1.1428573 0,3.4285713 0,4.5714288 0,1.1428581 -1.142857,1.1428581 -1.142857,1.1428581 H 14.428568 8.7142849 c 0,0 -1.1428571,0 -1.1428571,-1.1428581 0,-1.1428575 0,-2.2857145 0,-2.2857145 0,0 0,-1.142857 0,-2.2857143 0,-1.1428569 1.1428571,-1.1428569 1.1428571,-1.1428569 z M 2.9999997,8.7142854 c 0,-1.142857 1.1428569,-1.142857 1.1428569,-1.142857 h 2.2857142 c 0,0 0,0 0,2.2857145 0,2.2857131 2.2857141,2.2857131 2.2857141,2.2857131 h 5.7142831 v 1.142858 c 0,0 0,1.142855 -1.142857,1.142855 -1.142855,0 -7.9999973,0 -9.1428544,0 -1.1428569,0 -1.1428569,-1.142855 -1.1428569,-1.142855 0,0 0,-3.4285711 0,-4.5714286 z"
+     class="ColorScheme-Text"
+     id="path1" />
+</svg>

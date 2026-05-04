@@ -1,0 +1,21 @@
+set $wallpaper /data/data/com.termux/files/home/storage/dcim/Restored/IMG-20240726-WA0001.jpg
+
+set $background #090b15
+set $foreground #c1c2c4
+
+set $color0 #090b15
+set $color1 #2F558E
+set $color2 #35609F
+set $color3 #355FA0
+set $color4 #3967AC
+set $color5 #3B6BB3
+set $color6 #3D6EBA
+set $color7 #c1c2c4
+set $color8 #585b6c
+set $color9 #2F558E
+set $color10 #35609F
+set $color11 #355FA0
+set $color12 #3967AC
+set $color13 #3B6BB3
+set $color14 #3D6EBA
+set $color15 #c1c2c4

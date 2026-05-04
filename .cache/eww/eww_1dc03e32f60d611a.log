@@ -1,0 +1,203 @@
+
+┏━━━━━━━━━━━━━━━━━━━━━━━┓
+┃Initializing eww daemon┃
+┗━━━━━━━━━━━━━━━━━━━━━━━┛
+    
+ 2026-05-03T21:26:41.580Z [0m[31mERROR[0m [0m[1meww::config::inbuilt[0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T21:26:41.726Z [0m[32mINFO [0m [0m[1meww::app            [0m > Opening window dashboard as 'dashboard'
+ 2026-05-03T21:26:41.726Z [0m[32mINFO [0m [0m[1meww::ipc_server     [0m > IPC server initialized
+[0m[1m[38;5;11mwarning[0m[1m: Unknown attribute padding[0m
+   [0m[34m┌─[0m /data/data/com.termux/files/home/.config/eww/dashboard/eww.yuck:52:78
+   [0m[34m│[0m
+[0m[34m52[0m [0m[34m│[0m       (box :class "card" :height 180 :width 280 :orientation "v" :spacing 20 [0m[33m:padding[0m 20
+   [0m[34m│[0m                                                                              [0m[33m────────[0m [0m[33mgiven here[0m
+
+
+[0m[1m[38;5;9merror[0m[1m: Failed to turn `` into a value of type json-value[0m
+   [0m[34m┌─[0m /data/data/com.termux/files/home/.config/eww/dashboard/eww.yuck:66:27
+   [0m[34m│[0m
+[0m[34m66[0m [0m[34m│[0m           (label :text "${[0m[31mtime[0m.hour}" :class "t-h") (label :text "${time.min}" :class "t-m")))
+   [0m[34m│[0m                           [0m[31m────[0m
+
+
+[0m[1m[38;5;9merror[0m[1m: Failed to turn `` into a value of type json-value[0m
+   [0m[34m┌─[0m /data/data/com.termux/files/home/.config/eww/dashboard/eww.yuck:66:69
+   [0m[34m│[0m
+[0m[34m66[0m [0m[34m│[0m           (label :text "${time.hour}" :class "t-h") (label :text "${[0m[31mtime[0m.min}" :class "t-m")))
+   [0m[34m│[0m                                                                     [0m[31m────[0m
+
+
+[0m[1m[38;5;9merror[0m[1m: Failed to turn `` into a value of type json-value[0m
+   [0m[34m┌─[0m /data/data/com.termux/files/home/.config/eww/dashboard/eww.yuck:68:25
+   [0m[34m│[0m
+[0m[34m68[0m [0m[34m│[0m         (calendar :day {[0m[31mtime[0m.day} :month {time.month} :year {time.year})))
+   [0m[34m│[0m                         [0m[31m────[0m
+
+
+[0m[1m[38;5;9merror[0m[1m: Failed to turn `` into a value of type json-value[0m
+   [0m[34m┌─[0m /data/data/com.termux/files/home/.config/eww/dashboard/eww.yuck:68:43
+   [0m[34m│[0m
+[0m[34m68[0m [0m[34m│[0m         (calendar :day {time.day} :month {[0m[31mtime[0m.month} :year {time.year})))
+   [0m[34m│[0m                                           [0m[31m────[0m
+
+
+[0m[1m[38;5;9merror[0m[1m: Failed to turn `` into a value of type json-value[0m
+   [0m[34m┌─[0m /data/data/com.termux/files/home/.config/eww/dashboard/eww.yuck:68:62
+   [0m[34m│[0m
+[0m[34m68[0m [0m[34m│[0m         (calendar :day {time.day} :month {time.month} :year {[0m[31mtime[0m.year})))
+   [0m[34m│[0m                                                              [0m[31m────[0m
+
+
+ 2026-05-03T21:26:45.280Z [0m[32mINFO [0m [0m[1meww::app            [0m > Closing gtk window dashboard
+
+┏━━━━━━━━━━━━━━━━━━━━━━━┓
+┃Initializing eww daemon┃
+┗━━━━━━━━━━━━━━━━━━━━━━━┛
+    
+ 2026-05-03T21:59:45.860Z [0m[31mERROR[0m [0m[1meww::config::inbuilt[0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T21:59:46.026Z [0m[32mINFO [0m [0m[1meww::ipc_server     [0m > IPC server initialized
+ 2026-05-03T21:59:46.026Z [0m[32mINFO [0m [0m[1meww::app            [0m > Opening window dashboard as 'dashboard'
+[0m[1m[38;5;11mwarning[0m[1m: Unknown attribute padding[0m
+   [0m[34m┌─[0m /data/data/com.termux/files/home/.config/eww/dashboard/eww.yuck:52:78
+   [0m[34m│[0m
+[0m[34m52[0m [0m[34m│[0m       (box :class "card" :height 180 :width 280 :orientation "v" :spacing 20 [0m[33m:padding[0m 20
+   [0m[34m│[0m                                                                              [0m[33m────────[0m [0m[33mgiven here[0m
+
+
+[0m[1m[38;5;9merror[0m[1m: Failed to turn `` into a value of type json-value[0m
+   [0m[34m┌─[0m /data/data/com.termux/files/home/.config/eww/dashboard/eww.yuck:66:27
+   [0m[34m│[0m
+[0m[34m66[0m [0m[34m│[0m           (label :text "${[0m[31mtime[0m.hour}" :class "t-h") (label :text "${time.min}" :class "t-m")))
+   [0m[34m│[0m                           [0m[31m────[0m
+
+
+[0m[1m[38;5;9merror[0m[1m: Failed to turn `` into a value of type json-value[0m
+   [0m[34m┌─[0m /data/data/com.termux/files/home/.config/eww/dashboard/eww.yuck:66:69
+   [0m[34m│[0m
+[0m[34m66[0m [0m[34m│[0m           (label :text "${time.hour}" :class "t-h") (label :text "${[0m[31mtime[0m.min}" :class "t-m")))
+   [0m[34m│[0m                                                                     [0m[31m────[0m
+
+
+[0m[1m[38;5;9merror[0m[1m: Failed to turn `` into a value of type json-value[0m
+   [0m[34m┌─[0m /data/data/com.termux/files/home/.config/eww/dashboard/eww.yuck:68:25
+   [0m[34m│[0m
+[0m[34m68[0m [0m[34m│[0m         (calendar :day {[0m[31mtime[0m.day} :month {time.month} :year {time.year})))
+   [0m[34m│[0m                         [0m[31m────[0m
+
+
+[0m[1m[38;5;9merror[0m[1m: Failed to turn `` into a value of type json-value[0m
+   [0m[34m┌─[0m /data/data/com.termux/files/home/.config/eww/dashboard/eww.yuck:68:43
+   [0m[34m│[0m
+[0m[34m68[0m [0m[34m│[0m         (calendar :day {time.day} :month {[0m[31mtime[0m.month} :year {time.year})))
+   [0m[34m│[0m                                           [0m[31m────[0m
+
+
+[0m[1m[38;5;9merror[0m[1m: Failed to turn `` into a value of type json-value[0m
+   [0m[34m┌─[0m /data/data/com.termux/files/home/.config/eww/dashboard/eww.yuck:68:62
+   [0m[34m│[0m
+[0m[34m68[0m [0m[34m│[0m         (calendar :day {time.day} :month {time.month} :year {[0m[31mtime[0m.year})))
+   [0m[34m│[0m                                                              [0m[31m────[0m
+
+
+ 2026-05-03T22:00:04.050Z [0m[32mINFO [0m [0m[1meww::app            [0m > Closing gtk window dashboard
+
+┏━━━━━━━━━━━━━━━━━━━━━━━┓
+┃Initializing eww daemon┃
+┗━━━━━━━━━━━━━━━━━━━━━━━┛
+    
+ 2026-05-03T22:18:24.011Z [0m[31mERROR[0m [0m[1meww::config::inbuilt[0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T22:18:24.412Z [0m[32mINFO [0m [0m[1meww::app            [0m > Opening window dashboard as 'dashboard'
+ 2026-05-03T22:18:24.412Z [0m[32mINFO [0m [0m[1meww::ipc_server     [0m > IPC server initialized
+[0m[1m[38;5;11mwarning[0m[1m: Unknown attribute padding[0m
+   [0m[34m┌─[0m /data/data/com.termux/files/home/.config/eww/dashboard/eww.yuck:52:78
+   [0m[34m│[0m
+[0m[34m52[0m [0m[34m│[0m       (box :class "card" :height 180 :width 280 :orientation "v" :spacing 20 [0m[33m:padding[0m 20
+   [0m[34m│[0m                                                                              [0m[33m────────[0m [0m[33mgiven here[0m
+
+
+[0m[1m[38;5;9merror[0m[1m: Failed to turn `` into a value of type json-value[0m
+   [0m[34m┌─[0m /data/data/com.termux/files/home/.config/eww/dashboard/eww.yuck:66:27
+   [0m[34m│[0m
+[0m[34m66[0m [0m[34m│[0m           (label :text "${[0m[31mtime[0m.hour}" :class "t-h") (label :text "${time.min}" :class "t-m")))
+   [0m[34m│[0m                           [0m[31m────[0m
+
+
+[0m[1m[38;5;9merror[0m[1m: Failed to turn `` into a value of type json-value[0m
+   [0m[34m┌─[0m /data/data/com.termux/files/home/.config/eww/dashboard/eww.yuck:66:69
+   [0m[34m│[0m
+[0m[34m66[0m [0m[34m│[0m           (label :text "${time.hour}" :class "t-h") (label :text "${[0m[31mtime[0m.min}" :class "t-m")))
+   [0m[34m│[0m                                                                     [0m[31m────[0m
+
+
+[0m[1m[38;5;9merror[0m[1m: Failed to turn `` into a value of type json-value[0m
+   [0m[34m┌─[0m /data/data/com.termux/files/home/.config/eww/dashboard/eww.yuck:68:25
+   [0m[34m│[0m
+[0m[34m68[0m [0m[34m│[0m         (calendar :day {[0m[31mtime[0m.day} :month {time.month} :year {time.year})))
+   [0m[34m│[0m                         [0m[31m────[0m
+
+
+[0m[1m[38;5;9merror[0m[1m: Failed to turn `` into a value of type json-value[0m
+   [0m[34m┌─[0m /data/data/com.termux/files/home/.config/eww/dashboard/eww.yuck:68:43
+   [0m[34m│[0m
+[0m[34m68[0m [0m[34m│[0m         (calendar :day {time.day} :month {[0m[31mtime[0m.month} :year {time.year})))
+   [0m[34m│[0m                                           [0m[31m────[0m
+
+
+[0m[1m[38;5;9merror[0m[1m: Failed to turn `` into a value of type json-value[0m
+   [0m[34m┌─[0m /data/data/com.termux/files/home/.config/eww/dashboard/eww.yuck:68:62
+   [0m[34m│[0m
+[0m[34m68[0m [0m[34m│[0m         (calendar :day {time.day} :month {time.month} :year {[0m[31mtime[0m.year})))
+   [0m[34m│[0m                                                              [0m[31m────[0m
+
+
+ 2026-05-03T22:18:29.654Z [0m[32mINFO [0m [0m[1meww::app            [0m > Closing gtk window dashboard
+
+┏━━━━━━━━━━━━━━━━━━━━━━━┓
+┃Initializing eww daemon┃
+┗━━━━━━━━━━━━━━━━━━━━━━━┛
+    
+ 2026-05-03T22:23:29.917Z [0m[31mERROR[0m [0m[1meww::config::inbuilt[0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T22:23:30.236Z [0m[32mINFO [0m [0m[1meww::app            [0m > Opening window dashboard as 'dashboard'
+ 2026-05-03T22:23:30.237Z [0m[32mINFO [0m [0m[1meww::ipc_server     [0m > IPC server initialized
+[0m[1m[38;5;11mwarning[0m[1m: Unknown attribute padding[0m
+   [0m[34m┌─[0m /data/data/com.termux/files/home/.config/eww/dashboard/eww.yuck:52:78
+   [0m[34m│[0m
+[0m[34m52[0m [0m[34m│[0m       (box :class "card" :height 180 :width 280 :orientation "v" :spacing 20 [0m[33m:padding[0m 20
+   [0m[34m│[0m                                                                              [0m[33m────────[0m [0m[33mgiven here[0m
+
+
+[0m[1m[38;5;9merror[0m[1m: Failed to turn `` into a value of type json-value[0m
+   [0m[34m┌─[0m /data/data/com.termux/files/home/.config/eww/dashboard/eww.yuck:66:27
+   [0m[34m│[0m
+[0m[34m66[0m [0m[34m│[0m           (label :text "${[0m[31mtime[0m.hour}" :class "t-h") (label :text "${time.min}" :class "t-m")))
+   [0m[34m│[0m                           [0m[31m────[0m
+
+
+[0m[1m[38;5;9merror[0m[1m: Failed to turn `` into a value of type json-value[0m
+   [0m[34m┌─[0m /data/data/com.termux/files/home/.config/eww/dashboard/eww.yuck:66:69
+   [0m[34m│[0m
+[0m[34m66[0m [0m[34m│[0m           (label :text "${time.hour}" :class "t-h") (label :text "${[0m[31mtime[0m.min}" :class "t-m")))
+   [0m[34m│[0m                                                                     [0m[31m────[0m
+
+
+[0m[1m[38;5;9merror[0m[1m: Failed to turn `` into a value of type json-value[0m
+   [0m[34m┌─[0m /data/data/com.termux/files/home/.config/eww/dashboard/eww.yuck:68:25
+   [0m[34m│[0m
+[0m[34m68[0m [0m[34m│[0m         (calendar :day {[0m[31mtime[0m.day} :month {time.month} :year {time.year})))
+   [0m[34m│[0m                         [0m[31m────[0m
+
+
+[0m[1m[38;5;9merror[0m[1m: Failed to turn `` into a value of type json-value[0m
+   [0m[34m┌─[0m /data/data/com.termux/files/home/.config/eww/dashboard/eww.yuck:68:43
+   [0m[34m│[0m
+[0m[34m68[0m [0m[34m│[0m         (calendar :day {time.day} :month {[0m[31mtime[0m.month} :year {time.year})))
+   [0m[34m│[0m                                           [0m[31m────[0m
+
+
+[0m[1m[38;5;9merror[0m[1m: Failed to turn `` into a value of type json-value[0m
+   [0m[34m┌─[0m /data/data/com.termux/files/home/.config/eww/dashboard/eww.yuck:68:62
+   [0m[34m│[0m
+[0m[34m68[0m [0m[34m│[0m         (calendar :day {time.day} :month {time.month} :year {[0m[31mtime[0m.year})))
+   [0m[34m│[0m                                                              [0m[31m────[0m
+
+

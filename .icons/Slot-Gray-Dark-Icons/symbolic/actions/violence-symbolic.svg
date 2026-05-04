@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="16px"
+   height="16px"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="violence-symbolic.svg"
+   inkscape:version="1.4.2 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="23.625"
+     inkscape:cx="5.6296296"
+     inkscape:cy="2.3703704"
+     inkscape:current-layer="svg1" />
+  <path
+     d="M 13.374437,2.0005295 C 13.037083,2.0108568 12.71694,2.1519947 12.479413,2.3895196 L 9.3640486,5.5048838 10.610196,6.7510303 12.844305,4.5169182 c 0.506031,0.2409669 1.108449,0.1376956 1.504324,-0.2581796 0.51636,-0.5163591 0.51636,-1.3528599 0,-1.869219 C 14.090453,2.1313408 13.73933,1.9902021 13.374437,2.0005295 Z M 8.7409758,6.1279576 1.264101,13.608273 c 0.6230723,0.619634 4.9845833,1.242706 10.592236,-4.3649512 z m 0,0"
+     fill="#dedede"
+     id="path1"
+     style="stroke-width:0.999993" />
+</svg>

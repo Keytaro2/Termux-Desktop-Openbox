@@ -12,7 +12,7 @@ picom &
 tint2 -c ~/.config/tint2/dd.tint2rc &
 sleep 2
 
-feh --bg-fill $HOME/.config/Walpaper/water-anime-style.jpg
+feh --bg-fill /data/data/com.termux/files/home/.config/Wallpaper/water-anime-style.jpg
 
 # dock
 #tint2 > /dev/null 2>&1 &

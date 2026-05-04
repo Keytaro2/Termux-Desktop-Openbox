@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="org.gnome.Settings-power-symbolic.svg"
+   inkscape:version="1.4.2 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="23.625"
+     inkscape:cx="17.142857"
+     inkscape:cy="9.2275132"
+     inkscape:current-layer="svg1" />
+  <path
+     fill="#808080"
+     d="M 8.0000003,2 C 4.6911996,2 2,4.6911996 2,8.0000002 2,11.308805 4.6911996,14 8.0000003,14 11.308807,14 14,11.308805 14,8.0000002 14,4.6911996 11.308807,2 8.0000003,2 Z m 0,0.8 c 2.8768057,0 5.2000067,2.3231997 5.2000067,5.2000002 0,2.8768038 -2.323201,5.2000068 -5.2000067,5.2000068 -2.8768006,0 -5.2000009,-2.323203 -5.2000009,-5.2000068 C 2.7999994,5.1231997 5.1231997,2.8 8.0000003,2.8 Z m 0.4,0.8000007 -2.3999997,4.7999996 H 7.6000001 V 12.399994 L 9.9999964,7.6000001 H 8.4000003 Z"
+     color="#000000"
+     style="font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;text-transform:none;text-orientation:mixed;white-space:normal;shape-padding:0;isolation:auto;mix-blend-mode:normal;stroke-width:0.999997;fill:#f2f2f2;fill-opacity:1"
+     id="path1" />
+</svg>

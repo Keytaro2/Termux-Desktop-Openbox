@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="62"
+   height="62"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="tumiki-fighters.svg"
+   inkscape:version="1.4 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs5" />
+  <sodipodi:namedview
+     id="namedview5"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="6.0546875"
+     inkscape:cx="21.470968"
+     inkscape:cy="29.48129"
+     inkscape:window-width="1920"
+     inkscape:window-height="998"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5" />
+  <g
+     id="g5"
+     transform="matrix(0.98198611,0,0,0.98245614,-0.41916652,-0.92982455)">
+    <path
+       d="m 38,5 c -2.216,0 -4,1.784 -4,4 v 18 c 0,2.216 1.784,4 4,4 h 18 c 2.216,0 4,-1.784 4,-4 V 9 C 60,6.784 58.216,5 56,5 Z M 26.882812,5.00195 C 25.899988,5.030353 24.962045,5.4197137 24.248047,6.0957 l -19,18.000003 C 2.6228808,26.583072 4.383579,31.000438 8.0000001,31 H 27 c 2.209048,-2.21e-4 3.999779,-1.790952 4,-4 V 9 C 30.999635,6.7451405 29.13671,4.9361245 26.882812,5.0019531 Z M 8,35 c -2.216,0 -4,1.784 -4,4 v 18 c 0,2.216 1.784,4 4,4 h 18 c 2.216,0 4,-1.784 4,-4 V 39 c 0,-2.216 -1.784,-4 -4,-4 z m 30,0 c -2.216,0 -4,1.784 -4,4 v 18 c 0,2.216 1.784,4 4,4 h 18 c 2.216,0 4,-1.784 4,-4 V 39 c 0,-2.216 -1.784,-4 -4,-4 z"
+       style="opacity:0.2"
+       id="path1" />
+    <rect
+       x="34"
+       y="4"
+       width="26"
+       height="26"
+       rx="4"
+       ry="4"
+       style="fill:#37c871"
+       id="rect1" />
+    <rect
+       x="34"
+       y="34"
+       width="26"
+       height="26"
+       rx="4"
+       ry="4"
+       style="fill:#c83771"
+       id="rect2" />
+    <rect
+       x="4"
+       y="34"
+       width="26"
+       height="26"
+       rx="4"
+       ry="4"
+       style="fill:#00ccff"
+       id="rect3" />
+    <path
+       d="m 26.882812,4.0019531 c -0.982825,0.028403 -1.920767,0.4177637 -2.634765,1.09375 l -19,17.9999999 C 2.6228808,25.583072 4.3835789,30.000438 8.0000001,30 H 27 c 2.209048,-2.21e-4 3.999779,-1.790952 4,-4 V 8.0000001 C 30.999635,5.7451406 29.13671,3.9361246 26.882812,4.0019531 Z"
+       style="fill:#ffd42a"
+       id="path3" />
+    <path
+       d="m 38,4 c -2.216,0 -4,1.784 -4,4 v 1 c 0,-2.216 1.784,-4 4,-4 h 18 c 2.216,0 4,1.784 4,4 V 8 C 60,5.784 58.216,4 56,4 Z M 26.882812,4.00195 C 25.899988,4.030353 24.962045,4.4197137 24.248047,5.0957 l -19,18 C 4.2306848,24.05966 3.8784624,25.312108 4.0312501,26.486325 4.1366784,25.631362 4.5169708,24.788402 5.248047,24.0957 l 19,-18 C 24.962045,5.4197137 25.899988,5.030353 26.882812,5.00195 29.13671,4.9361245 30.999635,6.7451405 31,9 V 8 C 30.999635,5.7451405 29.13671,3.9361245 26.882812,4.0019531 Z M 8,34 c -2.216,0 -4,1.784 -4,4 v 1 c 0,-2.216 1.784,-4 4,-4 h 18 c 2.216,0 4,1.784 4,4 v -1 c 0,-2.216 -1.784,-4 -4,-4 z m 30,0 c -2.216,0 -4,1.784 -4,4 v 1 c 0,-2.216 1.784,-4 4,-4 h 18 c 2.216,0 4,1.784 4,4 v -1 c 0,-2.216 -1.784,-4 -4,-4 z"
+       style="opacity:0.2;fill:#ffffff"
+       id="path5" />
+  </g>
+</svg>

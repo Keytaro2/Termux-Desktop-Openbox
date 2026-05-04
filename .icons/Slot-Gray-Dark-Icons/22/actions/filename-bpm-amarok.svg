@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 22 22"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="filename-bpm-amarok.svg"
+   inkscape:version="1.4.2 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="true"
+     inkscape:zoom="35.227273"
+     inkscape:cx="11"
+     inkscape:cy="11"
+     inkscape:window-width="1920"
+     inkscape:window-height="998"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1">
+    <inkscape:grid
+       id="grid1"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="1"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14902"
+       empspacing="5"
+       enabled="true"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs3051">
+    <style
+       type="text/css"
+       id="current-color-scheme">
+      .ColorScheme-Text {
+        color:#d8d8d8;
+      }
+      </style>
+  </defs>
+  <path
+     style="fill:currentColor;fill-opacity:1;stroke:none"
+     d="m 11,3 c -4.418278,0 -8,3.581722 -8,8 0,4.418278 3.581722,8 8,8 4.418278,0 8,-3.581722 8,-8 0,-4.418278 -3.581722,-8 -8,-8 z m 0,1.5 c 3.865993,0 6.5,2.6340068 6.5,6.5 0,3.865993 -2.634007,6.5 -6.5,6.5 C 7.1340068,17.5 4.5,14.865993 4.5,11 4.5,7.1340068 7.1340068,4.5 11,4.5 Z M 11,6 C 9.7760157,6.0021209 8.5953253,6.4531321 7.6816406,7.2675781 L 8.390625,7.9765625 C 9.1152794,7.3488531 10.041283,7.0022947 11,7 c 2.209139,0 4,1.790861 4,4 h 1 C 16,8.2385763 13.761424,6 11,6 Z m 1.34375,2.1660156 -2.146484,4.9765624 c -0.1228,0.13979 -0.2106929,0.309601 -0.2578129,0.494141 -0.007,0.0298 -0.014531,0.0615 -0.019531,0.0918 l -0.00586,0.01367 h 0.00586 c -0.09,0.56146 0.2209299,1.08675 0.7187499,1.21289 0.49878,0.12537 1.020701,-0.190386 1.207031,-0.728516 l 0.0078,0.002 v -0.0293 c 0.008,-0.0247 0.01654,-0.04912 0.02344,-0.07422 0.0449,-0.18195 0.04636,-0.372001 0.0059,-0.550781 z M 6.4746094,8.8886719 C 6.1641789,9.5493639 6.0021821,10.270016 6,11 H 7 C 7.00142,10.540428 7.082026,10.084538 7.2382812,9.6523438 Z"
+     class="ColorScheme-Text"
+     id="path1"
+     sodipodi:nodetypes="ssssssssssccccccccccccccccccccccccc" />
+</svg>

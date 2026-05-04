@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="22"
+   height="22"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="credit-card-symbolic.svg"
+   inkscape:version="1.4.2 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="16.705398"
+     inkscape:cx="6.4949067"
+     inkscape:cy="13.887727"
+     inkscape:current-layer="svg1" />
+  <path
+     fill="#dedede"
+     d="M 3.9285712,4 C 2.8614287,4 2,4.8514546 2,5.9090908 V 16.090909 C 2,17.148545 2.8614287,18 3.9285712,18 H 18.071428 C 19.139857,18 20,17.148545 20,16.090909 V 5.9090908 C 20,4.8514546 19.139857,4 18.071428,4 Z m 0,1.2727274 H 18.071428 c 0.356141,0 0.642858,0.283818 0.642858,0.6363634 V 7.8181814 H 3.2857143 V 5.9090908 c 0,-0.3525454 0.2867144,-0.6363634 0.6428569,-0.6363634 z M 3.2857143,10.363636 H 18.714286 v 5.727273 c 0,0.352544 -0.286717,0.636363 -0.642858,0.636363 H 3.9285712 A 0.64157138,0.63509083 0 0 1 3.2857143,16.090909 Z m 10.9285727,3.818182 a 0.64285709,0.63636355 0 0 0 -0.642859,0.636363 0.64285709,0.63636355 0 0 0 0.642859,0.636364 0.64285709,0.63636355 0 0 0 0.642856,-0.636364 0.64285709,0.63636355 0 0 0 -0.642856,-0.636363 z m 2.571426,0 a 0.64285709,0.63636355 0 0 0 -0.642855,0.636363 0.64285709,0.63636355 0 0 0 0.642855,0.636364 0.64285709,0.63636355 0 0 0 0.642859,-0.636364 0.64285709,0.63636355 0 0 0 -0.642859,-0.636363 z"
+     id="path1"
+     style="stroke-width:1;fill:#f2f2f2;fill-opacity:1" />
+</svg>

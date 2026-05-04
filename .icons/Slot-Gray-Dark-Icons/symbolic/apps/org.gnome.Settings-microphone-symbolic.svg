@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="16px"
+   height="16px"
+   version="1.1"
+   viewBox="0 0 16 16"
+   id="svg1"
+   sodipodi:docname="org.gnome.Settings-microphone-symbolic.svg"
+   inkscape:version="1.4.2 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="23.625"
+     inkscape:cx="6.1375661"
+     inkscape:cy="9.3968254"
+     inkscape:current-layer="svg1" />
+  <path
+     d="M 7.9516613,2 C 6.7051531,2 5.7016473,3.003506 5.7016473,4.2500143 v 3.7500235 c 0,1.2465073 1.0035058,2.2500162 2.250014,2.2500162 1.2465076,0 2.2500157,-1.0035089 2.2500157,-2.2500162 V 4.2500143 C 10.201677,3.003506 9.1981689,2 7.9516613,2 Z m 0,0.7500047 c 0.8310049,0 1.5000093,0.6690037 1.5000093,1.5000096 v 3.7500235 c 0,0.8310047 -0.6690044,1.5000089 -1.5000093,1.5000089 -0.8310055,0 -1.5000098,-0.6690042 -1.5000098,-1.5000089 V 4.2500143 c 0,-0.8310059 0.6690043,-1.5000096 1.5000098,-1.5000096 z M 3.451633,6.5000282 V 7.951662 c 0,2.376841 1.8054866,4.315304 4.1250261,4.527859 V 14 H 8.3266633 V 12.486789 C 10.692481,12.320006 12.548367,10.361352 12.548367,7.951587 V 6.4999533 h -0.846678 v 1.5000091 c 0,2.0775146 -1.672516,3.7500216 -3.7500277,3.7500216 -2.0775127,0 -3.7500234,-1.672507 -3.7500234,-3.7500216 V 6.4999533 H 3.451633 Z"
+     fill="#dedede"
+     id="path1"
+     style="stroke-width:0.999987;fill:#f2f2f2;fill-opacity:1" />
+</svg>

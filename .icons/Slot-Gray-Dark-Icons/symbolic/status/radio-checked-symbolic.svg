@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   id="svg7384"
+   height="22"
+   width="22"
+   version="1.1"
+   sodipodi:docname="radio-checked-symbolic.svg"
+   inkscape:version="1.4 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="998"
+     id="namedview8"
+     showgrid="false"
+     inkscape:zoom="14.75"
+     inkscape:cx="-5.8644068"
+     inkscape:cy="8.0338983"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg7384"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <metadata
+     id="metadata90">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Gnome Symbolic Icon Theme</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <title
+     id="title9167">Gnome Symbolic Icon Theme</title>
+  <path
+     style="color:#cecfce;text-indent:0pt;text-transform:none;fill:#cecfce;fill-opacity:1;stroke-width:1.1428"
+     d="M 10.999999,3 C 6.591086,3 3.0000001,6.591086 3.0000001,10.999999 3.0000001,15.40892 6.591086,19 10.999999,19 15.40892,19 19,15.40892 19,10.999999 19,6.591086 15.40892,3 10.999999,3 Z m 0,1.1428576 c 3.795661,0 6.892851,3.0614844 6.892851,6.8571414 0,3.795661 -3.09731,6.857141 -6.892851,6.857141 -3.795657,0 -6.8571414,-3.06148 -6.8571414,-6.857141 0,-3.795657 3.0614844,-6.8571414 6.8571414,-6.8571414 z m 0.03348,3.3816953 c -1.8810287,0 -3.4084826,1.5274533 -3.4084826,3.4084821 0,1.88103 1.5274539,3.408473 3.4084826,3.408473 1.881037,0 3.408483,-1.527443 3.408483,-3.408473 0,-1.8810288 -1.527446,-3.408482 -3.408483,-3.4084821 z"
+     id="path9555" />
+</svg>

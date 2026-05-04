@@ -1,0 +1,28 @@
+{
+    "checksum": "be33865201614c8d7bacc3971df77c2b",
+    "wallpaper": "/data/data/com.termux/files/home/storage/dcim/Restored/wallhaven-3lvqq6.png",
+    "alpha": "100",
+    "special": {
+        "background": "#101509",
+        "foreground": "#c3c4c1",
+        "cursor": "#c3c4c1"
+    },
+    "colors": {
+        "color0": "#101509",
+        "color1": "#8F7E2F",
+        "color2": "#762789",
+        "color3": "#7C4585",
+        "color4": "#8F329E",
+        "color5": "#A053A6",
+        "color6": "#C15FC6",
+        "color7": "#c3c4c1",
+        "color8": "#636c58",
+        "color9": "#8F7E2F",
+        "color10": "#762789",
+        "color11": "#7C4585",
+        "color12": "#8F329E",
+        "color13": "#A053A6",
+        "color14": "#C15FC6",
+        "color15": "#c3c4c1"
+    }
+}

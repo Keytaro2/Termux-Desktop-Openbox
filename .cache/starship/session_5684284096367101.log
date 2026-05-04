@@ -1,0 +1,2 @@
+[WARN] - (starship::context): Scanning current directory timed out.
+[WARN] - (starship::context): You can set scan_timeout in your config to a higher value to allow longer-running scans to keep executing.

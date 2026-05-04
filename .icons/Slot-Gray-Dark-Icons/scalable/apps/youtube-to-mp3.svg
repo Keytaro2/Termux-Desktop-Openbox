@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="62"
+   height="62"
+   version="1"
+   id="svg4"
+   sodipodi:docname="youtube-music-desktop-app.svg"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="11.78125"
+     inkscape:cx="32"
+     inkscape:cy="25.464191"
+     inkscape:window-width="1920"
+     inkscape:window-height="998"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <ellipse
+     style="opacity:0.2;stroke-width:0.982303"
+     cx="30.999998"
+     cy="31.491234"
+     id="circle1"
+     rx="27.499998"
+     ry="27.508766" />
+  <ellipse
+     style="fill:#fa2235;stroke-width:0.982303"
+     cx="30.999998"
+     cy="30.508766"
+     id="circle2"
+     rx="27.499998"
+     ry="27.508766" />
+  <path
+     style="opacity:0.2;fill:#ffffff;stroke-width:0.982303"
+     d="M 31,3 A 27.5,27.508768 0 0 0 3.5,30.508768 27.5,27.508768 0 0 0 3.5172646,30.992322 27.5,27.508768 0 0 1 31,3.982456 27.5,27.508768 0 0 1 58.475063,30.992322 27.5,27.508768 0 0 0 58.5,30.508768 27.5,27.508768 0 0 0 31,3 Z"
+     id="path4" />
+  <path
+     d="m 25.152418,15.591695 c -1.278135,0.351696 -2.308446,1.753481 -2.308446,3.115263 v 21.586823 c -1.296805,-0.698393 -2.961942,-0.980083 -4.689881,-0.520044 -3.11471,0.833404 -5.0684,3.523631 -4.399631,6.00884 0.667075,2.486877 3.737648,3.873661 6.852355,3.041924 2.48667,-0.665056 4.201031,-2.543548 4.47431,-4.525382 l 0.07297,-20.400056 16.159125,-4.450376 v 16.098026 c -1.296804,-0.698392 -2.961942,-0.981749 -4.688182,-0.520044 -3.116404,0.833404 -5.070099,3.523631 -4.401324,6.008841 0.667069,2.48521 3.737643,3.87366 6.854047,3.041924 2.484976,-0.665057 4.199338,-2.543549 4.472617,-4.525383 l 0.07296,-26.557242 c 0,-1.020086 -0.614452,-1.785151 -1.442777,-1.928496 l -17.026486,4.525382 z"
+     fill-opacity="0.70"
+     fill-rule="nonzero"
+     id="path2-3"
+     style="stroke-width:1.68203;fill:#ffffff;fill-opacity:0.75999999" />
+</svg>

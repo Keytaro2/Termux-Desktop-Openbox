@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="22"
+   version="1.1"
+   style="enable-background:new"
+   id="svg7384"
+   height="22"
+   sodipodi:docname="non-starred-symbolic.svg"
+   inkscape:version="1.4 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="998"
+     id="namedview16"
+     showgrid="false"
+     inkscape:zoom="14.75"
+     inkscape:cx="8.1016949"
+     inkscape:cy="8.0338983"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg7384"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <metadata
+     id="metadata90">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Gnome Symbolic Icons</dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <title
+     id="title8473">Gnome Symbolic Icons</title>
+  <defs
+     id="defs7386" />
+  <g
+     transform="translate(-32.000002,-188)"
+     id="layer7" />
+  <g
+     transform="translate(-32.000002,-188)"
+     id="layer6" />
+  <g
+     transform="translate(-32.000002,-188)"
+     id="layer5" />
+  <g
+     transform="translate(-32.000002,-188)"
+     id="layer9" />
+  <g
+     transform="translate(-32.000002,-188)"
+     id="layer2" />
+  <g
+     transform="translate(-32.000002,-188)"
+     id="layer8" />
+  <g
+     transform="translate(-32.000002,-188)"
+     id="layer3" />
+  <g
+     transform="translate(-32.000002,-188)"
+     id="layer4" />
+  <path
+     style="color:#cecfce;fill:#cecfce;fill-opacity:1;stroke:none;stroke-width:1.05697"
+     d="M 10.999998,3 8.3728021,8.266667 2.5,9.1104166 6.7499995,13.210416 5.74768,19 10.999998,16.26667 16.252316,19 15.249998,13.210416 19.5,9.1104166 13.627198,8.266667 Z m 0,2.383333 1.676757,3.3604166 a 1.0626057,1.066773 0 0 0 0.798949,0.5791668 l 3.716681,0.533334 -2.679077,2.5854166 a 1.0626057,1.066773 0 0 0 -0.309214,0.952083 l 0.635016,3.668754 -3.349366,-1.743756 a 1.0626057,1.066773 0 0 0 -0.979491,0 L 7.1608879,17.062504 7.7958977,13.39375 A 1.0626057,1.066773 0 0 0 7.4866938,12.441667 L 4.8076171,9.8562504 8.524291,9.3229164 A 1.0626057,1.066773 0 0 0 9.3232409,8.7437496 Z"
+     id="path3" />
+</svg>

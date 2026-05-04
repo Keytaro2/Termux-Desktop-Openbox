@@ -1,0 +1,1982 @@
+
+┏━━━━━━━━━━━━━━━━━━━━━━━┓
+┃Initializing eww daemon┃
+┗━━━━━━━━━━━━━━━━━━━━━━━┛
+    
+ 2026-05-03T21:07:27.270Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Failed to initialize GTK
+
+┏━━━━━━━━━━━━━━━━━━━━━━━┓
+┃Initializing eww daemon┃
+┗━━━━━━━━━━━━━━━━━━━━━━━┛
+    
+ 2026-05-03T21:07:29.252Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Failed to initialize GTK
+
+┏━━━━━━━━━━━━━━━━━━━━━━━┓
+┃Initializing eww daemon┃
+┗━━━━━━━━━━━━━━━━━━━━━━━┛
+    
+ 2026-05-03T21:07:42.137Z [0m[31mERROR[0m [0m[1meww::config::inbuilt[0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+[0m[1m[38;5;9merror[0m[1m: unknown @ rule[0m
+  [0m[34m┌─[0m /data/data/com.termux/files/home/.config/eww/eww.scss:1:1
+  [0m[34m│[0m
+[0m[34m1[0m [0m[34m│[0m [0m[31m@charset "UTF-8";[0m
+  [0m[34m│[0m [0m[31m─────────────────[0m
+
+
+ 2026-05-03T21:07:42.386Z [0m[32mINFO [0m [0m[1meww::ipc_server     [0m > IPC server initialized
+ 2026-05-03T21:07:43.830Z [0m[32mINFO [0m [0m[1meww::app            [0m > Opening window arch_button as 'arch_button'
+ 2026-05-03T21:07:43.936Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > sending response from main thread
+
+Caused by:
+    0: Failed to send success response from application thread
+    1: channel closed
+ 2026-05-03T21:08:46.129Z [0m[32mINFO [0m [0m[1meww::app               [0m > Reloading windows
+ 2026-05-03T21:08:46.151Z [0m[31mERROR[0m [0m[1meww::config::inbuilt   [0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T21:08:46.152Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window arch_button as 'arch_button'
+ 2026-05-03T21:08:46.152Z [0m[32mINFO [0m [0m[1meww::app               [0m > Closing gtk window arch_button
+Action failed with error: Given SCSS file doesn't exist! /data/data/com.termux/files/home/.config/eww
+
+Caused by:
+    No such file or directory (os error 2)
+Given SCSS file doesn't exist! /data/data/com.termux/files/home/.config/eww
+
+Caused by:
+    No such file or directory (os error 2)
+ 2026-05-03T21:09:27.272Z [0m[32mINFO [0m [0m[1meww::app               [0m > Reloading windows
+ 2026-05-03T21:09:27.287Z [0m[31mERROR[0m [0m[1meww::config::inbuilt   [0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T21:09:27.287Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window arch_button as 'arch_button'
+ 2026-05-03T21:09:27.287Z [0m[32mINFO [0m [0m[1meww::app               [0m > Closing gtk window arch_button
+ 2026-05-03T21:09:27.405Z [0m[32mINFO [0m [0m[1meww::server            [0m > Reloaded config successfully
+ 2026-05-03T21:13:58.974Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/Wallpaper/change_wp.sh timed out
+ 2026-05-03T21:14:00.028Z ERROR eww::error_handling_ctx > Failed to connect to daemon
+ 2026-05-03T21:14:00.839Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/Wallpaper/change_wp.sh timed out
+ 2026-05-03T21:14:01.518Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/Wallpaper/change_wp.sh timed out
+ 2026-05-03T21:14:01.698Z ERROR eww::error_handling_ctx > Failed to connect to daemon
+ 2026-05-03T21:14:02.405Z ERROR eww::error_handling_ctx > Failed to connect to daemon
+ 2026-05-03T21:14:39.687Z [0m[32mINFO [0m [0m[1meww::server            [0m > Shutting down eww daemon...
+
+┏━━━━━━━━━━━━━━━━━━━━━━━┓
+┃Initializing eww daemon┃
+┗━━━━━━━━━━━━━━━━━━━━━━━┛
+    
+ 2026-05-03T21:22:34.146Z [0m[31mERROR[0m [0m[1meww::config::inbuilt[0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T21:22:34.357Z [0m[32mINFO [0m [0m[1meww::ipc_server     [0m > IPC server initialized
+ 2026-05-03T21:22:35.826Z [0m[32mINFO [0m [0m[1meww::app            [0m > Opening window arch_button as 'arch_button'
+Action failed with error: failed to open window `arch_button`
+
+Caused by:
+    No window named 'arch_button' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+
+┏━━━━━━━━━━━━━━━━━━━━━━━┓
+┃Initializing eww daemon┃
+┗━━━━━━━━━━━━━━━━━━━━━━━┛
+    
+ 2026-05-03T21:23:11.849Z [0m[31mERROR[0m [0m[1meww::config::inbuilt[0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T21:23:12.072Z [0m[32mINFO [0m [0m[1meww::ipc_server     [0m > IPC server initialized
+ 2026-05-03T21:23:13.520Z [0m[32mINFO [0m [0m[1meww::app            [0m > Opening window mis_botones as 'mis_botones'
+ 2026-05-03T21:23:13.724Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > sending response from main thread
+
+Caused by:
+    0: Failed to send success response from application thread
+    1: channel closed
+ 2026-05-03T21:25:20.104Z [0m[32mINFO [0m [0m[1meww::app               [0m > Reloading windows
+ 2026-05-03T21:25:20.113Z [0m[31mERROR[0m [0m[1meww::config::inbuilt   [0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T21:25:20.129Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window mis_botones as 'mis_botones'
+ 2026-05-03T21:25:20.129Z [0m[32mINFO [0m [0m[1meww::app               [0m > Closing gtk window mis_botones
+ 2026-05-03T21:25:20.310Z [0m[32mINFO [0m [0m[1meww::server            [0m > Reloaded config successfully
+
+┏━━━━━━━━━━━━━━━━━━━━━━━┓
+┃Initializing eww daemon┃
+┗━━━━━━━━━━━━━━━━━━━━━━━┛
+    
+ 2026-05-03T21:25:54.837Z [0m[31mERROR[0m [0m[1meww::config::inbuilt[0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T21:25:55.124Z [0m[32mINFO [0m [0m[1meww::ipc_server     [0m > IPC server initialized
+ 2026-05-03T21:25:56.321Z [0m[32mINFO [0m [0m[1meww::app            [0m > Opening window mis_botones as 'mis_botones'
+ 2026-05-03T21:25:56.481Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > sending response from main thread
+
+Caused by:
+    0: Failed to send success response from application thread
+    1: channel closed
+ 2026-05-03T21:26:11.470Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T21:26:11.521Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T21:26:11.544Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/Wallpaper/change_wp.sh timed out
+ 2026-05-03T21:26:13.016Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T21:26:13.068Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T21:26:13.121Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/Wallpaper/change_wp.sh timed out
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T21:26:14.299Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T21:26:14.349Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T21:26:14.442Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/Wallpaper/change_wp.sh timed out
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T21:26:16.542Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window target as 'target'
+ 2026-05-03T21:26:16.793Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > sending response from main thread
+
+Caused by:
+    0: Failed to send success response from application thread
+    1: channel closed
+ 2026-05-03T21:26:17.789Z [0m[32mINFO [0m [0m[1meww::app               [0m > Closing gtk window target
+
+ 2026-05-03T21:26:19.418Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window powermenu as 'powermenu'
+
+ 2026-05-03T21:26:27.376Z [0m[32mINFO [0m [0m[1meww::app               [0m > Closing gtk window powermenu
+
+ 2026-05-03T21:26:28.719Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window target as 'target'
+
+ 2026-05-03T21:26:30.365Z [0m[32mINFO [0m [0m[1meww::app               [0m > Closing gtk window target
+
+ 2026-05-03T21:26:31.815Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T21:26:31.876Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T21:26:31.967Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/Wallpaper/change_wp.sh timed out
+ 2026-05-03T21:26:32.802Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T21:26:32.850Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T21:26:32.951Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/Wallpaper/change_wp.sh timed out
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T21:26:34.075Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T21:26:34.122Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T21:26:34.220Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/Wallpaper/change_wp.sh timed out
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T21:26:34.866Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T21:26:34.915Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T21:26:34.987Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/Wallpaper/change_wp.sh timed out
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T21:29:04.891Z [0m[32mINFO [0m [0m[1meww::app               [0m > Reloading windows
+ 2026-05-03T21:29:04.898Z [0m[31mERROR[0m [0m[1meww::config::inbuilt   [0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T21:29:04.926Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window mis_botones as 'mis_botones'
+ 2026-05-03T21:29:04.926Z [0m[32mINFO [0m [0m[1meww::app               [0m > Closing gtk window mis_botones
+ 2026-05-03T21:29:05.057Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T21:29:28.473Z [0m[32mINFO [0m [0m[1meww::app               [0m > Reloading windows
+ 2026-05-03T21:29:28.479Z [0m[31mERROR[0m [0m[1meww::config::inbuilt   [0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T21:29:28.486Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window mis_botones as 'mis_botones'
+ 2026-05-03T21:29:28.486Z [0m[32mINFO [0m [0m[1meww::app               [0m > Closing gtk window mis_botones
+ 2026-05-03T21:29:28.578Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+
+┏━━━━━━━━━━━━━━━━━━━━━━━┓
+┃Initializing eww daemon┃
+┗━━━━━━━━━━━━━━━━━━━━━━━┛
+    
+ 2026-05-03T21:29:42.350Z [0m[31mERROR[0m [0m[1meww::config::inbuilt[0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T21:29:42.782Z [0m[32mINFO [0m [0m[1meww::ipc_server     [0m > IPC server initialized
+ 2026-05-03T21:29:44.003Z [0m[32mINFO [0m [0m[1meww::app            [0m > Opening window mis_botones as 'mis_botones'
+ 2026-05-03T21:29:44.126Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > sending response from main thread
+
+Caused by:
+    0: Failed to send success response from application thread
+    1: channel closed
+ 2026-05-03T21:29:51.826Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T21:29:51.880Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T21:29:51.928Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/Wallpaper/change_wp.sh timed out
+ 2026-05-03T21:29:52.971Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T21:29:53.021Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T21:29:53.106Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/Wallpaper/change_wp.sh timed out
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T21:30:08.370Z [0m[32mINFO [0m [0m[1meww::app               [0m > Reloading windows
+ 2026-05-03T21:30:08.392Z [0m[31mERROR[0m [0m[1meww::config::inbuilt   [0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T21:30:08.392Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window mis_botones as 'mis_botones'
+ 2026-05-03T21:30:08.392Z [0m[32mINFO [0m [0m[1meww::app               [0m > Closing gtk window mis_botones
+ 2026-05-03T21:30:08.455Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+
+┏━━━━━━━━━━━━━━━━━━━━━━━┓
+┃Initializing eww daemon┃
+┗━━━━━━━━━━━━━━━━━━━━━━━┛
+    
+ 2026-05-03T21:30:21.965Z [0m[31mERROR[0m [0m[1meww::config::inbuilt[0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T21:30:22.215Z [0m[32mINFO [0m [0m[1meww::ipc_server     [0m > IPC server initialized
+ 2026-05-03T21:30:23.712Z [0m[32mINFO [0m [0m[1meww::app            [0m > Opening window mis_botones as 'mis_botones'
+ 2026-05-03T21:30:23.964Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > sending response from main thread
+
+Caused by:
+    0: Failed to send success response from application thread
+    1: channel closed
+ 2026-05-03T21:30:52.259Z [0m[32mINFO [0m [0m[1meww::app               [0m > Reloading windows
+ 2026-05-03T21:30:52.265Z [0m[31mERROR[0m [0m[1meww::config::inbuilt   [0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T21:30:52.282Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window mis_botones as 'mis_botones'
+ 2026-05-03T21:30:52.282Z [0m[32mINFO [0m [0m[1meww::app               [0m > Closing gtk window mis_botones
+ 2026-05-03T21:30:52.418Z [0m[32mINFO [0m [0m[1meww::server            [0m > Reloaded config successfully
+
+┏━━━━━━━━━━━━━━━━━━━━━━━┓
+┃Initializing eww daemon┃
+┗━━━━━━━━━━━━━━━━━━━━━━━┛
+    
+ 2026-05-03T21:31:05.532Z [0m[31mERROR[0m [0m[1meww::config::inbuilt[0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T21:31:05.742Z [0m[32mINFO [0m [0m[1meww::ipc_server     [0m > IPC server initialized
+ 2026-05-03T21:31:07.305Z [0m[32mINFO [0m [0m[1meww::app            [0m > Opening window mis_botones as 'mis_botones'
+ 2026-05-03T21:31:07.448Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > sending response from main thread
+
+Caused by:
+    0: Failed to send success response from application thread
+    1: channel closed
+
+┏━━━━━━━━━━━━━━━━━━━━━━━┓
+┃Initializing eww daemon┃
+┗━━━━━━━━━━━━━━━━━━━━━━━┛
+    
+ 2026-05-03T21:34:25.615Z [0m[31mERROR[0m [0m[1meww::config::inbuilt[0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T21:34:25.872Z [0m[32mINFO [0m [0m[1meww::ipc_server     [0m > IPC server initialized
+ 2026-05-03T21:34:27.178Z [0m[32mINFO [0m [0m[1meww::app            [0m > Opening window mis_botones as 'mis_botones'
+ 2026-05-03T21:34:27.356Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > sending response from main thread
+
+Caused by:
+    0: Failed to send success response from application thread
+    1: channel closed
+ 2026-05-03T21:34:51.817Z [0m[32mINFO [0m [0m[1meww::app               [0m > Reloading windows
+ 2026-05-03T21:34:51.822Z [0m[31mERROR[0m [0m[1meww::config::inbuilt   [0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T21:34:51.844Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window mis_botones as 'mis_botones'
+ 2026-05-03T21:34:51.844Z [0m[32mINFO [0m [0m[1meww::app               [0m > Closing gtk window mis_botones
+ 2026-05-03T21:34:51.986Z [0m[32mINFO [0m [0m[1meww::server            [0m > Reloaded config successfully
+
+┏━━━━━━━━━━━━━━━━━━━━━━━┓
+┃Initializing eww daemon┃
+┗━━━━━━━━━━━━━━━━━━━━━━━┛
+    
+ 2026-05-03T21:35:11.689Z [0m[31mERROR[0m [0m[1meww::config::inbuilt[0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T21:35:11.865Z [0m[32mINFO [0m [0m[1meww::ipc_server     [0m > IPC server initialized
+ 2026-05-03T21:35:13.337Z [0m[32mINFO [0m [0m[1meww::app            [0m > Opening window mis_botones as 'mis_botones'
+ 2026-05-03T21:35:13.531Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > sending response from main thread
+
+Caused by:
+    0: Failed to send success response from application thread
+    1: channel closed
+ 2026-05-03T21:35:18.016Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T21:35:18.068Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T21:35:18.146Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/Wallpaper/change_wp.sh timed out
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T21:35:20.413Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T21:35:20.502Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T21:35:20.557Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/Wallpaper/change_wp.sh timed out
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T21:36:59.318Z [0m[32mINFO [0m [0m[1meww::app               [0m > Reloading windows
+ 2026-05-03T21:36:59.346Z [0m[31mERROR[0m [0m[1meww::config::inbuilt   [0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T21:36:59.346Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window mis_botones as 'mis_botones'
+ 2026-05-03T21:36:59.346Z [0m[32mINFO [0m [0m[1meww::app               [0m > Closing gtk window mis_botones
+ 2026-05-03T21:36:59.549Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+
+┏━━━━━━━━━━━━━━━━━━━━━━━┓
+┃Initializing eww daemon┃
+┗━━━━━━━━━━━━━━━━━━━━━━━┛
+    
+ 2026-05-03T21:37:13.079Z [0m[31mERROR[0m [0m[1meww::config::inbuilt[0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T21:37:13.311Z [0m[32mINFO [0m [0m[1meww::ipc_server     [0m > IPC server initialized
+ 2026-05-03T21:37:14.718Z [0m[32mINFO [0m [0m[1meww::app            [0m > Opening window mis_botones as 'mis_botones'
+ 2026-05-03T21:37:14.826Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > sending response from main thread
+
+Caused by:
+    0: Failed to send success response from application thread
+    1: channel closed
+
+┏━━━━━━━━━━━━━━━━━━━━━━━┓
+┃Initializing eww daemon┃
+┗━━━━━━━━━━━━━━━━━━━━━━━┛
+    
+ 2026-05-03T21:37:14.900Z [0m[31mERROR[0m [0m[1meww::config::inbuilt[0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T21:37:15.156Z [0m[32mINFO [0m [0m[1meww::ipc_server     [0m > IPC server initialized
+ 2026-05-03T21:37:15.173Z [0m[32mINFO [0m [0m[1meww::app            [0m > Opening window mis_botones as 'mis_botones'
+
+┏━━━━━━━━━━━━━━━━━━━━━━━┓
+┃Initializing eww daemon┃
+┗━━━━━━━━━━━━━━━━━━━━━━━┛
+    
+ 2026-05-03T21:38:07.819Z [0m[31mERROR[0m [0m[1meww::config::inbuilt[0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+[0m[1m[38;5;9merror[0m[1m: unknown @ rule[0m
+  [0m[34m┌─[0m /data/data/com.termux/files/home/.config/eww/eww.scss:1:1
+  [0m[34m│[0m
+[0m[34m1[0m [0m[34m│[0m [0m[31m@charset "UTF-8";[0m
+  [0m[34m│[0m [0m[31m─────────────────[0m
+
+
+ 2026-05-03T21:38:08.078Z [0m[32mINFO [0m [0m[1meww::ipc_server     [0m > IPC server initialized
+ 2026-05-03T21:38:09.384Z [0m[32mINFO [0m [0m[1meww::app            [0m > Opening window mis_botones as 'mis_botones'
+ 2026-05-03T21:38:09.541Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > sending response from main thread
+
+Caused by:
+    0: Failed to send success response from application thread
+    1: channel closed
+ 2026-05-03T21:38:43.430Z [0m[32mINFO [0m [0m[1meww::app               [0m > Reloading windows
+ 2026-05-03T21:38:43.438Z [0m[31mERROR[0m [0m[1meww::config::inbuilt   [0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T21:38:43.456Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window mis_botones as 'mis_botones'
+ 2026-05-03T21:38:43.456Z [0m[32mINFO [0m [0m[1meww::app               [0m > Closing gtk window mis_botones
+Action failed with error: [0m[1m[38;5;9merror[0m[1m: unknown @ rule[0m
+  [0m[34m┌─[0m /data/data/com.termux/files/home/.config/eww/eww.scss:1:1
+  [0m[34m│[0m
+[0m[34m1[0m [0m[34m│[0m [0m[31m@charset "UTF-8";[0m
+  [0m[34m│[0m [0m[31m─────────────────[0m
+
+
+[0m[1m[38;5;9merror[0m[1m: unknown @ rule[0m
+  [0m[34m┌─[0m /data/data/com.termux/files/home/.config/eww/eww.scss:1:1
+  [0m[34m│[0m
+[0m[34m1[0m [0m[34m│[0m [0m[31m@charset "UTF-8";[0m
+  [0m[34m│[0m [0m[31m─────────────────[0m
+
+
+
+┏━━━━━━━━━━━━━━━━━━━━━━━┓
+┃Initializing eww daemon┃
+┗━━━━━━━━━━━━━━━━━━━━━━━┛
+    
+ 2026-05-03T21:38:57.660Z [0m[31mERROR[0m [0m[1meww::config::inbuilt[0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+[0m[1m[38;5;9merror[0m[1m: unknown @ rule[0m
+  [0m[34m┌─[0m /data/data/com.termux/files/home/.config/eww/eww.scss:1:1
+  [0m[34m│[0m
+[0m[34m1[0m [0m[34m│[0m [0m[31m@charset "UTF-8";[0m
+  [0m[34m│[0m [0m[31m─────────────────[0m
+
+
+ 2026-05-03T21:38:57.871Z [0m[32mINFO [0m [0m[1meww::ipc_server     [0m > IPC server initialized
+ 2026-05-03T21:38:59.394Z [0m[32mINFO [0m [0m[1meww::app            [0m > Opening window mis_botones as 'mis_botones'
+ 2026-05-03T21:38:59.503Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > sending response from main thread
+
+Caused by:
+    0: Failed to send success response from application thread
+    1: channel closed
+ 2026-05-03T21:39:40.621Z [0m[32mINFO [0m [0m[1meww::app               [0m > Reloading windows
+ 2026-05-03T21:39:40.631Z [0m[31mERROR[0m [0m[1meww::config::inbuilt   [0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T21:39:40.647Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window mis_botones as 'mis_botones'
+ 2026-05-03T21:39:40.647Z [0m[32mINFO [0m [0m[1meww::app               [0m > Closing gtk window mis_botones
+Action failed with error: [0m[1m[38;5;9merror[0m[1m: unknown @ rule[0m
+  [0m[34m┌─[0m /data/data/com.termux/files/home/.config/eww/eww.scss:1:1
+  [0m[34m│[0m
+[0m[34m1[0m [0m[34m│[0m [0m[31m@charset "UTF-8";[0m
+  [0m[34m│[0m [0m[31m─────────────────[0m
+
+
+[0m[1m[38;5;9merror[0m[1m: unknown @ rule[0m
+  [0m[34m┌─[0m /data/data/com.termux/files/home/.config/eww/eww.scss:1:1
+  [0m[34m│[0m
+[0m[34m1[0m [0m[34m│[0m [0m[31m@charset "UTF-8";[0m
+  [0m[34m│[0m [0m[31m─────────────────[0m
+
+
+
+┏━━━━━━━━━━━━━━━━━━━━━━━┓
+┃Initializing eww daemon┃
+┗━━━━━━━━━━━━━━━━━━━━━━━┛
+    
+ 2026-05-03T21:39:57.770Z [0m[31mERROR[0m [0m[1meww::config::inbuilt[0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+[0m[1m[38;5;9merror[0m[1m: unknown @ rule[0m
+  [0m[34m┌─[0m /data/data/com.termux/files/home/.config/eww/eww.scss:1:1
+  [0m[34m│[0m
+[0m[34m1[0m [0m[34m│[0m [0m[31m@charset "UTF-8";[0m
+  [0m[34m│[0m [0m[31m─────────────────[0m
+
+
+ 2026-05-03T21:39:58.114Z [0m[32mINFO [0m [0m[1meww::ipc_server     [0m > IPC server initialized
+ 2026-05-03T21:39:59.337Z [0m[32mINFO [0m [0m[1meww::app            [0m > Opening window mis_botones as 'mis_botones'
+ 2026-05-03T21:39:59.475Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > sending response from main thread
+
+Caused by:
+    0: Failed to send success response from application thread
+    1: channel closed
+Action failed with error: The configuration file `/data/data/com.termux/files/home/.config/eww/eww.yuck` does not exist
+The configuration file `/data/data/com.termux/files/home/.config/eww/eww.yuck` does not exist
+ 2026-05-03T21:41:21.457Z [0m[32mINFO [0m [0m[1meww::app               [0m > Reloading windows
+ 2026-05-03T21:41:21.485Z [0m[31mERROR[0m [0m[1meww::config::inbuilt   [0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T21:41:21.488Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window mis_botones as 'mis_botones'
+ 2026-05-03T21:41:21.488Z [0m[32mINFO [0m [0m[1meww::app               [0m > Closing gtk window mis_botones
+ 2026-05-03T21:41:21.654Z [0m[32mINFO [0m [0m[1meww::server            [0m > Reloaded config successfully
+ 2026-05-03T21:42:04.815Z [0m[32mINFO [0m [0m[1meww::app               [0m > Reloading windows
+ 2026-05-03T21:42:04.825Z [0m[31mERROR[0m [0m[1meww::config::inbuilt   [0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T21:42:04.826Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window mis_botones as 'mis_botones'
+ 2026-05-03T21:42:04.826Z [0m[32mINFO [0m [0m[1meww::app               [0m > Closing gtk window mis_botones
+ 2026-05-03T21:42:04.882Z [0m[32mINFO [0m [0m[1meww::server            [0m > Reloaded config successfully
+ 2026-05-03T21:42:16.447Z [0m[32mINFO [0m [0m[1meww::app               [0m > Reloading windows
+ 2026-05-03T21:42:16.450Z [0m[31mERROR[0m [0m[1meww::config::inbuilt   [0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T21:42:16.463Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window mis_botones as 'mis_botones'
+ 2026-05-03T21:42:16.463Z [0m[32mINFO [0m [0m[1meww::app               [0m > Closing gtk window mis_botones
+ 2026-05-03T21:42:16.616Z [0m[32mINFO [0m [0m[1meww::server            [0m > Reloaded config successfully
+
+┏━━━━━━━━━━━━━━━━━━━━━━━┓
+┃Initializing eww daemon┃
+┗━━━━━━━━━━━━━━━━━━━━━━━┛
+    
+ 2026-05-03T21:42:30.762Z [0m[31mERROR[0m [0m[1meww::config::inbuilt[0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T21:42:30.941Z [0m[32mINFO [0m [0m[1meww::ipc_server     [0m > IPC server initialized
+ 2026-05-03T21:42:32.438Z [0m[32mINFO [0m [0m[1meww::app            [0m > Opening window mis_botones as 'mis_botones'
+
+┏━━━━━━━━━━━━━━━━━━━━━━━┓
+┃Initializing eww daemon┃
+┗━━━━━━━━━━━━━━━━━━━━━━━┛
+    
+ 2026-05-03T21:42:32.566Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > sending response from main thread
+
+Caused by:
+    0: Failed to send success response from application thread
+    1: channel closed
+ 2026-05-03T21:42:32.660Z [0m[31mERROR[0m [0m[1meww::config::inbuilt[0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T21:42:32.850Z [0m[32mINFO [0m [0m[1meww::ipc_server     [0m > IPC server initialized
+ 2026-05-03T21:42:32.850Z [0m[32mINFO [0m [0m[1meww::app            [0m > Opening window mis_botones as 'mis_botones'
+ 2026-05-03T21:42:37.317Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T21:42:37.366Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T21:42:37.423Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/Wallpaper/change_wp.sh timed out
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T21:42:39.371Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T21:42:39.404Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T21:42:39.518Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/Wallpaper/change_wp.sh timed out
+ 2026-05-03T21:42:40.317Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T21:42:40.352Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T21:42:40.452Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/Wallpaper/change_wp.sh timed out
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T21:43:17.920Z [0m[32mINFO [0m [0m[1meww::app               [0m > Reloading windows
+ 2026-05-03T21:43:17.920Z [0m[32mINFO [0m [0m[1meww::app               [0m > Reloading windows
+ 2026-05-03T21:43:17.928Z [0m[31mERROR[0m [0m[1meww::config::inbuilt   [0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T21:43:17.938Z [0m[31mERROR[0m [0m[1meww::config::inbuilt   [0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T21:43:17.938Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window mis_botones as 'mis_botones'
+ 2026-05-03T21:43:17.938Z [0m[32mINFO [0m [0m[1meww::app               [0m > Closing gtk window mis_botones
+ 2026-05-03T21:43:17.941Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window mis_botones as 'mis_botones'
+ 2026-05-03T21:43:17.941Z [0m[32mINFO [0m [0m[1meww::app               [0m > Closing gtk window mis_botones
+ 2026-05-03T21:43:18.044Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T21:43:18.081Z [0m[32mINFO [0m [0m[1meww::server            [0m > Reloaded config successfully
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+
+┏━━━━━━━━━━━━━━━━━━━━━━━┓
+┃Initializing eww daemon┃
+┗━━━━━━━━━━━━━━━━━━━━━━━┛
+    
+ 2026-05-03T21:43:32.156Z [0m[31mERROR[0m [0m[1meww::config::inbuilt[0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T21:43:32.593Z [0m[32mINFO [0m [0m[1meww::ipc_server     [0m > IPC server initialized
+ 2026-05-03T21:43:33.733Z [0m[32mINFO [0m [0m[1meww::app            [0m > Opening window mis_botones as 'mis_botones'
+ 2026-05-03T21:43:33.988Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > sending response from main thread
+
+Caused by:
+    0: Failed to send success response from application thread
+    1: channel closed
+
+┏━━━━━━━━━━━━━━━━━━━━━━━┓
+┃Initializing eww daemon┃
+┗━━━━━━━━━━━━━━━━━━━━━━━┛
+    
+ 2026-05-03T21:44:16.902Z [0m[31mERROR[0m [0m[1meww::config::inbuilt[0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T21:44:17.202Z [0m[32mINFO [0m [0m[1meww::ipc_server     [0m > IPC server initialized
+ 2026-05-03T21:44:18.316Z [0m[32mINFO [0m [0m[1meww::app            [0m > Opening window mis_botones as 'mis_botones'
+ 2026-05-03T21:44:18.481Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > sending response from main thread
+
+Caused by:
+    0: Failed to send success response from application thread
+    1: channel closed
+ 2026-05-03T21:45:28.441Z [0m[32mINFO [0m [0m[1meww::app               [0m > Reloading windows
+ 2026-05-03T21:45:28.452Z [0m[31mERROR[0m [0m[1meww::config::inbuilt   [0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T21:45:28.482Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window mis_botones as 'mis_botones'
+ 2026-05-03T21:45:28.482Z [0m[32mINFO [0m [0m[1meww::app               [0m > Closing gtk window mis_botones
+ 2026-05-03T21:45:28.707Z [0m[32mINFO [0m [0m[1meww::server            [0m > Reloaded config successfully
+
+┏━━━━━━━━━━━━━━━━━━━━━━━┓
+┃Initializing eww daemon┃
+┗━━━━━━━━━━━━━━━━━━━━━━━┛
+    
+ 2026-05-03T21:45:43.467Z [0m[31mERROR[0m [0m[1meww::config::inbuilt[0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T21:45:43.955Z [0m[32mINFO [0m [0m[1meww::ipc_server     [0m > IPC server initialized
+ 2026-05-03T21:45:45.056Z [0m[32mINFO [0m [0m[1meww::app            [0m > Opening window mis_botones as 'mis_botones'
+ 2026-05-03T21:45:45.336Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > sending response from main thread
+
+Caused by:
+    0: Failed to send success response from application thread
+    1: channel closed
+ 2026-05-03T21:48:15.157Z [0m[32mINFO [0m [0m[1meww::app               [0m > Reloading windows
+ 2026-05-03T21:48:15.174Z [0m[31mERROR[0m [0m[1meww::config::inbuilt   [0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T21:48:15.175Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window mis_botones as 'mis_botones'
+ 2026-05-03T21:48:15.175Z [0m[32mINFO [0m [0m[1meww::app               [0m > Closing gtk window mis_botones
+Action failed with error: Given SCSS file doesn't exist! /data/data/com.termux/files/home/.config/eww
+
+Caused by:
+    No such file or directory (os error 2)
+Given SCSS file doesn't exist! /data/data/com.termux/files/home/.config/eww
+
+Caused by:
+    No such file or directory (os error 2)
+ 2026-05-03T21:48:27.520Z [0m[32mINFO [0m [0m[1meww::app               [0m > Reloading windows
+ 2026-05-03T21:48:27.538Z [0m[31mERROR[0m [0m[1meww::config::inbuilt   [0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T21:48:27.539Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window mis_botones as 'mis_botones'
+ 2026-05-03T21:48:27.539Z [0m[32mINFO [0m [0m[1meww::app               [0m > Closing gtk window mis_botones
+Action failed with error: [0m[1m[38;5;9merror[0m[1m: unknown @ rule[0m
+  [0m[34m┌─[0m /data/data/com.termux/files/home/.config/eww/eww.scss:1:1
+  [0m[34m│[0m
+[0m[34m1[0m [0m[34m│[0m [0m[31m@charset "UTF-8";[0m
+  [0m[34m│[0m [0m[31m─────────────────[0m
+
+
+[0m[1m[38;5;9merror[0m[1m: unknown @ rule[0m
+  [0m[34m┌─[0m /data/data/com.termux/files/home/.config/eww/eww.scss:1:1
+  [0m[34m│[0m
+[0m[34m1[0m [0m[34m│[0m [0m[31m@charset "UTF-8";[0m
+  [0m[34m│[0m [0m[31m─────────────────[0m
+
+
+
+┏━━━━━━━━━━━━━━━━━━━━━━━┓
+┃Initializing eww daemon┃
+┗━━━━━━━━━━━━━━━━━━━━━━━┛
+    
+ 2026-05-03T21:48:42.601Z [0m[31mERROR[0m [0m[1meww::config::inbuilt[0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+[0m[1m[38;5;9merror[0m[1m: unknown @ rule[0m
+  [0m[34m┌─[0m /data/data/com.termux/files/home/.config/eww/eww.scss:1:1
+  [0m[34m│[0m
+[0m[34m1[0m [0m[34m│[0m [0m[31m@charset "UTF-8";[0m
+  [0m[34m│[0m [0m[31m─────────────────[0m
+
+
+ 2026-05-03T21:48:42.968Z [0m[32mINFO [0m [0m[1meww::ipc_server     [0m > IPC server initialized
+ 2026-05-03T21:48:44.086Z [0m[32mINFO [0m [0m[1meww::app            [0m > Opening window mis_botones as 'mis_botones'
+ 2026-05-03T21:48:44.203Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > sending response from main thread
+
+Caused by:
+    0: Failed to send success response from application thread
+    1: channel closed
+
+┏━━━━━━━━━━━━━━━━━━━━━━━┓
+┃Initializing eww daemon┃
+┗━━━━━━━━━━━━━━━━━━━━━━━┛
+    
+ 2026-05-03T21:48:44.318Z [0m[31mERROR[0m [0m[1meww::config::inbuilt[0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+[0m[1m[38;5;9merror[0m[1m: unknown @ rule[0m
+  [0m[34m┌─[0m /data/data/com.termux/files/home/.config/eww/eww.scss:1:1
+  [0m[34m│[0m
+[0m[34m1[0m [0m[34m│[0m [0m[31m@charset "UTF-8";[0m
+  [0m[34m│[0m [0m[31m─────────────────[0m
+
+
+ 2026-05-03T21:48:44.510Z [0m[32mINFO [0m [0m[1meww::ipc_server     [0m > IPC server initialized
+ 2026-05-03T21:48:44.511Z [0m[32mINFO [0m [0m[1meww::app            [0m > Opening window mis_botones as 'mis_botones'
+
+┏━━━━━━━━━━━━━━━━━━━━━━━┓
+┃Initializing eww daemon┃
+┗━━━━━━━━━━━━━━━━━━━━━━━┛
+    
+ 2026-05-03T21:49:55.203Z [0m[31mERROR[0m [0m[1meww::config::inbuilt[0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+[0m[1m[38;5;9merror[0m[1m: unknown @ rule[0m
+  [0m[34m┌─[0m /data/data/com.termux/files/home/.config/eww/eww.scss:1:1
+  [0m[34m│[0m
+[0m[34m1[0m [0m[34m│[0m [0m[31m@charset "UTF-8";[0m
+  [0m[34m│[0m [0m[31m─────────────────[0m
+
+
+ 2026-05-03T21:49:55.516Z [0m[32mINFO [0m [0m[1meww::ipc_server     [0m > IPC server initialized
+ 2026-05-03T21:49:56.730Z [0m[32mINFO [0m [0m[1meww::app            [0m > Opening window mis_botones as 'mis_botones'
+ 2026-05-03T21:49:56.841Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > sending response from main thread
+
+Caused by:
+    0: Failed to send success response from application thread
+    1: channel closed
+ 2026-05-03T21:52:00.449Z [0m[32mINFO [0m [0m[1meww::app               [0m > Reloading windows
+ 2026-05-03T21:52:00.470Z [0m[31mERROR[0m [0m[1meww::config::inbuilt   [0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T21:52:00.472Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window mis_botones as 'mis_botones'
+ 2026-05-03T21:52:00.472Z [0m[32mINFO [0m [0m[1meww::app               [0m > Closing gtk window mis_botones
+Action failed with error: [0m[1m[38;5;9merror[0m[1m: unknown @ rule[0m
+  [0m[34m┌─[0m /data/data/com.termux/files/home/.config/eww/eww.scss:1:1
+  [0m[34m│[0m
+[0m[34m1[0m [0m[34m│[0m [0m[31m@charset "UTF-8";[0m
+  [0m[34m│[0m [0m[31m─────────────────[0m
+
+
+[0m[1m[38;5;9merror[0m[1m: unknown @ rule[0m
+  [0m[34m┌─[0m /data/data/com.termux/files/home/.config/eww/eww.scss:1:1
+  [0m[34m│[0m
+[0m[34m1[0m [0m[34m│[0m [0m[31m@charset "UTF-8";[0m
+  [0m[34m│[0m [0m[31m─────────────────[0m
+
+
+ 2026-05-03T21:52:19.225Z [0m[32mINFO [0m [0m[1meww::app               [0m > Reloading windows
+ 2026-05-03T21:52:19.242Z [0m[31mERROR[0m [0m[1meww::config::inbuilt   [0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T21:52:19.244Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window mis_botones as 'mis_botones'
+ 2026-05-03T21:52:19.244Z [0m[32mINFO [0m [0m[1meww::app               [0m > Closing gtk window mis_botones
+Action failed with error: [0m[1m[38;5;9merror[0m[1m: unknown @ rule[0m
+  [0m[34m┌─[0m /data/data/com.termux/files/home/.config/eww/eww.scss:1:1
+  [0m[34m│[0m
+[0m[34m1[0m [0m[34m│[0m [0m[31m@charset "UTF-8";[0m
+  [0m[34m│[0m [0m[31m─────────────────[0m
+
+
+[0m[1m[38;5;9merror[0m[1m: unknown @ rule[0m
+  [0m[34m┌─[0m /data/data/com.termux/files/home/.config/eww/eww.scss:1:1
+  [0m[34m│[0m
+[0m[34m1[0m [0m[34m│[0m [0m[31m@charset "UTF-8";[0m
+  [0m[34m│[0m [0m[31m─────────────────[0m
+
+
+
+┏━━━━━━━━━━━━━━━━━━━━━━━┓
+┃Initializing eww daemon┃
+┗━━━━━━━━━━━━━━━━━━━━━━━┛
+    
+ 2026-05-03T21:52:47.271Z [0m[31mERROR[0m [0m[1meww::config::inbuilt[0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+[0m[1m[38;5;9merror[0m[1m: unknown @ rule[0m
+  [0m[34m┌─[0m /data/data/com.termux/files/home/.config/eww/eww.scss:1:1
+  [0m[34m│[0m
+[0m[34m1[0m [0m[34m│[0m [0m[31m@charset "UTF-8";[0m
+  [0m[34m│[0m [0m[31m─────────────────[0m
+
+
+ 2026-05-03T21:52:47.514Z [0m[32mINFO [0m [0m[1meww::ipc_server     [0m > IPC server initialized
+ 2026-05-03T21:52:48.872Z [0m[32mINFO [0m [0m[1meww::app            [0m > Opening window mis_botones as 'mis_botones'
+ 2026-05-03T21:52:49.013Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > sending response from main thread
+
+Caused by:
+    0: Failed to send success response from application thread
+    1: channel closed
+
+┏━━━━━━━━━━━━━━━━━━━━━━━┓
+┃Initializing eww daemon┃
+┗━━━━━━━━━━━━━━━━━━━━━━━┛
+    
+ 2026-05-03T21:55:40.619Z [0m[31mERROR[0m [0m[1meww::config::inbuilt[0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T21:55:40.834Z [0m[32mINFO [0m [0m[1meww::ipc_server     [0m > IPC server initialized
+ 2026-05-03T21:55:42.227Z [0m[32mINFO [0m [0m[1meww::app            [0m > Opening window mis_botones as 'mis_botones'
+
+┏━━━━━━━━━━━━━━━━━━━━━━━┓
+┃Initializing eww daemon┃
+┗━━━━━━━━━━━━━━━━━━━━━━━┛
+    
+ 2026-05-03T21:55:42.441Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > sending response from main thread
+
+Caused by:
+    0: Failed to send success response from application thread
+    1: channel closed
+ 2026-05-03T21:55:42.443Z [0m[31mERROR[0m [0m[1meww::config::inbuilt[0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T21:55:42.648Z [0m[32mINFO [0m [0m[1meww::ipc_server     [0m > IPC server initialized
+ 2026-05-03T21:55:42.651Z [0m[32mINFO [0m [0m[1meww::app            [0m > Opening window mis_botones as 'mis_botones'
+
+┏━━━━━━━━━━━━━━━━━━━━━━━┓
+┃Initializing eww daemon┃
+┗━━━━━━━━━━━━━━━━━━━━━━━┛
+    
+ 2026-05-03T21:57:05.549Z [0m[31mERROR[0m [0m[1meww::config::inbuilt[0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T21:57:06.143Z [0m[32mINFO [0m [0m[1meww::ipc_server     [0m > IPC server initialized
+ 2026-05-03T21:57:07.009Z [0m[32mINFO [0m [0m[1meww::app            [0m > Opening window mis_botones as 'mis_botones'
+
+┏━━━━━━━━━━━━━━━━━━━━━━━┓
+┃Initializing eww daemon┃
+┗━━━━━━━━━━━━━━━━━━━━━━━┛
+    
+ 2026-05-03T21:57:07.202Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > sending response from main thread
+
+Caused by:
+    0: Failed to send success response from application thread
+    1: channel closed
+ 2026-05-03T21:57:07.308Z [0m[31mERROR[0m [0m[1meww::config::inbuilt[0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T21:57:07.561Z [0m[32mINFO [0m [0m[1meww::ipc_server     [0m > IPC server initialized
+ 2026-05-03T21:57:07.563Z [0m[32mINFO [0m [0m[1meww::app            [0m > Opening window mis_botones as 'mis_botones'
+ 2026-05-03T21:57:44.016Z [0m[32mINFO [0m [0m[1meww::app            [0m > Reloading windows
+ 2026-05-03T21:57:44.017Z [0m[32mINFO [0m [0m[1meww::app               [0m > Reloading windows
+ 2026-05-03T21:57:44.023Z [0m[31mERROR[0m [0m[1meww::config::inbuilt[0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T21:57:44.031Z [0m[31mERROR[0m [0m[1meww::config::inbuilt   [0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T21:57:44.031Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window mis_botones as 'mis_botones'
+ 2026-05-03T21:57:44.031Z [0m[32mINFO [0m [0m[1meww::app               [0m > Closing gtk window mis_botones
+ 2026-05-03T21:57:44.034Z [0m[32mINFO [0m [0m[1meww::app            [0m > Opening window mis_botones as 'mis_botones'
+ 2026-05-03T21:57:44.034Z [0m[32mINFO [0m [0m[1meww::app            [0m > Closing gtk window mis_botones
+ 2026-05-03T21:57:44.237Z [0m[32mINFO [0m [0m[1meww::server         [0m > Reloaded config successfully
+ 2026-05-03T21:57:44.237Z [0m[32mINFO [0m [0m[1meww::server            [0m > Reloaded config successfully
+
+┏━━━━━━━━━━━━━━━━━━━━━━━┓
+┃Initializing eww daemon┃
+┗━━━━━━━━━━━━━━━━━━━━━━━┛
+    
+ 2026-05-03T21:57:58.062Z [0m[31mERROR[0m [0m[1meww::config::inbuilt[0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T21:57:58.347Z [0m[32mINFO [0m [0m[1meww::ipc_server     [0m > IPC server initialized
+ 2026-05-03T21:57:59.491Z [0m[32mINFO [0m [0m[1meww::app            [0m > Opening window mis_botones as 'mis_botones'
+ 2026-05-03T21:57:59.775Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > sending response from main thread
+
+Caused by:
+    0: Failed to send success response from application thread
+    1: channel closed
+ 2026-05-03T21:58:43.187Z [0m[32mINFO [0m [0m[1meww::app               [0m > Reloading windows
+ 2026-05-03T21:58:43.194Z [0m[31mERROR[0m [0m[1meww::config::inbuilt   [0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T21:58:43.210Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window mis_botones as 'mis_botones'
+ 2026-05-03T21:58:43.210Z [0m[32mINFO [0m [0m[1meww::app               [0m > Closing gtk window mis_botones
+ 2026-05-03T21:58:43.419Z [0m[32mINFO [0m [0m[1meww::server            [0m > Reloaded config successfully
+
+┏━━━━━━━━━━━━━━━━━━━━━━━┓
+┃Initializing eww daemon┃
+┗━━━━━━━━━━━━━━━━━━━━━━━┛
+    
+ 2026-05-03T21:58:56.975Z [0m[31mERROR[0m [0m[1meww::config::inbuilt[0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T21:58:57.334Z [0m[32mINFO [0m [0m[1meww::ipc_server     [0m > IPC server initialized
+ 2026-05-03T21:58:58.529Z [0m[32mINFO [0m [0m[1meww::app            [0m > Opening window mis_botones as 'mis_botones'
+ 2026-05-03T21:58:58.645Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > sending response from main thread
+
+Caused by:
+    0: Failed to send success response from application thread
+    1: channel closed
+ 2026-05-03T21:59:13.726Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T21:59:13.773Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T21:59:13.782Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/Wallpaper/change_wp.sh timed out
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T21:59:15.993Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T21:59:16.048Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T21:59:16.125Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/Wallpaper/change_wp.sh timed out
+ 2026-05-03T21:59:17.026Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T21:59:17.093Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T21:59:17.181Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/Wallpaper/change_wp.sh timed out
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T21:59:21.760Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window target as 'target'
+ 2026-05-03T21:59:22.091Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > sending response from main thread
+
+Caused by:
+    0: Failed to send success response from application thread
+    1: channel closed
+ 2026-05-03T21:59:23.069Z [0m[32mINFO [0m [0m[1meww::app               [0m > Closing gtk window target
+
+ 2026-05-03T21:59:24.553Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window powermenu as 'powermenu'
+ 2026-05-03T21:59:24.685Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > sending response from main thread
+
+Caused by:
+    0: Failed to send success response from application thread
+    1: channel closed
+ 2026-05-03T21:59:34.735Z [0m[32mINFO [0m [0m[1meww::app               [0m > Closing gtk window powermenu
+
+ 2026-05-03T21:59:37.477Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window powermenu as 'powermenu'
+
+ 2026-05-03T21:59:39.211Z [0m[32mINFO [0m [0m[1meww::app               [0m > Closing gtk window powermenu
+
+ 2026-05-03T21:59:40.315Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window target as 'target'
+ 2026-05-03T21:59:40.429Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > sending response from main thread
+
+Caused by:
+    0: Failed to send success response from application thread
+    1: channel closed
+ 2026-05-03T21:59:41.181Z [0m[32mINFO [0m [0m[1meww::app               [0m > Closing gtk window target
+
+
+┏━━━━━━━━━━━━━━━━━━━━━━━┓
+┃Initializing eww daemon┃
+┗━━━━━━━━━━━━━━━━━━━━━━━┛
+    
+ 2026-05-03T22:15:15.942Z [0m[31mERROR[0m [0m[1meww::config::inbuilt[0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T22:15:16.150Z [0m[32mINFO [0m [0m[1meww::ipc_server     [0m > IPC server initialized
+ 2026-05-03T22:15:17.542Z [0m[32mINFO [0m [0m[1meww::app            [0m > Opening window mis_botones as 'mis_botones'
+ 2026-05-03T22:15:21.972Z [0m[32mINFO [0m [0m[1meww::app            [0m > Opening window powermenu as 'powermenu'
+
+ 2026-05-03T22:15:23.032Z [0m[32mINFO [0m [0m[1meww::app            [0m > Closing gtk window powermenu
+
+ 2026-05-03T22:15:23.823Z [0m[32mINFO [0m [0m[1meww::app            [0m > Opening window powermenu as 'powermenu'
+
+ 2026-05-03T22:15:24.444Z [0m[32mINFO [0m [0m[1meww::app            [0m > Opening window target as 'target'
+ 2026-05-03T22:15:24.591Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > sending response from main thread
+
+Caused by:
+    0: Failed to send success response from application thread
+    1: channel closed
+ 2026-05-03T22:15:25.385Z [0m[32mINFO [0m [0m[1meww::app               [0m > Closing gtk window target
+
+ 2026-05-03T22:15:26.586Z [0m[32mINFO [0m [0m[1meww::app               [0m > Closing gtk window powermenu
+
+ 2026-05-03T22:15:27.972Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:15:28.004Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T22:15:28.107Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T22:15:29.781Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:15:29.811Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T22:15:29.930Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T22:15:31.834Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:15:31.862Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T22:15:31.994Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T22:15:34.438Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:15:34.472Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T22:15:34.592Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T22:15:37.215Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:15:37.247Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T22:15:37.367Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T22:15:38.873Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:15:38.905Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T22:15:41.304Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:15:41.329Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T22:15:41.446Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+ 2026-05-03T22:15:42.826Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:15:42.856Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T22:15:42.988Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+ 2026-05-03T22:15:44.284Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:15:44.308Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T22:15:44.427Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+ 2026-05-03T22:15:45.279Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:15:45.330Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T22:15:45.422Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T22:15:48.393Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:15:48.437Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T22:15:48.531Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+ 2026-05-03T22:15:49.648Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:15:49.693Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T22:15:49.799Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T22:15:51.015Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:15:51.097Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T22:15:51.172Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T22:15:51.794Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:15:51.844Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T22:15:51.926Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+ 2026-05-03T22:15:52.182Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:15:52.199Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:15:52.246Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T22:15:52.282Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+ 2026-05-03T22:15:52.287Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+ 2026-05-03T22:15:52.324Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T22:15:52.584Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:15:52.617Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:15:52.628Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T22:15:52.659Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T22:15:52.698Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+ 2026-05-03T22:15:52.704Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+ 2026-05-03T22:15:53.310Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:15:53.358Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T22:15:53.439Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T22:15:53.940Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:15:53.980Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T22:15:54.090Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T22:15:59.359Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:15:59.407Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T22:15:59.513Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T22:16:03.531Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:16:03.584Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T22:16:03.674Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+
+┏━━━━━━━━━━━━━━━━━━━━━━━┓
+┃Initializing eww daemon┃
+┗━━━━━━━━━━━━━━━━━━━━━━━┛
+    
+ 2026-05-03T22:17:36.015Z [0m[31mERROR[0m [0m[1meww::config::inbuilt[0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T22:17:36.406Z [0m[32mINFO [0m [0m[1meww::ipc_server     [0m > IPC server initialized
+ 2026-05-03T22:17:37.717Z [0m[32mINFO [0m [0m[1meww::app            [0m > Opening window mis_botones as 'mis_botones'
+ 2026-05-03T22:17:37.871Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > sending response from main thread
+
+Caused by:
+    0: Failed to send success response from application thread
+    1: channel closed
+ 2026-05-03T22:17:43.523Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:17:43.568Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T22:17:43.670Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T22:17:45.287Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:17:45.368Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T22:17:45.438Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T22:17:48.250Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:17:48.331Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T22:17:48.392Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T22:17:50.137Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:17:50.189Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T22:17:50.272Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+ 2026-05-03T22:17:51.373Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:17:51.422Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T22:17:51.507Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T22:17:52.776Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:17:52.869Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+ 2026-05-03T22:17:52.883Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T22:17:54.804Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:17:54.848Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T22:17:54.947Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T22:17:57.274Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:17:57.328Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T22:17:57.392Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+ 2026-05-03T22:17:58.450Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:17:58.515Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T22:17:58.592Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T22:18:01.477Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:18:01.528Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T22:18:01.601Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+ 2026-05-03T22:18:02.876Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:18:02.925Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T22:18:02.995Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T22:18:04.468Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T22:18:04.586Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T22:18:04.601Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+ 2026-05-03T22:18:05.601Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:18:05.655Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T22:18:05.686Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T22:18:06.382Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:18:06.428Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T22:18:06.539Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+ 2026-05-03T22:18:07.096Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:18:07.142Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T22:18:07.213Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T22:18:07.758Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:18:07.809Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T22:18:07.859Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T22:18:08.340Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:18:08.390Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T22:18:08.480Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T22:18:09.208Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:18:09.249Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T22:18:09.363Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T22:18:10.370Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:18:10.436Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T22:18:10.523Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T22:18:12.953Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window powermenu as 'powermenu'
+ 2026-05-03T22:18:13.161Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > sending response from main thread
+
+Caused by:
+    0: Failed to send success response from application thread
+    1: channel closed
+ 2026-05-03T22:18:13.796Z [0m[32mINFO [0m [0m[1meww::app               [0m > Closing gtk window powermenu
+
+ 2026-05-03T22:18:15.063Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window target as 'target'
+ 2026-05-03T22:18:15.163Z WARN  eww > Failed to connect to daemon: Error while forwarding command to server
+ 2026-05-03T22:18:15.163Z INFO  eww > Initializing eww server. (/data/data/com.termux/files/usr/tmp/eww-server_d38055b3e89a3ab8)
+Run `eww logs` to see any errors while editing your configuration.
+ 2026-05-03T22:18:15.165Z INFO  eww::server > Loading paths: config-dir: /data/data/com.termux/files/home/.config/eww, ipc-socket: /data/data/com.termux/files/usr/tmp/eww-server_d38055b3e89a3ab8, log-file: /data/data/com.termux/files/home/.cache/eww/eww_d38055b3e89a3ab8.log
+
+┏━━━━━━━━━━━━━━━━━━━━━━━┓
+┃Initializing eww daemon┃
+┗━━━━━━━━━━━━━━━━━━━━━━━┛
+    
+ 2026-05-03T22:18:15.285Z ERROR eww::config::inbuilt > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T22:18:15.342Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > sending response from main thread
+
+Caused by:
+    0: Failed to send success response from application thread
+    1: channel closed
+ 2026-05-03T22:18:15.554Z INFO  eww::ipc_server      > IPC server initialized
+ 2026-05-03T22:18:15.557Z INFO  eww::app             > Opening window target as 'target'
+ 2026-05-03T22:18:16.414Z INFO  eww::app             > Closing gtk window target
+
+ 2026-05-03T22:18:18.992Z INFO  eww::app             > Opening window target as 'target'
+
+ 2026-05-03T22:18:20.281Z INFO  eww::app             > Closing gtk window target
+
+ 2026-05-03T22:18:33.853Z INFO  eww::app             > Opening window target as 'target'
+ 2026-05-03T22:18:33.976Z ERROR eww::error_handling_ctx > sending response from main thread
+
+Caused by:
+    0: Failed to send success response from application thread
+    1: channel closed
+ 2026-05-03T22:18:35.772Z INFO  eww::app                > Opening window powermenu as 'powermenu'
+ 2026-05-03T22:18:36.018Z ERROR eww::error_handling_ctx > sending response from main thread
+
+Caused by:
+    0: Failed to send success response from application thread
+    1: channel closed
+pkill: option requires an argument -- u
+
+Usage:
+ pkill [options] <pattern>
+
+Options:
+ -<sig>, --signal <sig>    signal to send (either number or name)
+ -q, --queue <value>       integer value to be sent with the signal
+ -e, --echo                display what is killed
+ -c, --count               count of matching processes
+ -f, --full                use full process name to match
+ -g, --pgroup <PGID,...>   match listed process group IDs
+ -G, --group <GID,...>     match real group IDs
+ -i, --ignore-case         match case insensitively
+ -n, --newest              select most recently started
+ -o, --oldest              select least recently started
+ -O, --older <seconds>     select where older than seconds
+ -P, --parent <PPID,...>   match only child processes of the given parent
+ -s, --session <SID,...>   match session IDs
+ -t, --terminal <tty,...>  match by controlling terminal
+ -u, --euid <ID,...>       match by effective IDs
+ -U, --uid <ID,...>        match by real IDs
+ -x, --exact               match exactly with the command name
+ -F, --pidfile <file>      read PIDs from file
+ -L, --logpidfile          fail if PID file is not locked
+ -r, --runstates <state>   match runstates [D,S,Z,...]
+ --ns <PID>                match the processes that belong to the same
+                           namespace as <pid>
+ --nslist <ns,...>         list which namespaces will be considered for
+                           the --ns option.
+                           Available namespaces: ipc, mnt, net, pid, user, uts
+
+ -h, --help     display this help and exit
+ -V, --version  output version information and exit
+
+For more details see pgrep(1).
+ 2026-05-03T22:18:40.841Z ERROR eww::widgets            > WARNING: command /data/data/com.termux/files/home/.config/eww/scripts/reiniciar.sh timed out
+
+┏━━━━━━━━━━━━━━━━━━━━━━━┓
+┃Initializing eww daemon┃
+┗━━━━━━━━━━━━━━━━━━━━━━━┛
+    
+ 2026-05-03T22:19:46.937Z [0m[31mERROR[0m [0m[1meww::config::inbuilt[0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T22:19:47.185Z [0m[32mINFO [0m [0m[1meww::ipc_server     [0m > IPC server initialized
+ 2026-05-03T22:19:48.490Z [0m[32mINFO [0m [0m[1meww::app            [0m > Opening window mis_botones as 'mis_botones'
+
+┏━━━━━━━━━━━━━━━━━━━━━━━┓
+┃Initializing eww daemon┃
+┗━━━━━━━━━━━━━━━━━━━━━━━┛
+    
+ 2026-05-03T22:19:48.682Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > sending response from main thread
+
+Caused by:
+    0: Failed to send success response from application thread
+    1: channel closed
+ 2026-05-03T22:19:48.712Z [0m[31mERROR[0m [0m[1meww::config::inbuilt[0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T22:19:48.880Z [0m[32mINFO [0m [0m[1meww::ipc_server     [0m > IPC server initialized
+ 2026-05-03T22:19:48.885Z [0m[32mINFO [0m [0m[1meww::app            [0m > Opening window mis_botones as 'mis_botones'
+
+┏━━━━━━━━━━━━━━━━━━━━━━━┓
+┃Initializing eww daemon┃
+┗━━━━━━━━━━━━━━━━━━━━━━━┛
+    
+ 2026-05-03T22:21:12.136Z [0m[31mERROR[0m [0m[1meww::config::inbuilt[0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T22:21:12.278Z [0m[32mINFO [0m [0m[1meww::ipc_server     [0m > IPC server initialized
+ 2026-05-03T22:21:13.900Z [0m[32mINFO [0m [0m[1meww::app            [0m > Opening window mis_botones as 'mis_botones'
+ 2026-05-03T22:21:16.784Z [0m[32mINFO [0m [0m[1meww::app            [0m > Opening window target as 'target'
+ 2026-05-03T22:21:16.913Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > sending response from main thread
+
+Caused by:
+    0: Failed to send success response from application thread
+    1: channel closed
+ 2026-05-03T22:21:17.937Z [0m[32mINFO [0m [0m[1meww::app               [0m > Closing gtk window target
+
+ 2026-05-03T22:21:19.214Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window powermenu as 'powermenu'
+
+ 2026-05-03T22:21:20.071Z [0m[32mINFO [0m [0m[1meww::app               [0m > Closing gtk window powermenu
+
+
+┏━━━━━━━━━━━━━━━━━━━━━━━┓
+┃Initializing eww daemon┃
+┗━━━━━━━━━━━━━━━━━━━━━━━┛
+    
+ 2026-05-03T22:23:01.080Z [0m[31mERROR[0m [0m[1meww::config::inbuilt[0m > Couldn't get the battery capacity: Eww doesn't support your OS for getting the battery capacity
+ 2026-05-03T22:23:01.262Z [0m[32mINFO [0m [0m[1meww::ipc_server     [0m > IPC server initialized
+ 2026-05-03T22:23:02.817Z [0m[32mINFO [0m [0m[1meww::app            [0m > Opening window mis_botones as 'mis_botones'
+ 2026-05-03T22:23:02.997Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > sending response from main thread
+
+Caused by:
+    0: Failed to send success response from application thread
+    1: channel closed
+ 2026-05-03T22:23:04.500Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:23:04.579Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T22:23:04.643Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+ 2026-05-03T22:23:06.117Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T22:23:06.170Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T22:23:06.207Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+ 2026-05-03T22:23:07.251Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:23:07.313Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T22:23:07.314Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T22:23:10.021Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:23:10.078Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T22:23:10.180Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T22:23:12.032Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:23:12.079Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T22:23:12.178Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+ 2026-05-03T22:23:13.194Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:23:13.243Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T22:23:13.342Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T22:23:14.644Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:23:14.711Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T22:23:14.799Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T22:23:15.623Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:23:15.674Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T22:23:15.758Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T22:23:17.159Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:23:17.263Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T22:23:17.298Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T22:23:18.562Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:23:18.611Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T22:23:18.710Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T22:23:20.269Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:23:20.335Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T22:23:20.419Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+ 2026-05-03T22:23:21.450Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:23:21.525Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T22:23:21.603Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T22:23:22.658Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:23:22.709Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T22:23:22.798Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T22:23:24.018Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:23:24.065Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T22:23:24.172Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+ 2026-05-03T22:23:25.191Z [0m[31mERROR[0m [0m[1meww::error_handling_ctx[0m > Variable wall_text not scope
+ 2026-05-03T22:23:25.240Z [0m[32mINFO [0m [0m[1meww::app               [0m > Opening window notifier as 'notifier'
+Action failed with error: failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+failed to open window `notifier`
+
+Caused by:
+    No window named 'notifier' exists in config.
+    This may also be caused by your config failing to load properly, please check for any other errors in that case.
+ 2026-05-03T22:23:25.323Z [0m[31mERROR[0m [0m[1meww::widgets           [0m > WARNING: command ~/.config/eww/scripts/change_wp.sh timed out
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open
+Action failed with error: Tried to close window with id 'notifier', but no such window was open
+Tried to close window with id 'notifier', but no such window was open

@@ -19,10 +19,12 @@ def main():
 
     # 1. Installing Dependencies (x11-repo and applications) 
     # This includes the apps you mentioned: Audacious, EWW, Openbox, etc.
-    apps = " audacious cava eww rofi openbox thunar picom tint2 neofetch feh starship"
+    apps = " audacious cava eww rofi openbox thunar picom tint2 neofetch feh starship kitty"
     print(f"{Colors.BLUE}[+] Installing necessary packages...{Colors.RESET}")
-    run("pkg install x11-repo python python-pip git wget curl termux-x11-nightly pulseaudio firefox tur-repo zsh -y")
+    run("pkg install x11-repo python python-pip git wget curl termux-x11-nightly pulseaudio firefox tur-repo zsh kitty termux-api virglrenderer-android fontconfig-utils freetype xfce4 jq lxappearance neovim-nightly rust -y")
     run(f"pkg install {apps} -y")
+    run(f"pip install pyxdg pywal")
+    run(f"cargo install pokeget -y")
 
     # 2. Creating base directories
     run("mkdir -p ~/.config")
@@ -59,12 +61,22 @@ def main():
         else:
             print(f"  {Colors.PINK}[!] Executable not found: {exe}{Colors.RESET}")
 
-    # 5. Installation of Power Supplies
+        # 5. Installation of Power Supplies (Fonts)
     if os.path.isdir("fonts"):
         print(f"{Colors.BLUE}[+] Installing fonts on the system...{Colors.RESET}")
         run("cp -r fonts/* ~/.local/share/fonts/")
         run("fc-cache -fv > /dev/null")
         print(f"  -> Updated sources.")
+
+    # 6. Display Themes, Icons, and Cache on the HOME (~)
+    dot_folders = [".themes", ".icons", ".cache"]
+    print(f"{Colors.BLUE}[+] Installing appearance folders in ~...{Colors.RESET}")
+    for folder in dot_folders:
+        if os.path.isdir(folder):
+            run(f"cp -r {folder} ~/")
+            print(f"  -> {folder} deployed in ~")
+        else:
+            print(f"{Colors.PINK}[!] Omitted: {folder} was not found in the repository.{Colors.RESET}")
 
     print(f"\n{Colors.GREEN}Installation completed successfully!{Colors.RESET}")
     print(f"{Colors.BLUE}You can now use your commands: colortest-slim, panes and lavat.{Colors.RESET}")

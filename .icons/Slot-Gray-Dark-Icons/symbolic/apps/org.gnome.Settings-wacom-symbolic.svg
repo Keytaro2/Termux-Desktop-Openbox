@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   style="clip-rule:evenodd;fill-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg2"
+   sodipodi:docname="org.gnome.Settings-wacom-symbolic.svg"
+   inkscape:version="1.4.2 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="namedview2"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="47.25"
+     inkscape:cx="8"
+     inkscape:cy="8"
+     inkscape:current-layer="svg2" />
+  <g
+     id="g3"
+     transform="matrix(0.93618349,0,0,0.93618349,0.56383977,1.0497738)"
+     style="stroke-width:1.06818">
+    <g
+       id="g2"
+       style="stroke-width:1.06818">
+      <rect
+         x="0.70499998"
+         y="2"
+         width="4.4070001"
+         height="11.241"
+         fill-opacity="0.3"
+         fill="#dfdfdf"
+         id="rect1"
+         style="stroke-width:1.06818;fill:#dfdfdf;fill-opacity:0.20365535" />
+      <g
+         transform="translate(-0.148883,0.148883)"
+         id="g1"
+         style="stroke-width:1.06818">
+        <path
+           d="M 16,3 C 16,2.448 15.552,2 15,2 14.735,2 14.48,2.106 14.293,2.293 l -6,6 C 7.903,8.684 8,10 8,10 8,10 9.317,10.098 9.707,9.707 l 6,-6 C 15.9,3.515 16,3.265 16,3 Z"
+           fill="#dfdfdf"
+           id="path1"
+           style="stroke-width:1.06818" />
+      </g>
+      <path
+         d="m 14,5.768 v 6.293 c 0,0.47 -0.187,0.921 -0.519,1.253 -0.333,0.332 -0.784,0.519 -1.254,0.519 H 1.807 c -0.47,0 -0.921,-0.187 -1.253,-0.519 C 0.221,12.982 0.035,12.531 0.035,12.061 V 2.788 c 0,-0.47 0.186,-0.921 0.519,-1.253 0.332,-0.333 0.783,-0.52 1.253,-0.52 h 10.42 c 0.47,0 0.921,0.187 1.254,0.52 0.215,0.214 0.369,0.479 0.451,0.766 L 12.899,3.334 V 2.201 H 1.136 V 12.806 H 12.899 V 6.869 Z"
+         fill="#dfdfdf"
+         id="path2"
+         style="stroke-width:1.06818" />
+    </g>
+  </g>
+</svg>

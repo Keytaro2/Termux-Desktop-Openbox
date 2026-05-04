@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   clip-rule="evenodd"
+   fill-rule="evenodd"
+   stroke-linejoin="round"
+   stroke-miterlimit="2"
+   viewBox="0 0 62 62"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="xfce4-session.svg"
+   width="62"
+   height="62"
+   inkscape:version="1.4 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs5">
+    <linearGradient
+       id="linearGradient5"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#003380;stop-opacity:1"
+         offset="0"
+         id="stop5" />
+      <stop
+         style="stop-color:#aa87de;stop-opacity:1"
+         offset="1"
+         id="stop6" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5"
+       id="linearGradient6"
+       x1="25.291332"
+       y1="45.667999"
+       x2="25.298952"
+       y2="2.332"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.2739918,0,0,1.2922282,0.42419704,-0.3134768)" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview5"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="5.6568543"
+     inkscape:cx="34.648232"
+     inkscape:cy="55.242717"
+     inkscape:window-width="1920"
+     inkscape:window-height="998"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5" />
+  <linearGradient
+     id="a"
+     x2="1"
+     gradientTransform="matrix(0,-36.1133,36.1133,0,24.7495,45.668)"
+     gradientUnits="userSpaceOnUse">
+    <stop
+       stop-color="#0e3e7d"
+       offset="0"
+       id="stop1" />
+    <stop
+       stop-color="#3575b8"
+       offset="1"
+       id="stop2" />
+  </linearGradient>
+  <g
+     id="g7"
+     transform="matrix(0.99620161,0,0,1.0000053,0.11775009,-1.643e-4)">
+    <g
+       id="g6"
+       transform="translate(9.9999998e-8,0.2999998)">
+      <path
+         d="m 58.604854,11.877404 v 38.774599 c 0,4.442681 -3.554437,8.047998 -7.93442,8.047998 H 11.329567 c -4.379984,0 -7.9344211,-3.605317 -7.9344211,-8.047998 V 11.877404 Z"
+         id="path2"
+         style="fill:url(#linearGradient6);fill-rule:nonzero;stroke-width:1.28308" />
+      <path
+         d="M 3.3951458,12.033364 H 58.604802 v 1.555558 H 3.3951458 Z"
+         fill-opacity="0.2"
+         id="path3"
+         style="fill-rule:nonzero;stroke-width:1.50335" />
+      <path
+         d="m 3.3951459,12.033764 v -1.285767 c 0,-4.442681 3.5544371,-8.0479976 7.9344211,-8.0479976 h 39.340867 c 4.379983,0 7.93442,3.6053166 7.93442,8.0479976 v 1.285767 z"
+         id="path4"
+         style="fill:#cbcbcb;fill-opacity:1;fill-rule:nonzero;stroke-width:1.28308" />
+    </g>
+    <path
+       d="m 28.922926,51.370697 c -0.02958,0.02619 -0.05901,0.05057 -0.08943,0.07577 -1.654126,1.370238 -4.189604,1.079402 -5.618358,-0.643367 l -1.519275,-1.834041 -10.79205,8.939873 C 9.8206825,58.80617 8.6184011,58.271591 7.2929225,57.744 5.5745297,57.060014 4.3758712,55.533246 3.896,53.563528 3.5583174,52.177449 3.2258885,50.845056 4.3090175,49.947818 L 15.101069,41.007945 13.582617,39.174899 c -1.428597,-1.724577 -1.241534,-4.2707 0.412593,-5.640939 0.528811,-0.438054 1.170127,-0.724314 1.856643,-0.828199 l 7.241782,-1.097449 7.238838,-1.095011 c 1.39713,-0.212629 2.834478,0.350227 3.76352,1.471749 0.929041,1.121522 1.214584,2.638507 0.74567,3.971662 l -2.422989,6.908615 -2.425934,6.911052 c -0.217508,0.618139 -0.5846,1.165541 -1.069807,1.594323 z"
+       fill="#c7db59"
+       id="path5"
+       style="fill:#c6afe9;stroke-width:1.28308"
+       sodipodi:nodetypes="scccsssscsscccscccss" />
+  </g>
+</svg>
