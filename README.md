@@ -44,7 +44,7 @@ aesthetic and distraction-free desktop experience <img src="https://i.gifer.com/
 
 ### Contributing
 
-Hi, I’m <a href="https://github.com/ayush0x1/" target="_blank">**ayush**</a><img src="https://media.tenor.com/gZ2OPWCBJrwAAAAj/cinnamoroll-cinnamoroll-sanrio-character.gif" height="30" /> 
+Hi, I’m <a href="https://github.com/Keytaro2" target="_blank">**Keytaro**</a><img src="https://media.tenor.com/gZ2OPWCBJrwAAAAj/cinnamoroll-cinnamoroll-sanrio-character.gif" height="30" /> 
 
 Contributions and feedback are welcome.  
 Feel free to open issues or submit pull requests.
