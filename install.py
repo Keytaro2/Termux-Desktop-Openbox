@@ -17,23 +17,23 @@ def main():
     print(f"{Colors.BLUE}[+] Preparing the environment {Colors.RESET}")
     sleep(1)
 
-    # 1. Installing Dependencies (x11-repo and applications) 
-    # This includes the apps you mentioned: Audacious, EWW, Openbox, etc.
+    # 1. Installing Dependencies
     apps = " audacious cava eww rofi openbox thunar picom tint2 neofetch feh starship kitty"
     print(f"{Colors.BLUE}[+] Installing necessary packages...{Colors.RESET}")
     run("pkg install x11-repo python python-pip git wget curl termux-x11-nightly pulseaudio firefox tur-repo zsh kitty termux-api virglrenderer-android fontconfig-utils freetype xfce4 jq lxappearance neovim-nightly rust -y")
     run(f"pkg install {apps} -y")
     run(f"pip install pyxdg pywal")
-    run(f"cargo install pokeget -y")
+    run(f"cargo install pokeget")
 
     # 2. Creating base directories
     run("mkdir -p ~/.config")
     run("mkdir -p ~/.local/share/fonts")
+    run("mkdir -p ~/.themes")
+    run("mkdir -p ~/.icons")
 
-    # 3. Deploying configuration files (.config) 
-    # List based on your current structure
+    # 3. Deploying configuration files (.config)
     config_items = [
-        "Audacious", "cava", "eww", "neofetch", "openbox", 
+        "Audacious", "cava", "eww", "neofetch", "openbox",
         "picom", "rofi", "Thunar", "tint2", "Wallpaper", "starship.toml"
     ]
 
@@ -44,10 +44,9 @@ def main():
             run(f"cp -r {path} ~/.config/")
             print(f"  -> {item} configurado.")
         else:
-            print(f"  {Colors.PINK}[!] Omitted: {item} not found in config folder/{Colors.RESET}")
+            print(f"  {Colors.PINK}[!] Omitted: {item} not found in config folder{Colors.RESET}")
 
-    # 4. Moving Executables to /usr/bin/ 
-    # These are moved so you can run them by typing just their name.
+    # 4. Moving Executables to /usr/bin/
     executables = ["colortest-slim", "panes", "lavat"]
     BIN_PATH = "/data/data/com.termux/files/usr/bin"
 
@@ -61,16 +60,24 @@ def main():
         else:
             print(f"  {Colors.PINK}[!] Executable not found: {exe}{Colors.RESET}")
 
-        # 5. Installation of Power Supplies (Fonts)
+    # 5. Installation of Fonts
     if os.path.isdir("fonts"):
         print(f"{Colors.BLUE}[+] Installing fonts on the system...{Colors.RESET}")
         run("cp -r fonts/* ~/.local/share/fonts/")
         run("fc-cache -fv > /dev/null")
         print(f"  -> Updated sources.")
 
-    # 6. Display Themes, Icons, and Cache on the HOME (~)
-    dot_folders = [".themes", ".icons", ".cache"]
-    print(f"{Colors.BLUE}[+] Installing appearance folders in ~...{Colors.RESET}")
+    # 6. Display Themes, Icons, Zsh and Cache on the HOME (~)
+    dot_folders = [".themes", ".icons", ".cache", ".zsh"]
+    
+    print(f"{Colors.BLUE}[+] Installing system files and folders in ~...{Colors.RESET}")
+    
+    # Mover el archivo .zshrc
+    if os.path.exists(".zshrc"):
+        run("cp .zshrc ~/")
+        print("  -> .zshrc deployed in ~")
+    
+    # Mover las carpetas de puntos
     for folder in dot_folders:
         if os.path.isdir(folder):
             run(f"cp -r {folder} ~/")
@@ -83,4 +90,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
