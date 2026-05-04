@@ -71,15 +71,20 @@ Open a GitHub Issue with the error screenshot or log
 
 | | | | |
 |---|---|---|---|
-| ![](images/img3.png) | ![](https://github.com/user-attachments/assets/e21e2d37-b7c0-463f-9976-367053204cad) | ![](https://github.com/user-attachments/assets/d1a0bb73-d569-4024-bee2-4b9cdf05253d) | ![](images/img3.png) |
+| ![](images/img3.png) | ![](https://github.com/user-attachments/assets/24cb158f-0c59-4b3a-9e01-e09c7be43d59) | ![](https://github.com/user-attachments/assets/cde056f9-b481-4e88-9990-39008b422d24) | ![](images/img3.png) |
 
 
 
-| ![](images/img3.png) | ![](https://github.com/user-attachments/assets/d5a1dcda-116b-453f-8153-9403c8669487) ![](images/img3.png) |   |
+| ![](images/img3.png) | ![](https://dn710203.ca.archive.org/0/items/whats-app-image-2026-01-26-at-17.35.32/WhatsApp%20Image%202026-01-27%20at%2000.13.52.jpeg) | ![](images/img3.png) |
+
 
 | | | | |
 |---|---|---|---|
-| ![](images/img3.png) | ![](https://github.com/user-attachments/assets/aa1140e2-667e-406a-b1de-ebe441e40a3e) | ![](https://github.com/user-attachments/assets/34a3bec0-00f3-4d55-8a54-859cc8f48d09) |
+| ![](images/img3.png) | ![](https://archive.org/download/whats-app-image-2026-01-15-at-04.43.29imgss/WhatsApp%20Image%202026-01-15%20at%2004.43.30.jpeg) | ![](https://archive.org/download/whats-app-image-2026-01-15-at-04.43.29imgss/WhatsApp%20Image%202026-01-15%20at%2004.43.29%281%29.jpeg) |
+
+
+
+| ![](images/img3.png) | ![](https://dn710203.ca.archive.org/0/items/whats-app-image-2026-01-26-at-17.35.32/WhatsApp%20Image%202026-01-26%20at%2017.35.32.jpeg) | ![](images/img3.png) |
 
 
 
