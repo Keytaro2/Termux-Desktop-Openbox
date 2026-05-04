@@ -32,7 +32,7 @@ apt update && apt upgrade -y && apt install git jp2a python-pip wget -y && git c
 ```
 
 Lightweight **Termux Desktop Openbox  environment on Android** running a clean **Linux GUI in Termux**
-using **Openbox** and a minimal panel. Optimized for low RAM usage while maintaining an
+using **Openbox** and **Tint2** and **Eww** a minimal panel. Optimized for low RAM usage while maintaining an
 aesthetic and distraction-free desktop experience <img src="https://github.com/user-attachments/assets/cc627498-4032-451a-90df-5447753414c4" height="30" /> .
 
 
