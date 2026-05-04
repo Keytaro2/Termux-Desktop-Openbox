@@ -4,8 +4,6 @@
   src="https://readme-typing-svg.demolab.com?font=Inconsolata&weight=900&size=53&duration=4000&pause=300&color=3B82F6&center=true&vCenter=true&multiline=true&repeat=false&width=1300&height=140&lines=Termux+Desktop;Lightweight+%E2%80%A2+Fast+%E2%80%A2+Minimal+Desktop"
   style="max-width: 100%; height: auto;"
 />
-
-<p align="center"> <a href="https://termux-desktop.netlify.app" target="_blank"> <img src="https://img.shields.io/badge/Visit-Official%20Website-3B82F6?style=for-the-badge&logo=google-chrome&logoColor=white"> </a> </p> Please visit our website to get detailed information, guides, and support. 
 <br/>
 
 
