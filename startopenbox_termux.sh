@@ -20,6 +20,7 @@ sleep 1
 # Set audio server
 export PULSE_SERVER=127.0.0.1
 
+
 # Hardware acceleration for Mali GPUs
 if ! pgrep -x "virgl_test_ser" > /dev/null; then
     virgl_test_server_android &
