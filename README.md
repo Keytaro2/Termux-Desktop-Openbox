@@ -84,7 +84,7 @@ Open a GitHub Issue with the error screenshot or log
 
 
 
-| ![](images/img3.png) | ![](https://dn710203.ca.archive.org/0/items/whats-app-image-2026-01-26-at-17.35.32/WhatsApp%20Image%202026-01-26%20at%2017.35.32.jpeg) | ![](images/img3.png) |
+| ![](images/img3.png) | ![](https://github.com/user-attachments/assets/59c7ef85-4a2a-42eb-a561-8c8970cb0879) | ![](images/img3.png) |
 
 
 
