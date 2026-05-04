@@ -71,19 +71,15 @@ Open a GitHub Issue with the error screenshot or log
 
 | | | | |
 |---|---|---|---|
-| ![](images/img3.png) | ![](https://dn710203.ca.archive.org/0/items/whats-app-image-2026-01-26-at-17.35.32/WhatsApp%20Image%202026-01-27%20at%2000.12.42.jpeg) | ![](https://archive.org/download/whats-app-image-2026-01-15-at-04.06.06-1/WhatsApp%20Image%202026-01-15%20at%2004.06.05.jpeg) | ![](images/img3.png) |
+| ![](https://github.com/user-attachments/assets/34a3bec0-00f3-4d55-8a54-859cc8f48d09) | ![](TU_IMAGEN_2) | ![](TU_IMAGEN_3) | ![](TU_IMAGEN_4) |
 
+<br>
 
+| ![](TU_IMAGEN_5) | ![](TU_IMAGEN_6) |
 
-| ![](images/img3.png) | ![](https://dn710203.ca.archive.org/0/items/whats-app-image-2026-01-26-at-17.35.32/WhatsApp%20Image%202026-01-27%20at%2000.13.52.jpeg) | ![](images/img3.png) |
-
+<br>
 
 | | | | |
 |---|---|---|---|
-| ![](images/img3.png) | ![](https://archive.org/download/whats-app-image-2026-01-15-at-04.43.29imgss/WhatsApp%20Image%202026-01-15%20at%2004.43.30.jpeg) | ![](https://archive.org/download/whats-app-image-2026-01-15-at-04.43.29imgss/WhatsApp%20Image%202026-01-15%20at%2004.43.29%281%29.jpeg) |
-
-
-
-| ![](images/img3.png) | ![](https://dn710203.ca.archive.org/0/items/whats-app-image-2026-01-26-at-17.35.32/WhatsApp%20Image%202026-01-26%20at%2017.35.32.jpeg) | ![](images/img3.png) |
-
+| ![](TU_IMAGEN_7) | ![](TU_IMAGEN_8) | ![](TU_IMAGEN_9) |
 
