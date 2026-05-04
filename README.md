@@ -54,11 +54,11 @@ Feel free to open issues or submit pull requests.
 If this project was useful to you, consider giving it a star <img src="https://opengameart.org/sites/default/files/Magical%20rainbow%20star%20128px%20gif.gif" height="30" /> .
 It helps the project grow and reach more users.
 
-<p align="center"> <a href="https://t.me/ayush0x10" target="_blank"> <img src="https://img.shields.io/badge/Telegram-Contact-blue?style=for-the-badge&logo=telegram"> </a> <a href="mailto:ayush7code@gmail.com"> </a>
+<p align="center"> <a href="https://t.me/ayush0x10" target="_blank"> <img src="https://img.shields.io/badge/Telegram-Contact-blue?style=for-the-badge&logo=redit"> </a> <a href="mailto:ayush7code@gmail.com"> </a>
 
 
 <p align="center">
-  Please visit our website to get detailed information, guides, and support.
+  Please visit our redit to get detailed information, guides, and support.
 </p>
 
 If you face errors during installation or setup, do not worry — 
