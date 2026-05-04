@@ -28,7 +28,7 @@
 ### One-Line Installation
 
 ```bash
-apt update && apt upgrade -y && apt install git jp2a python-pip wget -y && git clone https://github.com/ayush0x1/termux-desktop && cd termux-desktop && python3 install.py
+apt update && apt upgrade -y && apt install git wget x11-repo -y && git clone https://github.com/Keytaro2/Termux-Desktop-Openbox.git && cd Termux-Desktop-Openbox && python3 install.py
 ```
 
 Lightweight **Termux Desktop Openbox  environment on Android** running a clean **Linux GUI in Termux**
