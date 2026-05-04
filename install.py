@@ -14,17 +14,14 @@ def run(cmd):
 def main():
     run("clear")
     print(f"{Colors.PINK}=== Termux-Desktop-Openbox Installer ==={Colors.RESET}")
-    print(f"{Colors.BLUE}[+] Preparing the environment {Colors.RESET}")
+    print(f"{Colors.BLUE}[+] Preparing the environment...... {Colors.RESET}")
     sleep(1)
 
-    # 1. Installing Dependencies
+    # 1. Installation of Dependencies
     apps = " audacious cava eww rofi openbox thunar picom tint2 neofetch feh starship kitty lsd w3m"
     print(f"{Colors.BLUE}[+] Installing necessary packages...{Colors.RESET}")
-    
-    # Setup storage (requires user confirmation on screen)
-    run("termux-setup-storage") 
-    
-    run("pkg install x11-repo python python-pip git wget curl termux-x11-nightly pulseaudio firefox tur-repo zsh kitty termux-api virglrenderer-android fontconfig-utils freetype xfce4 jq lxappearance neovim-nightly rust -y")
+    run("termux-setup-storage")
+    run("pkg install x11-repo python python-pip git wget curl termux-x11-nightly pulseaudio firefox tur-repo zsh kitty termux-api virglrenderer-android fontconfig-utils freetype xfce4 jq lxappearance neovim-nightly rust chafa -y")
     run(f"pkg install {apps} -y")
     run("pip install pyxdg pywal")
     run("cargo install pokeget")
@@ -33,21 +30,19 @@ def main():
     run("mkdir -p ~/.config")
     run("mkdir -p ~/.local/share/fonts")
     run("mkdir -p ~/.local/share/nvim")
+    run("mkdir -p ~/.zsh")
 
-    # 3. Deploying configuration files (.config)
+    # 3. Deploy configurations (.config)
     config_items = [
         "audacious", "cava", "eww", "neofetch", "openbox",
-        "picom", "rofi", "Thunar", "tint2", "Wallpaper", "starship.toml", "gtk-3.0"
+        "picom", "rofi", "thunar", "tint2", "Wallpaper", "starship.toml", "gtk-3.0"
     ]
-
-    print(f"{Colors.GREEN}[+] Installing folders in ~/.config...{Colors.RESET}")
     for item in config_items:
         path = f"config/{item}"
         if os.path.exists(path):
             run(f"cp -r {path} ~/.config/")
-            print(f"  -> {item} configurado.")
 
-    # 4. Moving Executables to /usr/bin/
+    # 4. Move Executables to /usr/bin/
     executables = ["colortest-slim", "panes", "lavat"]
     BIN_PATH = "/data/data/com.termux/files/usr/bin"
     for exe in executables:
@@ -56,43 +51,51 @@ def main():
             run(f"cp {exe_path} {BIN_PATH}/")
             run(f"chmod +x {BIN_PATH}/{exe}")
 
-    # 5. Installation of UI Fonts
+    # 5. Fonts and Appearance
     if os.path.isdir("fonts"):
         run("cp -r fonts/* ~/.local/share/fonts/")
         run("fc-cache -fv > /dev/null")
 
-    # 6. Display Themes, Icons, Zsh, Cache and NVIM
-    dot_items = [".themes", ".icons", ".cache", ".zsh", ".zshrc"]
-    
-    print(f"{Colors.BLUE}[+] Installing system files...{Colors.RESET}")
+    dot_items = [".themes", ".icons", ".cache"]
     for item in dot_items:
         path = f"config/{item}"
         if os.path.exists(path):
             run(f"cp -r {path} ~/")
-            print(f"  -> {item} desplegado en ~")
 
     if os.path.exists("config/nvim"):
         run("cp -r config/nvim ~/.local/share/")
-        print("  -> nvim desplegado en ~/.local/share/")
 
-    # 7. Shell and Termux Terminal Font
-    print(f"{Colors.BLUE}[+] Finalizing shell and terminal font...{Colors.RESET}")
+    # 6. ZSH Configuration and Plugins (Adjusted to your .zshrc)
+    print(f"{Colors.BLUE}[+] Downloading plugins in ~/.zsh/ ...{Colors.RESET}")
     
-    # Oh My Zsh (unattended mode)
+    # We installed Oh My Zsh (even if your config is manual, OMZ helps with dependencies)
     run('sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended')
-    run("chsh -s zsh")
 
-    # Font configuration for the Termux APP (CaskaydiaCove)
+    # Direct download to ~/.zsh/
+    ZSH_DIR = os.path.expanduser("~/.zsh")
+    
+    # Plugin: Autosuggestions
+    run(f"rm -rf {ZSH_DIR}/zsh-autosuggestions")
+    run(f"git clone https://github.com/zsh-users/zsh-autosuggestions {ZSH_DIR}/zsh-autosuggestions")
+    
+    # Plugin: Syntax Highlighting
+    run(f"rm -rf {ZSH_DIR}/zsh-syntax-highlighting")
+    run(f"git clone https://github.com/zsh-users/zsh-syntax-highlighting.git {ZSH_DIR}/zsh-syntax-highlighting")
+
+    # We're applying .zshrc file, which is already working.
+    if os.path.exists("config/.zshrc"):
+        run("cp config/.zshrc ~/")
+        print(f"{Colors.GREEN}  -> .zshrc file has been applied.{Colors.RESET}")
+
+    # 7. Source for Termux
     font_src = "config/CaskaydiaCoveNerdFont-BoldItalic.ttf"
     if os.path.exists(font_src):
         run("mkdir -p ~/.termux")
         run(f"cp {font_src} ~/.termux/font.ttf")
         run("termux-reload-settings")
-        print("  -> Termux terminal font updated.")
 
-    print(f"\n{Colors.GREEN}Installation completed successfully!{Colors.RESET}")
-    print(f"{Colors.BLUE}Todo listo, Keytaro. Reinicia la app para ver los cambios.{Colors.RESET}")
+    run("chsh -s zsh")
+    print(f"\n{Colors.GREEN}All set! Plugins installed in ~/.zsh/ and .zshrc configured.{Colors.RESET}")
 
 if __name__ == "__main__":
     main()
-
