@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="62"
+   height="62"
+   version="1.1"
+   id="svg9"
+   sodipodi:docname="synergy.svg"
+   inkscape:version="1.4 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs9" />
+  <sodipodi:namedview
+     id="namedview9"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="6.0546875"
+     inkscape:cx="19.984516"
+     inkscape:cy="32.949677"
+     inkscape:window-width="1920"
+     inkscape:window-height="998"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg9" />
+  <g
+     id="g9"
+     transform="matrix(0.98214286,0,0,0.98245614,-0.42857152,-0.92982456)">
+    <circle
+       style="opacity:0.2"
+       cx="32"
+       cy="33"
+       r="28"
+       id="circle1" />
+    <path
+       style="fill:#00d4aa"
+       d="M 32,4 A 28,28 0 0 1 60,32 H 32 Z"
+       id="path1" />
+    <path
+       style="fill:#ffd42a"
+       d="M 32,60 A 28,28 0 0 1 4,32 h 28 z"
+       id="path2" />
+    <path
+       style="fill:#0066ff"
+       d="M 32,4 A 28,28 0 0 0 4,32 h 28 z"
+       id="path3" />
+    <path
+       style="fill:#37abc8"
+       d="M 32,60 A 28,28 0 0 0 60,32 H 32 Z"
+       id="path4" />
+    <path
+       style="fill:#2a7fff"
+       d="M 4,32 9.0000002,36 14,32 Z"
+       id="path5" />
+    <path
+       style="fill:#3f96b9"
+       d="M 60,32 55.000002,28 50,32 Z"
+       id="path6" />
+    <path
+       style="fill:#ffe680"
+       d="M 32,60 36,55.000002 32,50 Z"
+       id="path7" />
+    <path
+       style="fill:#2caeaa;fill-opacity:1"
+       d="M 32,4 28,9.0000002 32,14 Z"
+       id="path8" />
+    <circle
+       style="opacity:0.2"
+       cx="32"
+       cy="33"
+       r="18"
+       id="circle8" />
+    <circle
+       style="fill:#f9f9f9"
+       cx="32"
+       cy="32"
+       r="18"
+       id="circle9" />
+    <path
+       style="opacity:0.1;fill:#ffffff"
+       d="M 32,4 A 28,28 0 0 0 4,32 28,28 0 0 0 4.0175781,32.492188 28,28 0 0 1 32,5 28,28 0 0 1 59.974609,32.492188 28,28 0 0 0 60,32 28,28 0 0 0 32,4 Z"
+       id="path9" />
+  </g>
+</svg>

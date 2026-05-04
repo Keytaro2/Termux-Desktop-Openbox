@@ -1,0 +1,62 @@
+// Colores Dracula
+$bg-dim: #1a1b26; 
+$card-inner: #282a36;
+$pink-drac: #ff79c6;
+$cyan-drac: #8be9fd;
+$purple-drac: #bd93f9;
+$yellow-drac: #f1fa8c;
+$red-drac: #ff5555;
+
+.powermenu-overlay {
+  background-color: $bg-dim;
+  border-radius: 20px;
+  border: 2px solid #44475a;
+}
+
+.powermenu-box {
+  padding: 15px;
+}
+
+.powermenu-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #f8f8f2;
+  margin-bottom: 20px;
+}
+
+.powermenu-row {
+  margin-bottom: 20px;
+}
+
+.p-icon {
+  background-color: #343746;
+  color: #f8f8f2;
+  font-size: 30px;
+  padding: 15px 20px; 
+  border-radius: 15px;
+  transition: 200ms;
+
+  &.yellow:hover { background-color: $yellow-drac; color: $card-inner; }
+  &.cyan:hover { background-color: $cyan-drac; color: $card-inner; }
+  &.purple:hover { background-color: $purple-drac; color: $card-inner; }
+  &.red:hover { background-color: $red-drac; color: $card-inner; }
+}
+
+.p-label {
+  font-size: 13px;
+  color: #f8f8f2;
+  font-weight: 500;
+}
+
+.powermenu-cancel {
+  background-color: #44475a;
+  color: #f8f8f2;
+  font-size: 15px;
+  padding: 10px 40px;
+  border-radius: 10px;
+  margin-top: 5px;
+  &:hover {
+    background-color: #6272a4;
+  }
+}
+

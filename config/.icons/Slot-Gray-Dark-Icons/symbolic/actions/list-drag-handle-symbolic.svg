@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="16px"
+   viewBox="0 0 16 16"
+   width="16px"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="list-drag-handle-symbolic.svg"
+   inkscape:version="1.4.2 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="23.625"
+     inkscape:cx="7.1957672"
+     inkscape:cy="8.2116402"
+     inkscape:current-layer="svg1" />
+  <path
+     d="M 5.5999998,2 C 4.9343746,2 4.3999997,2.5375 4.3999997,3.2 c 0,0.6625006 0.5343749,1.2000002 1.2000001,1.2000002 0.6625001,0 1.2,-0.5374996 1.2,-1.2000002 0,-0.6625 -0.5374999,-1.2 -1.2,-1.2 z M 10.4,2 C 9.7343744,2 9.2,2.5375 9.2,3.2 c 0,0.6625006 0.5343744,1.2000002 1.2,1.2000002 0.662498,0 1.2,-0.5374996 1.2,-1.2000002 C 11.6,2.5375 11.062498,2 10.4,2 Z M 5.5999998,6.8000003 c -0.6656252,0 -1.2000001,0.5374995 -1.2000001,1.2 0,0.6624999 0.5343749,1.2000001 1.2000001,1.2000001 0.6625001,0 1.2,-0.5375002 1.2,-1.2000001 0,-0.6625005 -0.5374999,-1.2 -1.2,-1.2 z m 4.8000002,0 c -0.6656256,0 -1.2,0.5374995 -1.2,1.2 0,0.6624999 0.5343744,1.2000001 1.2,1.2000001 0.662498,0 1.2,-0.5375002 1.2,-1.2000001 0,-0.6625005 -0.537502,-1.2 -1.2,-1.2 z M 5.5999998,11.6 c -0.6656252,0 -1.2000001,0.537504 -1.2000001,1.199999 0,0.662498 0.5343749,1.200001 1.2000001,1.200001 0.6625001,0 1.2,-0.537503 1.2,-1.200001 0,-0.662495 -0.5374999,-1.199999 -1.2,-1.199999 z M 10.4,11.6 C 9.7343744,11.6 9.2,12.137504 9.2,12.799999 9.2,13.462497 9.7343744,14 10.4,14 11.062498,14 11.6,13.462497 11.6,12.799999 11.6,12.137504 11.062498,11.6 10.4,11.6 Z m 0,0"
+     fill="#aaaaaa"
+     id="path1"
+     style="stroke-width:0.999986;fill:#f1f1f1;fill-opacity:1" />
+</svg>

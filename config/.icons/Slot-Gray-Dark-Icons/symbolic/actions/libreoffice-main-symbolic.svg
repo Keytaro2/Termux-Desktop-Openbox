@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="16"
+   height="16"
+   version="1.1"
+   id="svg2"
+   sodipodi:docname="libreoffice-main-symbolic.svg"
+   inkscape:version="1.4 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="namedview2"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="20"
+     inkscape:cx="9.575"
+     inkscape:cy="10.475"
+     inkscape:window-width="1920"
+     inkscape:window-height="998"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     d="m 10.1195,2 3.130349,3.13035 V 2.75 c 0,-0.4155 -0.334498,-0.75 -0.75,-0.75 z"
+     fill="#dedede"
+     style="stroke-width:0.75;paint-order:stroke fill markers"
+     id="path1" />
+  <path
+     d="M 4.25,2 C 3.4319751,2 2.75,2.681975 2.75,3.5 v 9 c 0,0.818024 0.6819751,1.5 1.5,1.5 h 7.5 c 0.818024,0 1.5,-0.681976 1.5,-1.5 v -6 A 0.75007501,0.75007501 0 0 0 13.030273,5.969727 l -3.75,-3.7499995 A 0.75007501,0.75007501 0 0 0 8.75,2 Z m 0,0.75 h 4.5 L 12.5,6.5 v 6 c 0,0.415501 -0.334499,0.75 -0.75,0.75 H 4.25 C 3.8345,13.25 3.5,12.915501 3.5,12.5 v -9 C 3.5,3.0845 3.8345,2.75 4.25,2.75 Z"
+     color="#000000"
+     color-rendering="auto"
+     dominant-baseline="auto"
+     fill="#dedede"
+     image-rendering="auto"
+     shape-rendering="auto"
+     solid-color="#000000"
+     style="font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;text-transform:none;text-orientation:mixed;white-space:normal;shape-padding:0;isolation:auto;mix-blend-mode:normal;stroke-width:0.75;paint-order:stroke fill markers"
+     id="path2" />
+</svg>

@@ -1,0 +1,30 @@
+(defwindow powermenu
+  :stacking "fg"
+  :windowtype "normal"
+  :wm-ignore true
+  :geometry (geometry :width "500px" 
+                      :height "45%" 
+                      :anchor "center center")
+  (box :class "powermenu-overlay"
+    (box :class "powermenu-box" :orientation "v" :space-evenly false :halign "center" :valign "center"
+      (label :text "Selecciona una acción" :class "powermenu-title")
+      
+      (box :class "powermenu-row" :spacing 20 :halign "center"
+        ;; Botones de acción (Rutas de scripts configuradas)
+        (p-button :icon "󰌾" :label "Bloquear" :cmd "eww close powermenu" :col "yellow")
+        (p-button :icon "󰍃" :label "Salir" :cmd "/data/data/com.termux/files/home/.config/eww/scripts/salir.sh" :col "cyan")
+        (p-button :icon "󰑐" :label "Reiniciar" :cmd "/data/data/com.termux/files/home/.config/eww/scripts/reiniciar.sh" :col "purple")
+        (p-button :icon "󰐥" :label "Cerrar" :cmd "pkill -9 -u $USER" :col "red"))
+      
+      ;; BOTÓN CANCELAR (Acción directa para cerrar la ventana)
+      (button :class "powermenu-cancel" :onclick "eww close powermenu" "Cancelar")
+    )
+  )
+)
+
+(defwidget p-button [icon label cmd col]
+  (box :orientation "v" :space-evenly false :spacing 8
+    (button :class "p-icon ${col}" :onclick cmd icon)
+    (label :text label :class "p-label")
+  )
+)

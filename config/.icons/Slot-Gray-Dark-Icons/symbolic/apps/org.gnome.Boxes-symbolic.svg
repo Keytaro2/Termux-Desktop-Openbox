@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="16"
+   height="16"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="org.gnome.Boxes-symbolic.svg"
+   inkscape:version="1.4 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="48.4375"
+     inkscape:cx="7.9896774"
+     inkscape:cy="8"
+     inkscape:window-width="1920"
+     inkscape:window-height="998"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <title
+     id="title1">Gnome Symbolic Icon Theme</title>
+  <g
+     transform="matrix(0.74999531,0,0,0.74999531,-45.226455,-129.22668)"
+     id="g1">
+    <path
+       transform="translate(62.969,174.97)"
+       d="M 2.5,0 A 2.5,2.5 0 0 0 0,2.5 2.5,2.5 0 0 0 2,4.9434 v 6.1133 a 2.5,2.5 0 0 0 -2,2.4434 2.5,2.5 0 0 0 2.5,2.5 2.5,2.5 0 0 0 2.4434,-2 h 6.1133 a 2.5,2.5 0 0 0 2.4434,2 2.5,2.5 0 0 0 2.5,-2.5 2.5,2.5 0 0 0 -2,-2.4492 V 4.9435 a 2.5,2.5 0 0 0 2,-2.4434 2.5,2.5 0 0 0 -2.5,-2.5 2.5,2.5 0 0 0 -2.4434,2 H 4.9493 a 2.5,2.5 0 0 0 -2.4492,-2 z m 0,1 A 1.5,1.5 0 0 1 4,2.5 1.5,1.5 0 0 1 2.5,4 1.5,1.5 0 0 1 1,2.5 1.5,1.5 0 0 1 2.5,1 Z m 11,0 A 1.5,1.5 0 0 1 15,2.5 1.5,1.5 0 0 1 13.5,4 1.5,1.5 0 0 1 12,2.5 1.5,1.5 0 0 1 13.5,1 Z M 4.9434,3 h 6.1133 a 2.5,2.5 0 0 0 0.375,0.86133 l -0.28516,0.28516 a 1.5,1.5 0 0 0 -0.64648,-0.14648 1.5,1.5 0 0 0 -1.4102,1 h -2.1758 a 1.5,1.5 0 0 0 -1.4141,-1 1.5,1.5 0 0 0 -0.63281,0.16016 L 4.56832,3.86134 a 2.5,2.5 0 0 0 0.375,-0.86133 z m -1.082,1.5684 0.29883,0.29883 a 1.5,1.5 0 0 0 -0.16016,0.63281 1.5,1.5 0 0 0 1,1.4102 v 2.1797 a 1.5,1.5 0 0 0 -1,1.4102 1.5,1.5 0 0 0 0.16016,0.63281 l -0.29297,0.29297 a 2.5,2.5 0 0 0 -0.86719,-0.375 v -6.1074 a 2.5,2.5 0 0 0 0.86133,-0.375 z m 8.2773,0 a 2.5,2.5 0 0 0 0.86133,0.375 v 6.1133 a 2.5,2.5 0 0 0 -0.86133,0.375 l -0.29883,-0.29883 a 1.5,1.5 0 0 0 0.16016,-0.63281 1.5,1.5 0 0 0 -1,-1.4141 v -2.1758 a 1.5,1.5 0 0 0 1,-1.4102 1.5,1.5 0 0 0 -0.14648,-0.64648 L 12.13871,4.56832 Z M 5.5,5.00004 a 0.5,0.5 0 0 1 0.5,0.5 0.5,0.5 0 0 1 -0.5,0.5 0.5,0.5 0 0 1 -0.5,-0.5 0.5,0.5 0 0 1 0.5,-0.5 z m 5,0 a 0.5,0.5 0 0 1 0.5,0.5 0.5,0.5 0 0 1 -0.5,0.5 0.5,0.5 0 0 1 -0.5,-0.5 0.5,0.5 0 0 1 0.5,-0.5 z m -3.5898,1 H 9.0899 A 1.5,1.5 0 0 0 10.00006,6.9102 V 9.0899 A 1.5,1.5 0 0 0 9.0899,10.00006 H 6.9141 A 1.5,1.5 0 0 0 6.00004,9.086 V 6.9102 A 1.5,1.5 0 0 0 6.9102,6.00004 Z m -1.4102,4 a 0.5,0.5 0 0 1 0.5,0.5 0.5,0.5 0 0 1 -0.5,0.5 0.5,0.5 0 0 1 -0.5,-0.5 0.5,0.5 0 0 1 0.5,-0.5 z m 5,0 a 0.5,0.5 0 0 1 0.5,0.5 0.5,0.5 0 0 1 -0.5,0.5 0.5,0.5 0 0 1 -0.5,-0.5 0.5,0.5 0 0 1 0.5,-0.5 z m -3.5898,1 h 2.1797 a 1.5,1.5 0 0 0 1.4102,1 1.5,1.5 0 0 0 0.63281,-0.16016 l 0.29883,0.29883 a 2.5,2.5 0 0 0 -0.375,0.86133 h -6.1074 a 2.5,2.5 0 0 0 -0.375,-0.86719 l 0.29297,-0.29297 a 1.5,1.5 0 0 0 0.63281,0.16016 1.5,1.5 0 0 0 1.4102,-1 z m -4.4102,1 a 1.5,1.5 0 0 1 1.5,1.5 1.5,1.5 0 0 1 -1.5,1.5 1.5,1.5 0 0 1 -1.5,-1.5 1.5,1.5 0 0 1 1.5,-1.5 z m 11,0 a 1.5,1.5 0 0 1 1.5,1.5 1.5,1.5 0 0 1 -1.5,1.5 1.5,1.5 0 0 1 -1.5,-1.5 1.5,1.5 0 0 1 1.5,-1.5 z"
+       color="#000000"
+       enable-background="new"
+       fill="#dedede"
+       style="text-indent:0;text-decoration-line:none;text-transform:none"
+       id="path1" />
+  </g>
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Gnome Symbolic Icon Theme</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

@@ -1,0 +1,102 @@
+// Variables de color
+$bg: #161720;
+$card: #1a1b26;
+$accent: #7aa2f7;
+$text: #c0caf5;
+$text-dim: #565f89;
+
+// Limpieza de ventana para esquinas redondeadas
+window {
+  background-color: transparent;
+}
+
+.main-container {
+  background-color: $bg;
+  border-radius: 32px;
+  padding: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+// Búsqueda
+.search-bar {
+  background-color: $card;
+  border-radius: 16px;
+  padding: 12px 16px;
+  margin-bottom: 20px;
+  color: $text-dim;
+  .search-icon { margin-right: 12px; font-size: 14px; }
+}
+
+// Bienvenida
+.welcome-card {
+  background-color: $card;
+  border-radius: 24px;
+  padding: 24px;
+  margin-bottom: 20px;
+  
+  .welcome-title { font-size: 20px; font-weight: bold; color: $text; }
+  .welcome-sub { color: $text-dim; font-size: 14px; margin-top: 4px; }
+  .time-box { 
+    margin-top: 10px; 
+    color: $text; 
+    font-size: 14px; 
+    .time-icon { margin-right: 6px; } 
+  }
+}
+
+// Stats
+.stats-row { margin-bottom: 20px; }
+.stat-card {
+  background-color: $card;
+  border-radius: 20px;
+  padding: 16px;
+  margin: 0 6px;
+  .stat-label { font-size: 12px; color: $text-dim; margin-bottom: 12px; }
+  .stat-icon { font-size: 18px; color: $accent; }
+
+  circular-progress {
+    color: $accent;
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+}
+
+// Música (Estilo igual a la imagen)
+.music-card {
+  background-color: $card;
+  border-radius: 24px;
+  padding: 20px;
+  
+  .music-header { font-size: 12px; color: $text-dim; margin-bottom: 15px; }
+  
+  .album-art {
+    background-color: $bg;
+    border-radius: 12px;
+    min-width: 50px; min-height: 50px;
+    margin-right: 15px;
+    label { font-size: 24px; color: $text-dim; }
+  }
+  
+  .song-name { font-weight: bold; color: $text; font-size: 14px; }
+  .artist-name { color: $text-dim; font-size: 12px; }
+
+  // AQUÍ ESTÁ EL CAMBIO PARA LOS BOTONES
+  .music-controls {
+    margin-top: 25px;
+    
+    button {
+      background: none;
+      background-color: transparent;
+      border: none;
+      box-shadow: none;
+      color: #ffffff; /* Blanco puro */
+      font-size: 26px;
+      padding: 0 10px;
+      outline: none;
+
+      &:hover {
+        color: $accent;
+      }
+    }
+  }
+}
+

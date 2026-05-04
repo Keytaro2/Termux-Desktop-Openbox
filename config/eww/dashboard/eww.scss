@@ -1,0 +1,52 @@
+$bg: #282a36;
+$card: #1a1b26;
+$pink: #ff79c6;
+$purple: #bd93f9;
+$green: #50fa7b;
+$orange: #ffb86c;
+$cyan: #8be9fd;
+
+* { all: unset; font-family: "JetBrainsMono Nerd Font"; }
+
+.bg { padding: 20px; background-color: transparent; }
+
+.card {
+  background-color: $card;
+  border-radius: 12px;
+  border: 1px solid #3d3f4d;
+}
+
+.art { background-color: #44475a; border-radius: 10px; }
+.m-title { font-weight: bold; color: #f8f8f2; }
+.m-controls { font-size: 22px; color: #f8f8f2; }
+
+/* Sliders */
+scale trough {
+  background-color: #44475a;
+  min-height: 12px; min-width: 140px; border-radius: 8px;
+  highlight { border-radius: 8px; }
+}
+.bar-p highlight { background-color: $purple; }
+.bar-g highlight { background-color: $green; }
+.bar-w highlight { background-color: #6272a4; }
+
+/* Rings Almacenamiento */
+circular-progress { 
+  background-color: #44475a; 
+  min-height: 85px; 
+  min-width: 85px; 
+}
+.disk-circle { padding: 5px; }
+.ring-r { color: $orange; }
+.ring-b { color: $cyan; }
+
+/* Clock */
+.t-h { font-size: 55px; font-weight: bold; color: #f8f8f2; }
+.t-m { font-size: 55px; font-weight: bold; color: $pink; }
+
+calendar {
+  color: #6272a4;
+  padding: 10px;
+  &.header { color: $pink; }
+  &:selected { background-color: $pink; color: #282a36; border-radius: 4px; }
+}

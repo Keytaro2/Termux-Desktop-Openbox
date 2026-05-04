@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   id="svg7384"
+   height="22"
+   width="22"
+   version="1.1"
+   sodipodi:docname="avatar-default-symbolic.svg"
+   inkscape:version="1.4.2 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="996"
+     id="namedview8"
+     showgrid="false"
+     inkscape:zoom="14.75"
+     inkscape:cx="-5.2542373"
+     inkscape:cy="8"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg7384"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <metadata
+     id="metadata90">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Gnome Symbolic Icon Theme</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <title
+     id="title9167">Gnome Symbolic Icon Theme</title>
+  <path
+     class="ColorScheme-Text"
+     inkscape:connector-curvature="0"
+     style="color:#31363b;opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:1.00447"
+     d="M 10.999015,3.0002131 A 4.0359551,3.9999233 0 0 0 6.9630496,7.0001067 4.0359551,3.9999233 0 0 0 10.999015,11 4.0359551,3.9999233 0 0 0 15.034979,7.0001067 4.0359551,3.9999233 0 0 0 10.999015,3.0002131 Z m 0,0.9999734 A 3.0269738,2.9999498 0 0 1 14.025988,7.0001067 3.0269738,2.9999498 0 0 1 10.999015,10.000027 3.0269738,2.9999498 0 0 1 7.9720407,7.0001067 3.0269738,2.9999498 0 0 1 10.999015,4.0001865 Z m 0,7.9997865 A 8.0718804,7.9998169 0 0 0 3,18.999787 h 1.0168734 a 7.0628993,6.9998435 0 0 1 6.9821416,-5.99984 7.0628993,6.9998435 0 0 1 6.984114,5.99984 H 19 a 8.0718804,7.9998169 0 0 0 -8.000985,-6.999814 z"
+     id="path4149-2" />
+</svg>

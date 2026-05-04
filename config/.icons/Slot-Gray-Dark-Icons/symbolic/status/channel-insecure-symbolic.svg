@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="22"
+   height="22"
+   version="1.1"
+   id="svg2"
+   sodipodi:docname="channel-insecure-symbolic.svg"
+   inkscape:version="1.4.2 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="namedview2"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="29.619403"
+     inkscape:cx="5.3681028"
+     inkscape:cy="10.803729"
+     inkscape:current-layer="svg2">
+    <inkscape:grid
+       id="grid2"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="1"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="false" />
+  </sodipodi:namedview>
+  <g
+     id="g2"
+     transform="translate(2.5999692,2.2689695)">
+    <path
+       d="M 8.3999994,0 C 6.0362662,0 4.1333331,1.902933 4.1333331,4.2666662 V 5.210666 L 5.1999997,6.2773326 V 4.2666662 c 0,-1.7727998 1.4271998,-3.1999996 3.1999997,-3.1999996 1.7727996,0 3.1999986,1.4271998 3.1999986,3.1999996 V 6.3999993 H 5.3226662 l 1.0666667,1.0666666 h 6.2773321 c 0.590935,0 1.066667,0.4757331 1.066667,1.0666665 v 5.3333306 a 1.0496,1.0496 0 0 1 -0.2624,0.6816 l 0.762668,0.7616 c 0.349864,-0.37973 0.566399,-0.884265 0.566399,-1.4432 V 8.5333324 c 0,-1.1818664 -0.951467,-2.1333331 -2.133334,-2.1333331 V 4.2666662 C 12.666665,1.902933 10.763732,0 8.3999994,0 Z M 3.5359997,6.4959993 A 2.120533,2.120533 0 0 0 2.0000002,8.5333324 v 5.3333306 c 0,1.18187 0.9514665,2.133336 2.1333329,2.133336 h 8.5333319 c 0.116267,0 0.228267,-0.016 0.339199,-0.0331 L 11.973332,14.933316 H 4.1333331 c -0.5909334,0 -1.0666664,-0.475735 -1.0666664,-1.06667 V 8.5333324 c 0,-0.5909334 0.475733,-1.0666665 1.0666664,-1.0666665 h 0.3733335 z"
+       fill="#dedede"
+       id="path1"
+       style="stroke-width:0.999999" />
+    <path
+       class="error"
+       d="M 2.2302022,3.462 1.3995306,4.2917311 14.569865,17.462061 15.400531,16.632334 Z"
+       color="#bebebe"
+       fill="#c6262e"
+       overflow="visible"
+       style="isolation:auto;mix-blend-mode:normal;stroke-width:1.00001"
+       id="path2" />
+  </g>
+</svg>

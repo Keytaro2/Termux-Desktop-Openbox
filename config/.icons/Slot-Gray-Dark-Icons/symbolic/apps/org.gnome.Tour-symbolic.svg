@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="16"
+   height="16"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="org.gnome.Tour-symbolic.svg"
+   inkscape:version="1.4.2 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="23.625"
+     inkscape:cx="5.7142857"
+     inkscape:cy="4.9100529"
+     inkscape:current-layer="svg1" />
+  <path
+     d="M 8.0000001,2 C 5.5160005,2 3.5000002,4.01525 3.5000002,6.5000005 c 0,1.2290247 0.49404,2.342925 1.29345,3.1552493 L 6.5000003,12.5 V 14 H 9.5000004 V 12.5 L 11.206552,9.6552498 C 12.006049,8.8429255 12.5,7.7293252 12.5,6.5000005 12.5,4.0160002 10.484752,2 8.0000001,2 Z m 0,0.75 A 3.7500004,3.7500004 0 0 1 11.75,6.5000005 3.7500004,3.7500004 0 0 1 8.0000001,10.25 3.7500004,3.7500004 0 0 1 4.2500002,6.5000005 3.7500004,3.7500004 0 0 1 8.0000001,2.75 Z M 9.9043279,10.577 9.199738,11.750377 H 6.8003382 L 6.0972127,10.5785 c 0.5779577,0.270212 1.222875,0.421877 1.9028256,0.421877 0.680962,0 1.3255498,-0.152289 1.9043229,-0.423337 z m -2.6543278,1.923378 h 1.5000002 v 0.75 H 7.2500001 Z"
+     fill="#dedede"
+     id="path1"
+     style="stroke-width:0.99998;fill:#f2f2f2;fill-opacity:1" />
+</svg>

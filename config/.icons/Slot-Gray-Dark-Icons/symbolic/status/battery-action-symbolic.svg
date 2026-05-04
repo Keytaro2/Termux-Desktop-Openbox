@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="22"
+   width="22"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="battery-action-symbolic.svg"
+   inkscape:version="1.4.2 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="true"
+     inkscape:zoom="34.590909"
+     inkscape:cx="10.985545"
+     inkscape:cy="11"
+     inkscape:current-layer="svg1">
+    <inkscape:grid
+       id="grid1"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="1"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14902"
+       empspacing="5"
+       enabled="true"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <style
+       type="text/css"
+       id="current-color-scheme">.ColorScheme-NegativeText {color:#da4453;}</style>
+  </defs>
+  <path
+     style="fill:currentColor;fill-opacity:1;stroke:none"
+     class="ColorScheme-NegativeText"
+     d="m 1,8 v 6 c 0,0 0,3 3,3 3,0 10,0 13,0 3,0 3,-3 3,-3 v -1 h 0.5 c 0.277,0 0.5,-0.223 0.5,-0.5 v -3 C 21,9.223 20.777,9 20.5,9 H 20 V 8 C 20,8 20,5 17,5 14,5 7,5 4,5 1,5 1,8 1,8 Z m 1,0 c 0,0 0,-2 2,-2 2,0 11,0 13,0 2,0 2,2 2,2 v 6 c 0,0 0,2 -2,2 C 15,16 6,16 4,16 2,16 2,14 2,14 Z"
+     id="path1" />
+  <path
+     class="error"
+     d="m 8.161909,8.0005587 c -0.1690577,0 -0.3380624,0.064214 -0.4675968,0.1937529 -0.2590829,0.2590826 -0.2590829,0.6761382 0,0.9352207 L 9.5647787,11 7.6943122,12.870467 c -0.2590829,0.259083 -0.2590829,0.676139 0,0.935221 0.2590823,0.259082 0.6761375,0.259082 0.9352203,0 l 1.8704695,-1.870467 1.870466,1.870467 c 0.259083,0.259082 0.676139,0.259082 0.935221,0 0.259082,-0.259082 0.259082,-0.676138 0,-0.935221 L 11.435221,11 13.305689,9.1295323 c 0.259082,-0.2590825 0.259082,-0.6761381 0,-0.9352207 -0.259082,-0.2590826 -0.676138,-0.2590826 -0.935221,0 L 10.500002,10.064781 8.6295325,8.1943116 C 8.4999925,8.0647773 8.3309801,8.0005453 8.1619357,8.0005587 Z"
+     fill="#ff5555"
+     id="path1-5"
+     style="stroke-width:1;fill:#da4453;fill-opacity:1" />
+</svg>

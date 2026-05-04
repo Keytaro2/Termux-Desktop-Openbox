@@ -1,0 +1,41 @@
+;; 1. IMPORTAR MÓDULOS
+(include "./target/eww.yuck")
+(include "./powermenu/eww.yuck")
+
+;; 2. DEFINIR EL WIDGET (Ahora con el botón de Arch incluido)
+(defwidget lanzador []
+  (box :class "caja-botones"
+       :orientation "h"
+       :spacing 15
+       :space-evenly false
+       :halign "center"
+
+    ;; BOTÓN DE ARCH (Cambio de Wallpaper)
+    (button :onclick "~/.config/eww/scripts/change_wp.sh"
+            :class "arch-btn"
+            :tooltip "Cambiar Fondo" "󰣇")
+
+    ;; Botón del Target
+    (button :onclick "eww open --toggle target"
+            :class "btn-target"
+            :tooltip "Ver Target" "󰓾")
+
+    ;; Botón del Powermenu
+    (button :onclick "eww open --toggle powermenu"
+            :class "btn-power"
+            :tooltip "Apagar" "⏻")
+  )
+)
+
+;; 3. VENTANA PRINCIPAL (Ajustada a la derecha)
+(defwindow mis_botones
+  :monitor 0
+  :stacking "fg"
+  :windowtype "dock"
+  :wm-ignore true
+  :geometry (geometry :x "-30px" 
+                      :y "10px"
+                      :width "170px" ;; Aumentamos un poco el ancho para los 3 botones
+                      :height "55px"
+                      :anchor "top right")
+  (lanzador))

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="24"
+   viewBox="0 0 24 24"
+   width="24"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="network-cellular-5g-symbolic.svg"
+   inkscape:version="1.4.2 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="23.625"
+     inkscape:cx="11.365079"
+     inkscape:cy="10.751323"
+     inkscape:current-layer="svg1" />
+  <path
+     d="M 7.625,5 C 6.172364,5 5,6.172364 5,7.625 v 8.75 C 5,17.827636 6.172364,19 7.625,19 h 8.75 C 17.827636,19 19,17.827636 19,16.375 V 7.625 C 19,6.172364 17.827636,5 16.375,5 Z M 6.729492,7.625 H 11.125 v 1.75 H 8.5068359 v 1.75 H 9.375 c 0.878418,0.0035 1.756835,0.875 1.756835,1.75 H 11.125 v 1.75 h 0.0068 c 0,0.875 -0.881835,1.75 -1.7602531,1.75 H 6.7294895 v -1.75 h 2.6352538 v -1.75 H 6.729492 Z m 7.020508,0 h 1.75 c 0.728031,0 1.333007,0.4921879 1.548335,0.919433 C 17.263665,8.9750976 17.25,9.375 17.25,9.375 V 10.25 H 15.5 V 9.375 h -1.75 v 5.25 h 1.75 v -1.75 h -0.875 v -1.75 h 2.625 v 3.5 c 0,0 0.01363,0.399905 -0.201665,0.830559 C 16.833007,15.88282 16.228031,16.375 15.5,16.375 h -1.75 c 0,0 -0.399908,0.01363 -0.830559,-0.201666 C 12.49218,15.958007 12,15.353031 12,14.625 v -5.25 c 0,0 -0.01363,-0.3999024 0.201666,-0.830567 C 12.416989,8.1171879 13.021969,7.625 13.75,7.625 Z m 0,0"
+     fill="#aaaaaa"
+     id="path1"
+     style="fill:#f2f2f2;fill-opacity:1;stroke-width:0.999997" />
+</svg>

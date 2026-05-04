@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="16"
+   height="16"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="tool-roundedrect-symbolic.svg"
+   inkscape:version="1.4.2 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="23.625"
+     inkscape:cx="9.2486772"
+     inkscape:cy="8.8465608"
+     inkscape:current-layer="svg1" />
+  <path
+     d="M 4.5714283,2 C 3.1468575,2 2,3.1468575 2,4.5714283 V 11.428575 C 2,12.853142 3.1468575,14 4.5714283,14 H 11.428575 C 12.853142,14 14,12.853142 14,11.428575 V 4.5714283 C 14,3.1468575 12.853142,2 11.428575,2 Z m 0,0.8571425 h 6.8571467 c 0.949708,0 1.714283,0.7645717 1.714283,1.7142858 v 6.8571467 c 0,0.949708 -0.764575,1.714283 -1.714283,1.714283 H 4.5714283 c -0.9497141,0 -1.7142858,-0.764575 -1.7142858,-1.714283 V 4.5714283 c 0,-0.9497141 0.7645717,-1.7142858 1.7142858,-1.7142858 z"
+     fill="#dedede"
+     fill-rule="evenodd"
+     stop-color="#000000"
+     stroke-linecap="round"
+     stroke-width="2"
+     id="path1" />
+</svg>

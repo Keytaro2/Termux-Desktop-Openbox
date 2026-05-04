@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="22"
+   height="22"
+   version="1.1"
+   id="svg2"
+   sodipodi:docname="bookmark-missing-symbolic.svg"
+   inkscape:version="1.4.2 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview2"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="23.625"
+     inkscape:cx="6.5396825"
+     inkscape:cy="9.3544973"
+     inkscape:current-layer="svg2" />
+  <defs
+     id="defs1">
+    <style
+       id="current-color-scheme"
+       type="text/css">.ColorScheme-Text { color:#dedede; }</style>
+  </defs>
+  <g
+     id="g2"
+     transform="translate(0,0.32003475)">
+    <path
+       d="m 11.00192,2.8625845 a 0.50005,0.50005 0 0 0 -0.46875,0.32031 l -1.8711,4.8535 -5.1875,0.27344 a 0.50005,0.50005 0 0 0 -0.29102,0.88867 l 4.0352,3.2831995 -1.334,5.0215 a 0.50005,0.50005 0 0 0 0.75586,0.54883 l 4.3594,-2.8242 4,2.5918 v -1.3223 a 1.0001,1.0001 0 0 1 0.13477,-0.5 1.0001,1.0001 0 0 1 -0.13477,-0.5 v -2.1914 l -0.21875,-0.82422 0.21875,-0.17773 v -1.291 l -1.0996,0.89648 a 0.50005,0.50005 0 0 0 -0.16797,0.51562 l 1.084,4.084 -3.5449,-2.2969 a 0.50005,0.50005 0 0 0 -0.54297,0 l -3.5449,2.2969 1.084,-4.084 A 0.50005,0.50005 0 0 0 8.0997,11.909464 L 4.8243,9.2414645 9.0391,9.0188045 a 0.50005,0.50005 0 0 0 0.43945,-0.32031 l 1.5215,-3.9453 1.5215,3.9453 a 0.50005,0.50005 0 0 0 0.43945,0.32031 l 4.2148,0.22266 -0.31445,0.25586 h 1.1387 a 1.0001,1.0001 0 0 1 0.36328,0.070312 l 0.45312,-0.36914 a 0.50005,0.50005 0 0 0 -0.29102,-0.88867 l -5.1875,-0.27344 -1.8711,-4.8535 a 0.50005,0.50005 0 0 0 -0.46484,-0.32031 z"
+       style="fill:currentColor"
+       class="ColorScheme-Text"
+       id="path1" />
+    <path
+       class="warning"
+       d="m 15.99992,10.497354 v 5 h 2 v -5 z m 0,6 v 2 h 2 v -2 z"
+       fill="#ff7f2a"
+       id="path2" />
+  </g>
+</svg>

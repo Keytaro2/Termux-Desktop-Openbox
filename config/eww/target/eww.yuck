@@ -1,0 +1,69 @@
+;; --- POLLERS ---
+
+(defpoll song_title :interval "2s"
+  "audtool current-song || echo 'No Music'")
+
+(defpoll song_artist :interval "2s"
+  "audtool current-song-tuple-data artist || echo 'Audacious'")
+
+(defpoll music_status :interval "1s"
+  "audtool playback-status | grep -q 'playing' && echo '󰏤' || echo '󰐊'")
+
+(defpoll time :interval "1s"
+  "date '+%H:%M'")
+
+;; --- WINDOW ---
+
+(defwindow target
+  :stacking "fg"
+  :windowtype "normal"
+  :wm-ignore true
+  :geometry (geometry :x "150px" :y "10%" :width "340px" :height "500px")
+  (dashboard_layout))
+
+;; --- LAYOUT ---
+
+(defwidget dashboard_layout []
+  (box :class "main-container" :orientation "v" :space-evenly false
+
+    ;; Barra de búsqueda (Estética)
+    (box :class "search-bar" :orientation "h" :space-evenly false
+      (label :text "" :class "search-icon")
+      (label :text "Search..." :class "search-text"))
+
+    ;; Card de Bienvenida
+    (box :class "welcome-card" :orientation "v" :space-evenly false
+      (label :text "Welcome, Keytaro" :class "welcome-title" :halign "start")
+      (label :text "Hello! 👋" :class "welcome-sub" :halign "start")
+      (box :class "time-box" :halign "end" :space-evenly false
+        (label :text "󱑎" :class "time-icon")
+        (label :text time)))
+
+    ;; Fila de Stats (CPU, RAM, TEMP)
+    (box :class "stats-row" :orientation "h" :space-evenly true
+      (stat_circle :name "Cpu" :icon "󰻠" :value 35)
+      (stat_circle :name "Ram" :icon "󰍛" :value 62)
+      (stat_circle :name "Temp" :icon "󰏈" :value 48))
+
+    ;; Reproductor de Música (Audacious)
+    (box :class "music-card" :orientation "v" :space-evenly false
+      (label :text "󰝚 Audacious" :class "music-header") ;; <-- Cambiado de Mpd a Audacious
+      (box :orientation "h" :space-evenly false :class "music-info"
+        (box :class "album-art" (label :text "󰝚"))
+        (box :orientation "v" :valign "center"
+          (label :text song_title :limit-width 20 :class "song-name")
+          (label :text song_artist :class "artist-name")))
+
+      (box :class "music-controls" :halign "center" :spacing 30
+        (button :onclick "audtool playlist-reverse" "󰒮")
+        (button :onclick "audtool playback-playpause" music_status)
+        (button :onclick "audtool playlist-advance" "󰒭")))
+  ))
+
+(defwidget stat_circle [name icon value]
+  (box :class "stat-card" :orientation "v" :space-evenly false
+    (label :text name :class "stat-label")
+    (box :class "circle-container"
+      (circular-progress :value value :thickness 6 :start-at 75
+        (label :text icon :class "stat-icon")))))
+

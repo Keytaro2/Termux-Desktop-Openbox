@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="22"
+   height="22"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="computer-fail-symbolic.svg"
+   inkscape:version="1.4.2 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="23.625"
+     inkscape:cx="10.222222"
+     inkscape:cy="7.8730159"
+     inkscape:current-layer="svg1" />
+  <path
+     d="M 3.5625,2.9999999 C 2.973875,2.9999999 2.5,3.4757333 2.5,4.0666666 V 14.733333 C 2.5,15.324267 2.973875,15.8 3.5625,15.8 h 5.3124998 v 1.066666 c 0,0 0,1.066667 -1.0624999,1.066667 V 19 H 14.187499 V 17.933333 C 13.125,17.933333 13.125,16.866666 13.125,16.866666 V 15.8 h 5.3125 C 19.026125,15.8 19.5,15.324267 19.5,14.733333 V 4.0666666 c 0,-0.5909333 -0.473875,-1.0666667 -1.0625,-1.0666667 z m 0.5312499,1.0624 H 17.906249 c 0,0 0.531251,0 0.531251,0.5333333 v 9.5999998 c 0,0.533335 -0.531251,0.533335 -0.531251,0.533335 H 4.0937499 C 3.5625,14.729068 3.5625,14.195733 3.5625,14.195733 V 4.5957332 c 0,0 0,-0.5333333 0.5312499,-0.5333333 z M 6.7499998,6.1957334 V 7.2623998 H 7.8124999 V 6.1957334 Z M 7.8124999,7.2623998 V 8.3290666 H 8.8749998 V 7.2623998 Z m 1.0624999,0 h 1.0625 V 6.1957334 h -1.0625 z m 0,1.0666668 v 1.0666666 h 1.0625 V 8.3290666 Z m -1.0624999,0 H 6.7499998 V 9.3957332 H 7.8124999 Z M 12.0625,6.1957334 V 7.2623998 H 13.125 V 6.1957334 Z m 1.0625,1.0666664 v 1.0666668 h 1.062499 V 7.2623998 Z m 1.062499,0 H 15.25 V 6.1957334 h -1.062501 z m 0,1.0666668 V 9.3957331 H 15.25 V 8.3290666 Z m -1.062499,0 H 12.0625 V 9.3957331 H 13.125 Z M 7.8124999,10.4624 v 1.066667 H 14.187499 V 10.4624 Z m 6.3749991,1.066667 v 1.066666 H 15.25 v -1.066666 z m -6.3749991,0 H 6.7499998 v 1.066666 h 1.0625001 z"
+     fill="#dedede"
+     id="path1"
+     style="stroke-width:1;fill:#f2f2f2;fill-opacity:1" />
+</svg>

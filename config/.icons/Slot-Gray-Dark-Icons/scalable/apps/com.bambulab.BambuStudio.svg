@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="62"
+   height="62"
+   version="1.1"
+   id="svg11"
+   sodipodi:docname="bambustudio.svg"
+   inkscape:version="1.4.2 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs11" />
+  <sodipodi:namedview
+     id="namedview11"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="11.921875"
+     inkscape:cx="32"
+     inkscape:cy="32"
+     inkscape:current-layer="svg11" />
+  <g
+     id="g11"
+     transform="matrix(0.97864769,0,0,0.98245614,-0.41459076,-0.92982456)">
+    <path
+       d="M 48.157142,61 H 16.042858 C 9.0178572,61 4,56 4,49 V 17 C 4,10 9.0178572,5 16.042858,5 H 48.157142 C 55.182142,5 60.2,10 60.2,17 v 32 c 0,7 -5.017858,12 -12.042858,12 z"
+       style="opacity:0.2;stop-color:#000000"
+       id="path1" />
+    <path
+       d="M 48,60 H 16 C 9,60 4,55 4,48 V 16 C 4,9 9,4 16,4 h 32 c 7,0 12,5 12,12 v 32 c 0,7 -5,12 -12,12 z"
+       style="fill:#2e9e45;stop-color:#000000;fill-opacity:1"
+       id="path2" />
+    <path
+       d="M 16,4 C 9.000007,4 4,9.000007 4,16 v 1 C 4,10.000007 9.017975,5 16.042969,5 H 48.15625 C 54.070829,5 58.550033,8.5515108 59.822266,13.849609 58.90441,8.0013173 54.257659,4 48,4 Z"
+       style="opacity:0.2;fill:#dffee2;stop-color:#000000"
+       id="path3" />
+    <path
+       d="M 33,28 V 55 H 48 V 34.5 Z"
+       style="opacity:0.2"
+       id="path4" />
+    <path
+       d="m 33,13 v 12 l 15,6.5 V 13 Z"
+       style="opacity:0.2"
+       id="path5" />
+    <path
+       d="M 15.000456,38.5 15,13 h 14.999999 v 19.5 z"
+       style="opacity:0.2"
+       id="path6" />
+    <path
+       d="M 15,55 V 41.5 L 29.999999,35.5 30,55 Z"
+       style="opacity:0.2"
+       id="path7" />
+    <path
+       d="M 33,27 V 54 H 48 V 33.5 Z"
+       style="fill:#f3f3f3"
+       id="path8" />
+    <path
+       d="m 33,12 v 12 l 15,6.5 V 12 Z"
+       style="fill:#f3f3f3"
+       id="path9" />
+    <path
+       d="M 15,54 V 40.5 L 29.999999,34.5 30,54 Z"
+       style="fill:#f3f3f3"
+       id="path10" />
+    <path
+       d="M 15.000456,37.5 15,12 h 14.999999 v 19.5 z"
+       style="fill:#f3f3f3"
+       id="path11" />
+  </g>
+</svg>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="16px"
+   height="16px"
+   version="1.1"
+   viewBox="0 0 16 16"
+   id="svg1"
+   sodipodi:docname="funnel-symbolic.svg"
+   inkscape:version="1.4.2 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="23.625"
+     inkscape:cx="7.6825397"
+     inkscape:cy="11.851852"
+     inkscape:current-layer="svg1" />
+  <path
+     d="M 2.000009,2.000024 2.567193,2.66096 6.7999926,7.5999996 V 14 l 2.4,-1.600006 V 7.5999996 L 13.999991,2 Z M 3.7406496,2.8000234 H 12.259049 L 8.3996886,7.3031436 V 11.971862 L 7.599689,12.50624 V 7.3031196 Z"
+     color="#000000"
+     fill="#dedede"
+     style="stroke-width:0.999997;-inkscape-stroke:none;fill:#f2f2f2;fill-opacity:1"
+     id="path1" />
+</svg>

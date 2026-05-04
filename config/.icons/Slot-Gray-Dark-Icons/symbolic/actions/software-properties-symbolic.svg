@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="16"
+   height="16"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="software-properties-symbolic.svg"
+   inkscape:version="1.4 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="48.4375"
+     inkscape:cx="7.9896774"
+     inkscape:cy="8.8877419"
+     inkscape:window-width="1920"
+     inkscape:window-height="998"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <path
+     d="M 8,2 C 4.6895,2 2,4.6894999 2,7.9999999 2,11.3105 4.6895,14 8,14 11.3105,14 14,11.3105 14,7.9999999 14,4.6894999 11.3105,2 8,2 Z m -0.03,0.7515 -0.015,0.4627493 0.6862494,0.1027512 0.4635,-0.4484999 a 5.199,5.199 0 0 1 1.2990026,0.4687487 l -0.161252,0.2595 0.4575,0.4050001 -0.4575,0.3825 0.1785,0.4575 1.017,-0.483 0.636,0.483 0.033,-0.1042515 c 0.138,0.174 0.262496,0.3577495 0.378,0.5475 l -0.641249,0.1162523 -0.381,-0.4072502 -1.168503,0.0765 -0.7124989,1.119 0.4837479,1.194 1.575751,0.483 0.305249,1.8562502 0.380249,0.9652508 0.2685,-0.152249 A 5.2515,5.2515 0 0 1 8,13.25 c -2.8965,0 -5.25,-2.3535 -5.25,-5.2500001 0,-0.609 0.10875,-1.1917505 0.3,-1.7355 l 0.0255,0.102 0.813,0.2287495 1.0672496,0.7875 0.025502,1.1445 0.6870001,0.9405 0.405,2.5424986 L 6.8104994,12.46775 6.608,11.527248 7.853,9.7985 8.387,8.6299999 l -1.245,-1.17 -1.3477506,-0.6345 -0.5587494,0.33 -0.6615,-0.9922505 -0.381,0.1785 -0.33,-0.5595 0.585,-0.3045 0.558,0.33 0.9667494,-1.1947495 1.3972506,-0.864 -0.381,-0.7125 -1.1437506,0.408 -0.1425,-0.1582506 a 5.2102494,5.2102494 0 0 1 2.268,-0.5347493 z"
+     color="#000000"
+     fill="#dedede"
+     font-family="sans-serif"
+     font-weight="400"
+     overflow="visible"
+     solid-color="#000000"
+     style="font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;text-transform:none;white-space:normal;shape-padding:0;isolation:auto;mix-blend-mode:normal;stroke-width:0.75"
+     id="path1" />
+</svg>

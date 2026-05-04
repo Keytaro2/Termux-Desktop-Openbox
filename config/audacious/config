@@ -1,0 +1,8 @@
+
+[audacious]
+repeat=TRUE
+
+[qtui]
+menu_visible=FALSE
+player_height=245
+player_width=433

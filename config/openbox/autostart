@@ -1,0 +1,40 @@
+# compositor
+sleep 2
+
+# Set root background color from pywal
+#xsetroot -solid "$(head -n 1 "$HOME/.cache/wal/colors")"
+
+# Picom
+picom &
+
+# Launch Polybar (shapes)
+#bash /data/data/com.termux/files/home/.config/polybar/shapes/launch.sh
+tint2 -c ~/.config/tint2/dd.tint2rc &
+sleep 2
+
+feh --bg-fill $HOME/storage/downloads/water-anime-style.jpg
+
+# dock
+#tint2 > /dev/null 2>&1 &
+
+# Other apps
+#thunar --daemon &
+
+# dunst
+#dunst > /dev/null 2>&1 &
+
+# clipboard monitor
+#roficlip_1.py --daemon &
+
+# center all window
+#devilspie2 > /dev/null 2>&1 &
+
+# Eww
+eww daemon &
+
+sleep 2
+
+# Botones
+
+eww open mis_botones &
+#eww open arch_button &

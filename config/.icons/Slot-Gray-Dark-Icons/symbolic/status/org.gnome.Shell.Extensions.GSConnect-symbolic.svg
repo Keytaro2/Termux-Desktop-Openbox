@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="22"
+   height="22"
+   version="1.1"
+   id="svg2"
+   sodipodi:docname="org.gnome.Shell.Extensions.GSConnect-symbolic.svg"
+   inkscape:version="1.4 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="namedview2"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="24.21875"
+     inkscape:cx="11.003871"
+     inkscape:cy="12.903226"
+     inkscape:window-width="1920"
+     inkscape:window-height="998"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <g
+     id="g2"
+     transform="translate(2,1)">
+    <path
+       d="M 2.4640012,6.5717558 C 1.6525723,6.5717558 1,7.2243725 1,8.0358592 V 16.537028 C 1,17.348519 1.6525723,18 2.4640012,18 h 5.0731436 c 0.811429,0 1.4628573,-0.651481 1.4628573,-1.462972 V 8.0347172 c 0,-0.8103447 -0.6514283,-1.4629614 -1.4628573,-1.4629614 H 2.4628572 Z m 0.1485707,1.1429373 h 0.673142 c 0,0.6331897 0.5097156,1.1429395 1.1428581,1.1429395 h 1.1428581 c 0.6331424,0 1.1428559,-0.5097498 1.1428559,-1.1429395 h 0.6742861 c 0.2594298,0 0.4685719,0.208015 0.4685719,0.4686053 v 8.1262956 c 0,0.304019 -0.2445718,0.548615 -0.5485712,0.548615 H 2.6914292 C 2.3881938,16.858843 2.142228,16.612843 2.1428581,16.309594 V 8.1832984 c 0,-0.2605903 0.2080002,-0.4686053 0.4685698,-0.4686053 z"
+       fill="#dedede"
+       id="path1"
+       style="stroke-width:1.14283" />
+    <path
+       d="M 3.2857139,2 C 2.0194291,2 1,3.0195017 1,4.2858768 V 5.4288163 H 2.1428581 V 4.2858768 c 0,-0.6331875 0.5097135,-1.1429373 1.1428558,-1.1429373 H 14.71428 c 0.633155,0 1.14287,0.5097498 1.14287,1.1429373 v 8.0005662 c 0,0.6332 -0.509715,1.142952 -1.14287,1.142952 h -4.571421 v 1.142931 H 14.71428 C 15.980569,14.572326 17,13.552822 17,12.286443 V 4.2858768 C 17,3.0195017 15.980569,2 14.71428,2 Z"
+       fill="#dedede"
+       stroke-linecap="square"
+       stroke-width="2.28587"
+       id="path2" />
+    <rect
+       x="10.142859"
+       y="15.715258"
+       width="4.5714302"
+       height="1.142939"
+       fill="#dedede"
+       stroke-linecap="square"
+       stroke-width="2.28587"
+       id="rect2" />
+  </g>
+</svg>

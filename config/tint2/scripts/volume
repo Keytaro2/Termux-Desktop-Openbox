@@ -1,0 +1,21 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+# Obtener el volumen actual del flujo "music"
+#vol=$(termux-volume | jq '.[] | select(.stream == "music") | .volume')
+#max=$(termux-volume | jq '.[] | select(.stream == "music") | .max_volume')
+
+# Calcular porcentaje simple
+#percent=$(( vol * 100 / max ))
+
+# Elegir icono Nerd Font según el nivel
+if [ "$percent" -eq 0 ]; then
+    icon=" 󰝟" # Muted
+elif [ "$percent" -lt 33 ]; then
+    icon=" 󰕿" # Low
+elif [ "$percent" -lt 66 ]; then
+    icon=" 󰖀" # Mid
+else
+    icon=" 󰕾" # High
+fi
+
+echo "$icon $percent"

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="22"
+   height="22"
+   version="1"
+   id="svg2"
+   sodipodi:docname="prime-indicator-intel-symbolic.svg"
+   inkscape:version="1.4.2 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="namedview2"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="23.625"
+     inkscape:cx="6.2222222"
+     inkscape:cy="15.280423"
+     inkscape:current-layer="svg2" />
+  <g
+     id="g3"
+     transform="translate(3,3)">
+    <g
+       id="g2">
+      <path
+         d="M 2,5.462 H 2.76782 V 6.21801 H 2 Z m 11.232,0.75601 h 0.76782 v 4.3201 C 13.33933,10.47907 13.232,10.24522 13.232,9.81754 Z M 7.1839,6.261886 h 0.76782 v 0.92814 h 0.76782 v 0.75601 H 7.95172 v 1.08 c 0,0.19505 0.041622,0.75601 0.24975,0.75601 h 0.51807 v 0.75601 H 7.95172 c -0.71502,0 -0.76782,-0.88479 -0.76782,-1.3618 z m -5.1841,0.82014 h 0.76782 v 3.4561 C 2.10721,10.481448 1.9998,9.912556 1.9998,9.502026 Z m 1.4395,0 h 1.9204 c 0.76617,-0.00802 1.1526,0.59868 1.1526,1.0361 v 2.4199 H 5.74448 v -2.4199 c 0,-0.18248 -0.25826,-0.34426 -0.5147,-0.34426 h -1.0226 v 2.7642 H 3.43936 Z m 7.9466,0 h 0.0017 c 0.92622,8.324e-4 1.4597,0.72922 1.4597,1.6858 v 0.38813 h -2.1938 c 0.03533,0.38776 0.29996,0.66995 0.7577,0.66995 0.38631,0 0.57885,-0.10467 0.80158,-0.31894 l 0.53495,0.49951 c -0.34484,0.3297 -0.70505,0.52988 -1.3433,0.52988 -0.83256,0 -1.6285,-0.44232 -1.6285,-1.7314 0,-1.1009 0.69443,-1.7223 1.6099,-1.723 z m -0.07593,0.69189 c -0.42366,9.26e-5 -0.76722,0.30892 -0.76783,0.6902 h 1.5373 c -6.15e-4,-0.38187 -0.3452,-0.69094 -0.76952,-0.6902 z"
+         fill="#dedede"
+         stroke-width="0.86402"
+         id="path1" />
+      <path
+         d="M 2,1 C 0.892,1 0,1.892 0,3 v 10 c 0,1.108 0.892,2 2,2 h 12 c 1.108,0 2,-0.892 2,-2 V 3 C 16,1.892 15.108,1 14,1 Z m 0,1 h 12 c 0.554,0 1,0.446 1,1 v 10 c 0,0.554 -0.446,1 -1,1 H 2 C 1.446,14 1,13.554 1,13 V 3 C 1,2.446 1.446,2 2,2 Z"
+         fill="#dedede"
+         fill-rule="evenodd"
+         stop-color="#000000"
+         stroke-width="0"
+         style="paint-order:stroke fill markers"
+         id="path2" />
+    </g>
+  </g>
+</svg>

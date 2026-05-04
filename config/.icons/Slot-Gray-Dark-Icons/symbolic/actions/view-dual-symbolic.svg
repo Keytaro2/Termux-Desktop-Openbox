@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   style="clip-rule:evenodd;fill-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg3"
+   sodipodi:docname="view-dual-symbolic.svg"
+   inkscape:version="1.4.2 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs3" />
+  <sodipodi:namedview
+     id="namedview3"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="23.625"
+     inkscape:cx="10.201058"
+     inkscape:cy="10.878307"
+     inkscape:current-layer="svg3" />
+  <g
+     id="g11">
+    <g
+       id="g10">
+      <g
+         id="g9">
+        <g
+           id="g8">
+          <g
+             id="g7">
+            <g
+               id="g6">
+              <g
+                 id="g5">
+                <g
+                   id="g4"
+                   transform="translate(1.2599922,1.26)">
+                  <g
+                     transform="matrix(0,0.82644628,-0.82644628,0,13.351578,0.12842981)"
+                     id="g1"
+                     style="stroke-width:1.20999">
+                    <path
+                       d="m 3,9 h 10 v 0.98 c 0,0.007 0.004,0.013 0.004,0.02 v 2 C 13.004,12.007 13,12.013 13,12.02 V 13 H 3 Z"
+                       fill="#dfdfdf"
+                       id="path1"
+                       style="stroke-width:1.20999" />
+                  </g>
+                  <g
+                     transform="matrix(0,0.82644628,-0.82644628,0,18.486618,0.12842981)"
+                     id="g2"
+                     style="stroke-width:1.20999">
+                    <path
+                       d="m 3,9 h 10 v 0.98 c 0,0.007 0.004,0.013 0.004,0.02 v 2 C 13.004,12.007 13,12.013 13,12.02 V 13 H 3 Z"
+                       fill="#dfdfdf"
+                       id="path2"
+                       style="stroke-width:1.20999" />
+                  </g>
+                  <g
+                     transform="matrix(0,0.82644628,-0.82644628,0,13.351578,0.12842981)"
+                     id="g3"
+                     style="stroke-width:1.20999">
+                    <path
+                       d="M 15.26,3.082 C 15.26,1.789 14.211,0.74 12.918,0.74 H 3.082 C 1.789,0.74 0.74,1.789 0.74,3.082 v 9.836 c 0,1.293 1.049,2.342 2.342,2.342 h 9.836 c 1.293,0 2.342,-1.049 2.342,-2.342 z m -0.895,0.08 c 0,-0.843 -0.684,-1.527 -1.527,-1.527 H 3.162 c -0.843,0 -1.527,0.684 -1.527,1.527 v 9.676 c 0,0.843 0.684,1.527 1.527,1.527 h 9.676 c 0.843,0 1.527,-0.684 1.527,-1.527 z"
+                       fill="#dfdfdf"
+                       id="path3"
+                       style="stroke-width:1.20999;fill:#f3f3f3;fill-opacity:1" />
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
