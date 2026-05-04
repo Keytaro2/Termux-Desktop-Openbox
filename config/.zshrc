@@ -112,8 +112,8 @@ source $ZSH/oh-my-zsh.sh
 
 # Alias
 alias ls='lsd'
-alias panes="$HOME/.local/share/panes"
-alias colortest="$HOME/.local/share/colortest-slim"
+alias panes="$PREFIX/bin/panes"
+alias colortest="$PREFIX/bin/colortest-slim"
 
 # Sources
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
