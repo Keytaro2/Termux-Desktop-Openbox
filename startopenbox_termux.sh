@@ -22,11 +22,11 @@ export PULSE_SERVER=127.0.0.1
 
 
 # Hardware acceleration for Mali GPUs
-if ! pgrep -x "virgl_test_ser" > /dev/null; then
-    virgl_test_server_android &
-fi
-export GALLIUM_DRIVER=virpipe
-export MESA_GL_VERSION_OVERRIDE=4.0
+#if ! pgrep -x "virgl_test_ser" > /dev/null; then
+#    virgl_test_server_android &
+#fi
+#export GALLIUM_DRIVER=virpipe
+#export MESA_GL_VERSION_OVERRIDE=4.0
 
 # Run Openbox Desktop
 env DISPLAY=:0 dbus-launch --exit-with-session openbox-session & > /dev/null 2>&1
