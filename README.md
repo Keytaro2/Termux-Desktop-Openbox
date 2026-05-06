@@ -95,7 +95,7 @@ Open a GitHub Issue with the error screenshot or log
 
 
 
-| ![](images/img3.png) | ![](https://github.com/user-attachments/assets/1f5bce6b-9e2a-4a88-a1ce-d44da4308825) | ![](images/img3.png) |
+| ![](images/img3.png) | ![](https://github.com/user-attachments/assets/945fcb08-d610-433f-861c-9ff798469588) | ![](images/img3.png) |
 
 
 
