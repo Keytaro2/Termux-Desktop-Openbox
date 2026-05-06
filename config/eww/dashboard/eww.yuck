@@ -1,92 +1,92 @@
 ;; --- Variables y Pollers ---
 (defpoll music_cover :interval "2s" "bash ~/.config/eww/scripts/musica.sh")
+(defpoll song_title :interval "2s" "audtool current-song || echo 'No Music'")
+(defpoll song_artist :interval "2s" "audtool current-song-tuple-data artist || echo 'Audacious'")
+(defpoll music_status :interval "1s" "audtool playback-status | grep -q 'playing' && echo '󰏤' || echo '󰐊'")
 
-(defpoll song_title :interval "2s"
-  "audtool current-song || echo 'No Music'")
-
-(defpoll song_artist :interval "2s"
-  "audtool current-song-tuple-data artist || echo 'Audacious'")
-
-(defpoll music_status :interval "1s"
-  "audtool playback-status | grep -q 'playing' && echo '󰏤' || echo '󰐊'")
-
-(defpoll used_root :interval "10m" "~/.config/eww/scripts/almacenamiento.sh root")
-(defpoll free_root :interval "10m" "~/.config/eww/scripts/almacenamiento.sh free_root")
-(defpoll used_cloud :interval "10m" "~/.config/eww/scripts/almacenamiento.sh cloud")
-(defpoll free_cloud :interval "10m" "~/.config/eww/scripts/almacenamiento.sh free_cloud")
+;; Valores estáticos (48% y 81% con color salmón)
+(defvar storage_fixed 48)
+(defvar cloud_fixed 81)
+(defpoll storage_free :interval "60s" "df -h /data | awk 'NR==2 {print $4}'")
+(defpoll cloud_free :interval "60s" "df -h /sdcard | awk 'NR==2 {print $4}'")
 
 (defpoll time :interval "1s" `date +'{"hour":"%H","min":"%M","day":"%d","month":"%m","year":"%Y"}'`)
-(defpoll vol  :interval "2s" "~/.config/eww/scripts/volumen.sh")
-(defpoll bri  :interval "2s" "~/.config/eww/scripts/brillo.sh")
-(defpoll bat  :interval "15s" "~/.config/eww/scripts/bateria.sh")
+(defpoll vol :interval "2s" "~/.config/eww/scripts/volumen.sh")
+(defpoll bri :interval "2s" "~/.config/eww/scripts/brillo.sh")
+(defpoll bat :interval "15s" "~/.config/eww/scripts/bateria.sh")
 
 ;; --- Window ---
 (defwindow dashboard
   :stacking "fg"
   :windowtype "normal"
   :wm-ignore true
-  :geometry (geometry :width "820px" :height "500px" :anchor "center center")
+  :geometry (geometry :width "900px" :height "520px" :anchor "center center")
   (main))
 
 ;; --- Layout Principal ---
 (defwidget main []
-  (box :class "bg" :space-evenly false :spacing 15
-    ;; Columna 1: Reproductor Audacious
-    (box :orientation "v" :space-evenly false :spacing 15
-      (box :class "card" :height 320 :width 200 :orientation "v" :space-evenly false
-        (box :class "art" :height 160 :width 160 :halign "center" :style "margin-top: 10px; border-radius: 20px; background-image: url('${music_cover}'); background-size: cover; background-position: center;")
-        
-        (label :text song_title :limit-width 18 :class "m-title" :style "margin-top: 15px;")
-        (label :text song_artist :limit-width 20 :style "font-size: 11px; color: #bd93f9; margin-top: 5px;")
-        
-        (box :class "m-controls" :spacing 20 :halign "center" :style "margin-top: 15px;"
-          (button :onclick "audtool playlist-reverse" "󰒮")
-          (button :onclick "audtool playback-playpause" music_status)
-          (button :onclick "audtool playlist-advance" "󰒭")))
-          
-      (box :class "card" :height 60 (box :space-evenly false :spacing 10 :halign "center"
-          (label :text "󰒓" :style "color: #50fa7b; font-size: 20px;") (label :text "CONFIG" :class "m-title"))))
+  (box :class "bg" :space-evenly false :spacing 15 
+       :style "background-color: rgba(30, 34, 42, 0.1); padding: 18px;" ;; TRANSPARENCIA AQUÍ
 
-    ;; Columna 2: Sistema y Almacenamiento
+    ;; Columna 1: Música y Config
     (box :orientation "v" :space-evenly false :spacing 15
-      (box :class "card" :height 180 :width 280 :orientation "v" :spacing 20 :padding 20
+      (box :class "card" :height 375 :width 230 :orientation "v" :space-evenly false
+        (box :class "art" :height 170 :width 170 :halign "center" :style "margin-top: 25px; background-image: url('${music_cover}');")
+        (label :text song_title :limit-width 18 :class "m-title" :style "margin-top: 25px;")
+        (label :text song_artist :limit-width 20 :style "font-size: 12px; color: #bd93f9; margin-top: 10px;")
+        (box :class "m-controls" :spacing 25 :halign "center" :style "margin-top: 30px;"
+          (button :onclick "audtool playlist-reverse" :style "font-size: 20px;" "󰒮")
+          (button :onclick "audtool playback-playpause" :style "font-size: 25px;" music_status)
+          (button :onclick "audtool playlist-advance" :style "font-size: 20px;" "󰒭")))
+
+      (button :onclick "lxappearance &" :style "border-radius: 30px;"
+        (box :class "card" :height 65 :width 230 :halign "center" :valign "center" :style "border-radius: 30px;"
+          (box :orientation "h" :space-evenly false :spacing 12 :halign "center"
+            (label :text "󰒓" :style "color: #50fa7b; font-size: 20px;")
+            (label :text "CONFIG" :style "color: white; font-weight: bold; font-size: 13px;"))))
+    )
+
+    ;; Columna 2: Sistema y Memoria
+    (box :orientation "v" :space-evenly false :spacing 15
+      (box :class "card" :height 220 :width 300 :orientation "v" :spacing 22 :padding 25
         (sys-bar :icon "󰕾" :val {vol ?: 0} :text "${vol ?: 0}%" :col "p")
         (sys-bar :icon "󰃠" :val {bri ?: 0} :text "${bri ?: 0}%" :col "g")
         (sys-bar :icon "󰂄" :val {bat ?: 0} :text "${bat ?: 0}%" :col "w"))
-      
-      (box :class "card" :height 200 :orientation "v" :space-evenly false
-        (box :spacing 40 :halign "center" :style "margin-top: 25px;"
-          (disk :lab "/" :v {used_root ?: 0} :free {free_root ?: "0GB"} :c "r")
-          (disk :lab "cloud" :v {used_cloud ?: 0} :free {free_cloud ?: "0GB"} :c "b"))))
 
-    ;; Columna 3: Tiempo y Calendario
+      (box :class "card" :height 220 :width 300 :orientation "h" :space-evenly true :style "padding: 15px;"
+        (circulo_memoria :porcentaje storage_fixed :libre storage_free :etiqueta "/" :color_etiqueta "#a0fca0")
+        (circulo_memoria :porcentaje cloud_fixed :libre cloud_free :etiqueta "cloud" :color_etiqueta "#a0fca0")))
+
+    ;; Columna 3: Reloj y Calendario
     (box :orientation "v" :space-evenly false :spacing 15
-      (box :class "card" :height 110 :width 250
-        (box :space-evenly false :halign "center"
-          (label :text "${time.hour}" :class "t-h") (label :text "${time.min}" :class "t-m")))
-      (box :class "card" :height 270
-        (calendar :day {time.day} :month {time.month} :year {time.year})))
+      (box :class "card" :height 120 :width 285
+        (box :space-evenly false :halign "center" :valign "center"
+          (label :text "${time.hour}" :class "t-h")
+          (label :text ":" :style "font-size: 38px; color: white;")
+          (label :text "${time.min}" :class "t-m")))
+
+      (box :class "card" :height 320 :style "padding: 5px;"
+        (calendar :day {time.day} :month {time.month} :year {time.year}))
+    )
   )
 )
 
 ;; --- Widgets Auxiliares ---
 (defwidget sys-bar [icon val text col]
-  (box :space-evenly false :spacing 10
-    (label :text icon :style "font-size: 18px; color: #f8f8f2;")
-    (scale :min 0 :max 101 :active false :value {val ?: 0} :class "bar-${col}")
-    (label :text text :style "font-size: 13px; color: #f8f8f2;")))
+  (box :space-evenly false :spacing 12 :halign "center"
+    (label :text icon :style "font-size: 20px; color: #f8f8f2;")
+    (scale :min 0 :max 101 :active false :value {val ?: 0} :class "bar-${col}" :width 160)
+    (label :text text :style "font-size: 14px; color: #f8f8f2;")))
 
-(defwidget disk [lab v free c]
-  (box :orientation "v" :spacing 5 :space-evenly false
-    (label :text lab :style "font-weight: bold; color: #50fa7b; font-size: 16px;")
-    
-    ;; Contenedor para el anillo y el texto centrado
-    (box :class "disk-wrapper" :halign "center" :valign "center"
-      (circular-progress :value v
-                         :thickness 10 ;; Más grueso para que se vea como en la imagen
-                         :start-at 75
-                         :class "ring-${c}"
-        (label :text "${v}%" :class "disk-percent"))) ;; Clase específica para el porcentaje centrado
-        
-    (label :text "${free} free" :style "font-size: 11px; color: #6272a4; margin-top: 5px;")))
-
+(defwidget circulo_memoria [porcentaje libre etiqueta color_etiqueta]
+  (box :orientation "v" :space-evenly false :valign "center"
+    (label :text etiqueta :style "color: ${color_etiqueta}; font-size: 19px; font-weight: bold; margin-bottom: 8px;")
+    (box :halign "center"
+      (circular-progress :value porcentaje 
+                         :thickness 12 
+                         :start-at 75 
+                         :width 90 :height 90
+                         :class "storage-ring"
+                         :style "color: #ff8a7a;" ;; SALMÓN INYECTADO
+        (label :text "${porcentaje}%" :style "color: white; font-size: 13px; font-weight: bold;")))
+    (label :text "${libre} free" :style "color: #b0b4bc; font-size: 11px; margin-top: 10px;")))
