@@ -82,7 +82,7 @@ Open a GitHub Issue with the error screenshot or log
 
 | | | | |
 |---|---|---|---|
-| ![](images/img3.png) | ![](https://github.com/user-attachments/assets/76ad5d59-e06e-49b5-ba84-288fc5065c34) | ![](https://github.com/user-attachments/assets/19e56de9-1521-49e0-9b1e-fbcc3bd3dbb0) | ![](images/img3.png) |
+| ![](images/img3.png) | ![](https://github.com/user-attachments/assets/d1b62502-055e-4935-b9e1-70216da2f29f) | ![](https://github.com/user-attachments/assets/19e56de9-1521-49e0-9b1e-fbcc3bd3dbb0) | ![](images/img3.png) |
 
 
 
