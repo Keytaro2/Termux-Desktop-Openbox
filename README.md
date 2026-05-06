@@ -14,7 +14,7 @@
 
 <p align="center">
 
-<img src="https://github.com/user-attachments/assets/30d6b47e-6f42-4704-8f28-c915cdc6301c" width="90%" alt="Termux Desktop Screenshot">
+<img src="https://github.com/user-attachments/assets/4c4bc80a-04ce-4e5f-b61c-5540b58d041b" width="90%" alt="Termux Desktop Screenshot">
 
 </p>
 
