@@ -12,7 +12,7 @@ picom &
 tint2 -c ~/.config/tint2/dd.tint2rc &
 sleep 2
 
-feh --bg-fill /data/data/com.termux/files/home/.config/Wallpaper/water-anime-style.jpg
+feh --bg-fill ~/.config/Wallpaper/a.png
 
 # dock
 #tint2 > /dev/null 2>&1 &
@@ -35,6 +35,4 @@ eww daemon &
 sleep 2
 
 # Botones
-
 eww open mis_botones &
-#eww open arch_button &

@@ -1,0 +1,83 @@
+;; --- 1. POLLERS CON PREFIJO ÚNICO ---
+(defpoll sys_cpu :interval "3s"
+  "uptime | awk -F'load average:' '{ print $2 }' | cut -d, -f1 | awk '{usage=$1*12.5; if(usage>100) print 100; else print usage}'")
+
+(defpoll sys_ram :interval "5s"
+  "free | grep Mem | awk '{print $3/$2 * 100.0}'")
+
+(defpoll sys_bat :interval "15s" "~/.config/eww/scripts/bateria.sh")
+
+(defpoll sys_bright :interval "1s" "~/.config/eww/scripts/brillo.sh")
+
+(defpoll sys_vol :interval "1s" "termux-volume | jq '.[] | select(.stream==\"music\") | .volume'")
+
+(defpoll sys_time :interval "1s" "date '+%A, %b %d'")
+
+;; --- 2. VENTANA DASHBOARD (Ajustada a la derecha) ---
+(defwindow cpu
+  :stacking "fg"
+  :windowtype "normal"
+  :wm-ignore true
+  :geometry (geometry :x "-30px"            
+                      :y "0%"
+                      :width "420px"
+                      :height "260px"
+                      :anchor "right center")
+  (cpu_layout))
+
+;; --- 3. LAYOUT PRINCIPAL CON ESTILOS INYECTADOS ---
+;; Forzamos el fondo para evitar la transparencia vista en 1000001928_2.jpg
+(defwidget cpu_layout []
+  (box :style "background-color: #1a1b26; border-radius: 28px; border: 2px solid #89b4fa; padding: 10px;"
+;;border: 1px solid #2d2a28; padding: 10px;"
+;;#1a1918
+       :orientation "h" 
+       :space-evenly false
+
+    ;; --- COLUMNA IZQUIERDA (Info y Sliders) ---
+    (box :orientation "v" :space-evenly false :width 280
+
+      ;; Perfil
+      (box :style "background-color: #1a1918; border-radius: 18px; margin: 6px; padding: 5px;"
+;;#221f1e; 
+           :orientation "h" :space-evenly false
+        (box :style "background-image: url('assets/XD.jpg'); background-size: cover; min-width: 65px; min-height: 65px; border-radius: 50%; border: 3px solid #e69138; margin: 15px;")
+        (box :orientation "v" :valign "center"
+          (label :text "sushi" :halign "start" :style "font-size: 24px; color: #c4b28a; font-weight: bold;")
+          (label :text "on Termux" :halign "start" :style "font-size: 14px; color: #7a7267;")))
+
+      ;; Sliders (Brillo y Volumen)
+      (box :style "background-color: #1a1918; border-radius: 18px; margin: 6px; padding: 15px;" 
+           :orientation "v" :spacing 15
+        (box :orientation "h" :space-evenly false
+          (label :text "󰃠" :style "color: #e69138; font-size: 22px; margin-right: 10px;")
+          (scale :min 0 :max 255 :value {sys_bright ?: 0} :onchange "termux-brightness {}" :hexpand true))
+        (box :orientation "h" :space-evenly false
+          (label :text "󰕾" :style "color: #d9534f; font-size: 22px; margin-right: 10px;")
+          (scale :min 0 :max 15 :value {sys_vol ?: 0} :onchange "termux-volume music {}" :hexpand true)))
+
+      ;; Info Inferior
+      (box :style "background-color: #1a1918; border-radius: 18px; margin: 6px; padding: 10px;" 
+           :orientation "h"
+        (label :text sys_time :halign "start" :style "color: #8e8473; font-weight: bold; margin-left: 10px;")
+        (box :halign "end" :space-evenly false :spacing 10 :hexpand true
+          (label :text "${sys_bat}%" :style "color: #8e8473; font-weight: bold;")
+          (label :text "󰁹" :style "color: #8e8473; font-size: 20px; margin-right: 10px;"))))
+
+    ;; --- COLUMNA DERECHA (Anillos de Sistema) ---
+    (box :style "background-color: #1a1918; border-radius: 18px; margin: 6px;" 
+         :orientation "v" :space-evenly true :width 120
+      (stat_ring :porcentaje {sys_ram ?: 0} :icon "󰍛" :color "#6392b4")
+      (stat_ring :porcentaje {sys_cpu ?: 0} :icon "󰻠" :color "#90a959")
+      (stat_ring :porcentaje {sys_bat ?: 0} :icon "󰋊" :color "#c06c84"))
+  ))
+
+;; --- 4. WIDGET DE ANILLOS (Optimizado) ---
+(defwidget stat_ring [porcentaje icon color]
+  (box :halign "center" :valign "center"
+    (circular-progress :value porcentaje
+                       :thickness 10
+                       :start-at 75
+                       :width 65 :height 65
+                       :style "color: ${color}; background-color: #2d2a28;"
+        (label :text icon :style "font-size: 20px; color: white;"))))

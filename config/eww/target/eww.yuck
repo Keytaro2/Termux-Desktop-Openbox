@@ -1,5 +1,5 @@
 ;; --- POLLERS CONFIGURADOS PARA TU DISPOSITIVO ---
-(defpoll cpu_usage :interval "3s" 
+(defpoll cpu_usage :interval "3s"
   "uptime | awk -F'load average:' '{ print $2 }' | cut -d, -f1 | awk '{usage=$1*12.5; if(usage>100) print 100; else print usage}'")
 
 (defpoll ram_usage :interval "5s"
@@ -22,12 +22,11 @@
 ;; --- LAYOUT PRINCIPAL (Target - Estilo Seccionado) ---
 (defwidget dashboard_layout []
   (box :class "main-container" :orientation "v" :space-evenly false
-       :style "background-color: #1a1b26;
-#rgba(0, 0, 0, 0.0);" ;; Fondo invisible para que floten las cards
+       :style "background-color: #1a1b26;" 
 
     ;; Barra de búsqueda
     (box :class "search-bar" :orientation "h" :space-evenly false
-      (label :text "" :class "search-icon")
+      (label :text " " :class "search-icon")
       (label :text "Search..." :class "search-text"))
 
     ;; Card de Bienvenida
@@ -35,10 +34,10 @@
       (label :text "Welcome, Keytaro" :class "welcome-title" :halign "start")
       (label :text "Hello! 👋" :class "welcome-sub" :halign "start")
       (box :class "time-box" :halign "end" :space-evenly false
-        (label :text "󱑎" :class "time-icon")
+        (label :text "󱑎 " :class "time-icon")
         (label :text time)))
 
-    ;; Fila de Stats (Círculos con Número Central - Azul/Verde)
+    ;; Fila de Stats (Círculos con Iconos Centrales Únicamente)
     (box :class "stats-row" :orientation "h" :space-evenly true
       (stat_circle_dash :porcentaje {cpu_usage ?: 0} :icon "󰻠" :etiqueta "Cpu")
       (stat_circle_dash :porcentaje {ram_usage ?: 0} :icon "󰍛" :etiqueta "Ram")
@@ -59,16 +58,16 @@
         (button :onclick "audtool playlist-advance" "󰒭")))
   ))
 
-;; --- Widget Auxiliar: stat_circle_dash (ESTILO DASHBOARD ORIGINAL) ---
+;; --- Widget Auxiliar: stat_circle_dash (SOLO ICONO CENTRAL) ---
 (defwidget stat_circle_dash [porcentaje icon etiqueta]
   (box :class "stat-card-dash" :orientation "v" :space-evenly false :valign "center"
     (label :text etiqueta :style "color: #a0fca0; font-size: 11px; margin-bottom: 6px; font-weight: bold;")
     (box :halign "center"
-      (circular-progress :value porcentaje 
-                         :thickness 10 
-                         :start-at 75 
+      (circular-progress :value porcentaje
+                         :thickness 9
+                         :start-at 75
                          :width 65 :height 65
                          :class "stat-ring"
-                         :style "color: #7aa2f7;" ;; PROGRESO AZUL
-        (label :text "${round(porcentaje, 0)}%" :style "color: white; font-size: 10px; font-weight: bold;")))
+                         :style "color: #7aa2f7;" 
+        (label :text icon :style "font-size: 22px; color: white;")))
   ))

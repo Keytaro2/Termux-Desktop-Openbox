@@ -1,5 +1,5 @@
 $bg_target: #1a1b26;
-$card_inner: #161720; // Un tono un poco más oscuro para que las tarjetas resalten sobre el fondo
+$card_inner: #1a1918;
 $accent: #7aa2f7;
 $text: #c0caf5;
 $text-dim: #565f89;
@@ -9,8 +9,10 @@ window { background-color: transparent; }
 .main-container {
   background-color: $bg_target;
   border-radius: 24px;
+  border: 2px solid #89b4fa;
+
   padding: 20px;
-  border: 1px solid rgba(255, 255, 255, 0.05);
+//  border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 // Estilo de las tarjetas individuales

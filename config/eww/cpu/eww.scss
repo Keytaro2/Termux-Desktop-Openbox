@@ -1,0 +1,81 @@
+$bg: #1a1b26;
+// #1a1918;
+$card-bg: #221f1e;
+$fg: #c4b28a;
+$blue: #6392b4;
+$green: #90a959;
+$pink: #c06c84;
+$orange: #e69138;
+$red: #d9534f;
+
+* { 
+  all: unset; 
+  font-family: "Quicksand", "Comfortaa", "JetBrainsMono Nerd Font", sans-serif; 
+}
+
+.main-bg {
+  background-color: $bg;
+  border-radius: 28px;
+  padding: 10px;
+  border: 2px solid #89b4fa;
+//  border: 1px solid #2d2a28;
+}
+
+.card {
+  background-color: $card-bg;
+  border-radius: 18px;
+  margin: 6px;
+}
+
+// Estilo de los Sliders (Efecto Píldora)
+scale {
+  margin-left: 15px;
+  trough {
+    background-color: #2d2a28;
+    border-radius: 12px;
+    min-height: 12px;
+    highlight {
+      background-color: $orange;
+      border-radius: 12px;
+    }
+  }
+  
+  // Selector específico para el slider de volumen
+  &.vol-scale highlight { 
+    background-color: $red; 
+  }
+}
+
+// Perfil - Ajuste de ruta para que funcione desde la subcarpeta
+.profile-img {
+  background-image: url("../assets/XD.jpg"); // Subimos un nivel para encontrar assets
+  background-size: cover;
+  background-position: center;
+  min-width: 65px; 
+  min-height: 65px;
+  border-radius: 50%;
+  border: 3px solid $orange;
+  margin: 15px;
+}
+
+.profile-text {
+  .title { font-size: 24px; font-weight: bold; color: $fg; }
+  .subtitle { font-size: 14px; color: #7a7267; }
+}
+
+// Iconos
+.icon-sun { color: $orange; font-size: 22px; }
+.icon-vol { color: $red; font-size: 22px; }
+.date-font { color: #8e8473; font-weight: bold; font-size: 15px; }
+.bat-icon { color: #8e8473; font-size: 20px; }
+
+// Anillos (Circular Progress)
+.right-column { padding: 10px 0; }
+.ring-inner-icon { font-size: 20px; color: white; }
+
+circular-progress {
+  background-color: #2d2a28;
+  &.ram-ring { color: $blue; }
+  &.cpu-ring { color: $green; }
+  &.tmp-ring { color: $pink; }
+}
