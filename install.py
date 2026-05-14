@@ -20,7 +20,6 @@ def main():
     # 1. Installation of Dependencies
     apps = " audacious cava eww rofi openbox thunar picom tint2 neofetch feh starship kitty lsd w3m"
     print(f"{Colors.BLUE}[+] Installing necessary packages...{Colors.RESET}")
-    run("termux-setup-storage")
     run("pkg install x11-repo python python-pip git wget curl termux-x11-nightly pulseaudio firefox tur-repo zsh kitty termux-api virglrenderer-android fontconfig-utils freetype xfce4 jq lxappearance neovim-nightly rust chafa -y")
     run(f"pkg install {apps} -y")
     run("pip install pyxdg pywal")
