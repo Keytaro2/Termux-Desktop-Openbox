@@ -1,9 +1,9 @@
-;; 1. IMPORTAR MÓDULOS
-(include "./target/eww.yuck")
-(include "./powermenu/eww.yuck")
-(include "./cpu/eww.yuck") 
+;; 1. IMPORTAR MÓDULOS (Usando rutas absolutas para mayor estabilidad en Termux)
+(include "/data/data/com.termux/files/home/.config/eww/target/eww.yuck")
+(include "/data/data/com.termux/files/home/.config/eww/powermenu/eww.yuck")
+(include "/data/data/com.termux/files/home/.config/eww/cpu/eww.yuck")
 
-;; 2. DEFINIR EL WIDGET
+;; 2. DEFINIR EL WIDGET PRINCIPAL
 (defwidget lanzador []
   (box :class "caja-botones"
        :orientation "h"
@@ -12,21 +12,22 @@
        :halign "center"
 
     ;; BOTÓN DE ARCH
-    (button :onclick "~/.config/eww/scripts/change_wp.sh"
+    (button :onclick "/data/data/com.termux/files/home/.config/eww/scripts/change_wp.sh"
             :class "arch-btn"
             :tooltip "Cambiar Fondo" "󰣇")
 
-    ;; BOTÓN DE CPU (Abre la ventana 'cpu' definida en el include)
+    ;; BOTÓN DE CPU
+    ;; Nota: Asegúrate de que en /cpu/eww.yuck la ventana se llame exactamente 'cpu'
     (button :onclick "eww open --toggle cpu"
             :class "btn-cpu"
             :tooltip "Monitor de Sistema" "󰻠")
 
-    ;; Botón del Target
+    ;; BOTÓN DEL TARGET
     (button :onclick "eww open --toggle target"
             :class "btn-target"
             :tooltip "Ver Target" "󰓾")
 
-    ;; Botón del Powermenu
+    ;; BOTÓN DEL POWERMENU
     (button :onclick "eww open --toggle powermenu"
             :class "btn-power"
             :tooltip "Apagar" "⏻")
@@ -41,7 +42,8 @@
   :wm-ignore true
   :geometry (geometry :x "-30px"
                       :y "10px"
-                      :width "230px" 
+                      :width "230px"
                       :height "55px"
                       :anchor "top right")
-  (lanzador))
+  (lanzador)
+)
