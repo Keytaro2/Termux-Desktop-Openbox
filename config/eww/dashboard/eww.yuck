@@ -1,5 +1,5 @@
 ;; --- Variables y Pollers ---
-(defpoll music_cover :interval "2s" "bash ~/.config/eww/scripts/musica.sh")
+(defpoll music_cover :interval "2s" "bash ~/.config/eww/scripts/cover.sh")
 (defpoll song_title :interval "2s" "audtool current-song || echo 'No Music'")
 (defpoll song_artist :interval "2s" "audtool current-song-tuple-data artist || echo 'Audacious'")
 (defpoll music_status :interval "1s" "audtool playback-status | grep -q 'playing' && echo '󰏤' || echo '󰐊'")
