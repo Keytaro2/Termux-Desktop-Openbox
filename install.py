@@ -1,4 +1,5 @@
 import os
+import sys
 from time import sleep
 
 # --- Color Settings ---
@@ -29,12 +30,11 @@ def main():
     run("mkdir -p ~/.config")
     run("mkdir -p ~/.local/share/fonts")
     run("mkdir -p ~/.local/share/nvim")
-    run("mkdir -p ~/.zsh")
 
     # 3. Deploy configurations (.config)
     config_items = [
         "audacious", "cava", "eww", "neofetch", "openbox",
-        "picom", "rofi", "thunar", "tint2", "Wallpaper", "starship.toml", "gtk-3.0"
+        "picom", "rofi", "thunar", "tint2", "Wallpaper", "gtk-3.0"
     ]
     for item in config_items:
         path = f"config/{item}"
@@ -64,37 +64,17 @@ def main():
     if os.path.exists("config/nvim"):
         run("cp -r config/nvim ~/.local/share/")
 
-    # 6. ZSH Configuration and Plugins (Adjusted to your .zshrc)
-    print(f"{Colors.BLUE}[+] Downloading plugins in ~/.zsh/ ...{Colors.RESET}")
-    
-    # We installed Oh My Zsh (even if your config is manual, OMZ helps with dependencies)
-    run('sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended')
-
-    # Direct download to ~/.zsh/
-    ZSH_DIR = os.path.expanduser("~/.zsh")
-    
-    # Plugin: Autosuggestions
-    run(f"rm -rf {ZSH_DIR}/zsh-autosuggestions")
-    run(f"git clone https://github.com/zsh-users/zsh-autosuggestions {ZSH_DIR}/zsh-autosuggestions")
-    
-    # Plugin: Syntax Highlighting
-    run(f"rm -rf {ZSH_DIR}/zsh-syntax-highlighting")
-    run(f"git clone https://github.com/zsh-users/zsh-syntax-highlighting.git {ZSH_DIR}/zsh-syntax-highlighting")
-
-    # We're applying .zshrc file, which is already working.
-    if os.path.exists("config/.zshrc"):
-        run("cp config/.zshrc ~/")
-        print(f"{Colors.GREEN}  -> .zshrc file has been applied.{Colors.RESET}")
-
-    # 7. Source for Termux
+    # 6. Source for Termux
     font_src = "config/CaskaydiaCoveNerdFont-BoldItalic.ttf"
     if os.path.exists(font_src):
         run("mkdir -p ~/.termux")
         run(f"cp {font_src} ~/.termux/font.ttf")
         run("termux-reload-settings")
 
-    run("chsh -s zsh")
-    print(f"\n{Colors.GREEN}All set! Plugins installed in ~/.zsh/ and .zshrc configured.{Colors.RESET}")
-
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except KeyboardInterrupt:
+        # Se captura Ctrl + C y se cierra el script sin errores en consola
+        print(f"\n{Colors.PINK}[!] Instalación cancelada. (Ctrl + C){Colors.RESET}")
+        sys.exit(0)
