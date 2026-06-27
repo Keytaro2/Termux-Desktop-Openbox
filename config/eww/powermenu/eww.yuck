@@ -2,22 +2,22 @@
   :stacking "fg"
   :windowtype "normal"
   :wm-ignore true
-  :geometry (geometry :width "500px" 
-                      :height "45%" 
+  :geometry (geometry :width "500px"
+                      :height "45%"
                       :anchor "center center")
   (box :class "powermenu-overlay"
     (box :class "powermenu-box" :orientation "v" :space-evenly false :halign "center" :valign "center"
-      (label :text "Selecciona una acción" :class "powermenu-title")
-      
+      (label :text "Select an action" :class "powermenu-title")
+
       (box :class "powermenu-row" :spacing 20 :halign "center"
-        ;; Botones de acción (Rutas de scripts configuradas)
-        (p-button :icon "󰌾" :label "Bloquear" :cmd "eww close powermenu" :col "yellow")
-        (p-button :icon "󰍃" :label "Salir" :cmd "/data/data/com.termux/files/home/.config/eww/scripts/salir.sh" :col "cyan")
-        (p-button :icon "󰑐" :label "Reiniciar" :cmd "/data/data/com.termux/files/home/.config/eww/scripts/reiniciar.sh" :col "purple")
-        (p-button :icon "󰐥" :label "Cerrar" :cmd "pkill -9 -u $USER" :col "red"))
-      
-      ;; BOTÓN CANCELAR (Acción directa para cerrar la ventana)
-      (button :class "powermenu-cancel" :onclick "eww close powermenu" "Cancelar")
+        ;; Action buttons (Configured script paths)
+        (p-button :icon "󰌾" :label "Lock" :cmd "eww close powermenu" :col "yellow")
+        (p-button :icon "󰍃" :label "Logout" :cmd "/data/data/com.termux/files/home/.config/eww/scripts/power.sh logout" :col "cyan")
+        (p-button :icon "󰑐" :label "Reboot" :cmd "/data/data/com.termux/files/home/.config/eww/scripts/power.sh reboot" :col "purple")
+        (p-button :icon "󰐥" :label "Shutdown" :cmd "/data/data/com.termux/files/home/.config/eww/scripts/power.sh poweroff" :col "red"))
+
+      ;; CANCEL BUTTON (Direct action to close the window)
+      (button :class "powermenu-cancel" :onclick "eww close powermenu" "Cancel")
     )
   )
 )

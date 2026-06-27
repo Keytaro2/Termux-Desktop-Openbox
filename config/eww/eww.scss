@@ -7,15 +7,15 @@
   font-family: "JetBrainsMono Nerd Font", "sans-serif";
 }
 
-// Estilo del contenedor principal (con el borde azul que te gusta)
-.caja-botones {
+// Main container style (with the blue border you like)
+.button-box {
   background-color: #1a1b26;
-  border: 2px solid #89b4fa;               // Borde azul brillante
-  border-radius: 8px;                      // Quitado el círculo, dejamos esquinas suaves
+  border: 2px solid #89b4fa;               // Bright blue border
+  border-radius: 8px;                      // Removed the circle, leaving soft corners
   padding: 5px 12px;
 }
 
-// Estilo base para todos los botones dentro de la caja
+// Base style for all buttons inside the box
 button {
   font-size: 24px;
   color: #89b4fa;
@@ -23,14 +23,14 @@ button {
   border-radius: 6px;
   transition: 200ms all;
 
-  // EFECTO HOVER: Se pone azul sólido y el icono oscuro
+  // HOVER EFFECT: Turns solid blue and dark icon
   &:hover {
     background-color: #89b4fa;
     color: #1e1e2e;
   }
 }
 
-// Colores específicos para mantener la identidad de cada botón
+// Specific colors to maintain the identity of each button
 .btn-power {
   &:hover {
     background-color: #89b4fa;

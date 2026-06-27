@@ -15,7 +15,7 @@ window { background-color: transparent; }
 //  border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-// Estilo de las tarjetas individuales
+// Style for individual cards
 .welcome-card, .stat-card-dash, .music-card, .search-bar {
   background-color: $card_inner; 
   border-radius: 16px;
@@ -38,7 +38,7 @@ window { background-color: transparent; }
 .stat-card-dash {
   padding: 12px 8px; margin: 0 4px;
   .stat-ring {
-    background-color: #24283b; // Fondo de la ruedita
+    background-color: #24283b; // Ring background
     border-radius: 50%;
   }
 }

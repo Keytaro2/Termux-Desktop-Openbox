@@ -1,4 +1,4 @@
-;; --- POLLERS CONFIGURADOS PARA TU DISPOSITIVO ---
+;; --- POLLERS CONFIGURED FOR YOUR DEVICE ---
 (defpoll cpu_usage :interval "3s"
   "uptime | awk -F'load average:' '{ print $2 }' | cut -d, -f1 | awk '{usage=$1*12.5; if(usage>100) print 100; else print usage}'")
 
@@ -9,7 +9,7 @@
 (defpoll song_artist :interval "2s" "audtool current-song-tuple-data artist || echo 'Audacious'")
 (defpoll music_status :interval "1s" "audtool playback-status | grep -q 'playing' && echo '󰏤' || echo '󰐊'")
 (defpoll time :interval "1s" "date '+%H:%M'")
-(defpoll bat :interval "15s" "~/.config/eww/scripts/bateria.sh")
+(defpoll bat :interval "15s" "~/.config/eww/scripts/battery.sh")
 
 ;; --- WINDOW ---
 (defwindow target
@@ -19,17 +19,17 @@
   :geometry (geometry :x "150px" :y "10%" :width "340px" :height "500px")
   (dashboard_layout))
 
-;; --- LAYOUT PRINCIPAL (Target - Estilo Seccionado) ---
+;; --- MAIN LAYOUT (Target - Sectioned Style) ---
 (defwidget dashboard_layout []
   (box :class "main-container" :orientation "v" :space-evenly false
        :style "background-color: #1a1b26;" 
 
-    ;; Barra de búsqueda
+    ;; Search bar
     (box :class "search-bar" :orientation "h" :space-evenly false
       (label :text " " :class "search-icon")
       (label :text "Search..." :class "search-text"))
 
-    ;; Card de Bienvenida
+    ;; Welcome Card
     (box :class "welcome-card" :orientation "v" :space-evenly false
       (label :text "Welcome, Keytaro" :class "welcome-title" :halign "start")
       (label :text "Hello! 👋" :class "welcome-sub" :halign "start")
@@ -37,13 +37,13 @@
         (label :text "󱑎 " :class "time-icon")
         (label :text time)))
 
-    ;; Fila de Stats (Círculos con Iconos Centrales Únicamente)
+    ;; Stats Row (Circles with Central Icons Only)
     (box :class "stats-row" :orientation "h" :space-evenly true
-      (stat_circle_dash :porcentaje {cpu_usage ?: 0} :icon "󰻠" :etiqueta "Cpu")
-      (stat_circle_dash :porcentaje {ram_usage ?: 0} :icon "󰍛" :etiqueta "Ram")
-      (stat_circle_dash :porcentaje {bat ?: 0} :icon "󰏈" :etiqueta "Temp"))
+      (stat_circle_dash :percentage {cpu_usage ?: 0} :icon "󰻠" :label "Cpu")
+      (stat_circle_dash :percentage {ram_usage ?: 0} :icon "󰍛" :label "Ram")
+      (stat_circle_dash :percentage {bat ?: 0} :icon "󰏈" :label "Temp"))
 
-    ;; Reproductor de Música (Audacious)
+    ;; Music Player (Audacious)
     (box :class "music-card" :orientation "v" :space-evenly false
       (label :text "󰝚 Audacious" :class "music-header")
       (box :orientation "h" :space-evenly false :class "music-info"
@@ -58,12 +58,12 @@
         (button :onclick "audtool playlist-advance" "󰒭")))
   ))
 
-;; --- Widget Auxiliar: stat_circle_dash (SOLO ICONO CENTRAL) ---
-(defwidget stat_circle_dash [porcentaje icon etiqueta]
+;; --- Auxiliary Widget: stat_circle_dash (CENTRAL ICON ONLY) ---
+(defwidget stat_circle_dash [percentage icon label]
   (box :class "stat-card-dash" :orientation "v" :space-evenly false :valign "center"
-    (label :text etiqueta :style "color: #a0fca0; font-size: 11px; margin-bottom: 6px; font-weight: bold;")
+    (label :text label :style "color: #a0fca0; font-size: 11px; margin-bottom: 6px; font-weight: bold;")
     (box :halign "center"
-      (circular-progress :value porcentaje
+      (circular-progress :value percentage
                          :thickness 9
                          :start-at 75
                          :width 65 :height 65

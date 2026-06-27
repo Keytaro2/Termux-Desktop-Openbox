@@ -1,5 +1,4 @@
 $bg: #1a1b26;
-// #1a1918;
 $card-bg: #221f1e;
 $fg: #c4b28a;
 $blue: #6392b4;
@@ -18,7 +17,6 @@ $red: #d9534f;
   border-radius: 28px;
   padding: 10px;
   border: 2px solid #89b4fa;
-//  border: 1px solid #2d2a28;
 }
 
 .card {
@@ -27,7 +25,7 @@ $red: #d9534f;
   margin: 6px;
 }
 
-// Estilo de los Sliders (Escalas)
+// Sliders Style (Scales)
 scale trough {
   background-color: #1a1a1a;
   border-radius: 10px;
@@ -38,15 +36,15 @@ scale highlight {
   border-radius: 10px;
 }
 
-.s-br highlight { background-color: #ff8a7a; } // Salmon Brillo
-.s-vol highlight { background-color: #ff79c6; } // Rosa Volumen
+.s-br highlight { background-color: #ff8a7a; } // Brightness Salmon
+.s-vol highlight { background-color: #ff79c6; } // Volume Pink
 
 .slider-icon-br { color: #ff8a7a; font-size: 20px; }
 .slider-icon-vol { color: #ff79c6; font-size: 20px; }
 
-// Perfil - Ajuste de ruta para que funcione desde la subcarpeta
+// Profile - Path adjustment to work from the subfolder
 .profile-img {
-  background-image: url("/assets/cat.jpg"); // Subimos un nivel para encontrar assets
+  background-image: url("/assets/cat.jpg"); // Go up one level to find assets
   background-size: cover;
   background-position: center;
   min-width: 65px; 
@@ -61,13 +59,13 @@ scale highlight {
   .subtitle { font-size: 14px; color: #7a7267; }
 }
 
-// Iconos
+// Icons
 .icon-sun { color: $orange; font-size: 22px; }
 .icon-vol { color: $red; font-size: 22px; }
 .date-font { color: #8e8473; font-weight: bold; font-size: 15px; }
 .bat-icon { color: #8e8473; font-size: 20px; }
 
-// Anillos (Circular Progress)
+// Rings (Circular Progress)
 .right-column { padding: 10px 0; }
 .ring-inner-icon { font-size: 20px; color: white; }
 
@@ -77,6 +75,3 @@ circular-progress {
   &.cpu-ring { color: $green; }
   &.tmp-ring { color: $pink; }
 }
-
-
-

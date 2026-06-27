@@ -1,41 +1,41 @@
-;; 1. IMPORTAR MÓDULOS (Usando rutas absolutas para mayor estabilidad en Termux)
+;; 1. IMPORT MODULES (Using absolute paths for better stability in Termux)
 (include "/data/data/com.termux/files/home/.config/eww/target/eww.yuck")
 (include "/data/data/com.termux/files/home/.config/eww/powermenu/eww.yuck")
 (include "/data/data/com.termux/files/home/.config/eww/cpu/eww.yuck")
 
-;; 2. DEFINIR EL WIDGET PRINCIPAL
-(defwidget lanzador []
-  (box :class "caja-botones"
+;; 2. DEFINE THE MAIN WIDGET
+(defwidget launcher []
+  (box :class "button-box"
        :orientation "h"
        :spacing 15
        :space-evenly false
        :halign "center"
 
-    ;; BOTÓN DE ARCH
+    ;; ARCH BUTTON
     (button :onclick "/data/data/com.termux/files/home/.config/eww/scripts/change_wp.sh"
             :class "arch-btn"
-            :tooltip "Cambiar Fondo" "󰣇")
+            :tooltip "Change Wallpaper" "󰣇")
 
-    ;; BOTÓN DE CPU
-    ;; Nota: Asegúrate de que en /cpu/eww.yuck la ventana se llame exactamente 'cpu'
+    ;; CPU BUTTON
+    ;; Note: Make sure that in /cpu/eww.yuck the window is named exactly 'cpu'
     (button :onclick "eww open --toggle cpu"
             :class "btn-cpu"
-            :tooltip "Monitor de Sistema" "󰻠")
+            :tooltip "System Monitor" "󰻠")
 
-    ;; BOTÓN DEL TARGET
+    ;; TARGET BUTTON
     (button :onclick "eww open --toggle target"
             :class "btn-target"
-            :tooltip "Ver Target" "󰓾")
+            :tooltip "View Target" "󰓾")
 
-    ;; BOTÓN DEL POWERMENU
+    ;; POWERMENU BUTTON
     (button :onclick "eww open --toggle powermenu"
             :class "btn-power"
-            :tooltip "Apagar" "⏻")
+            :tooltip "Shutdown" "⏻")
   )
 )
 
-;; 3. VENTANA PRINCIPAL
-(defwindow mis_botones
+;; 3. MAIN WINDOW
+(defwindow my_buttons
   :monitor 0
   :stacking "fg"
   :windowtype "dialog"
@@ -45,5 +45,6 @@
                       :width "230px"
                       :height "55px"
                       :anchor "top right")
-  (lanzador)
+  (launcher)
 )
+

@@ -1,19 +1,19 @@
-;; --- Variables y Pollers ---
+;; --- Variables and Pollers ---
 (defpoll music_cover :interval "2s" "bash ~/.config/eww/scripts/cover.sh")
 (defpoll song_title :interval "2s" "audtool current-song || echo 'No Music'")
 (defpoll song_artist :interval "2s" "audtool current-song-tuple-data artist || echo 'Audacious'")
 (defpoll music_status :interval "1s" "audtool playback-status | grep -q 'playing' && echo '󰏤' || echo '󰐊'")
 
-;; Valores estáticos (48% y 81% con color salmón)
+;; Static values (48% and 81% with salmon color)
 (defvar storage_fixed 48)
 (defvar cloud_fixed 81)
 (defpoll storage_free :interval "60s" "df -h /data | awk 'NR==2 {print $4}'")
 (defpoll cloud_free :interval "60s" "df -h /sdcard | awk 'NR==2 {print $4}'")
 
 (defpoll time :interval "1s" `date +'{"hour":"%H","min":"%M","day":"%d","month":"%m","year":"%Y"}'`)
-(defpoll vol :interval "2s" "~/.config/eww/scripts/volumen.sh")
-(defpoll bri :interval "2s" "~/.config/eww/scripts/brillo.sh")
-(defpoll bat :interval "15s" "~/.config/eww/scripts/bateria.sh")
+(defpoll vol :interval "2s" "~/.config/eww/scripts/volume.sh")
+(defpoll bri :interval "2s" "~/.config/eww/scripts/brightness.sh")
+(defpoll bat :interval "15s" "~/.config/eww/scripts/battery.sh")
 
 ;; --- Window ---
 (defwindow dashboard
@@ -23,12 +23,12 @@
   :geometry (geometry :width "900px" :height "520px" :anchor "center center")
   (main))
 
-;; --- Layout Principal ---
+;; --- Main Layout ---
 (defwidget main []
   (box :class "bg" :space-evenly false :spacing 15 
-       :style "background-color: rgba(30, 34, 42, 0.1); padding: 18px;" ;; TRANSPARENCIA AQUÍ
+       :style "background-color: rgba(30, 34, 42, 0.1); padding: 18px;" ;; TRANSPARENCY HERE
 
-    ;; Columna 1: Música y Config
+    ;; Column 1: Music and Config
     (box :orientation "v" :space-evenly false :spacing 15
       (box :class "card" :height 375 :width 230 :orientation "v" :space-evenly false
         (box :class "art" :height 170 :width 170 :halign "center" :style "margin-top: 25px; background-image: url('${music_cover}');")
@@ -46,7 +46,7 @@
             (label :text "CONFIG" :style "color: white; font-weight: bold; font-size: 13px;"))))
     )
 
-    ;; Columna 2: Sistema y Memoria
+    ;; Column 2: System and Memory
     (box :orientation "v" :space-evenly false :spacing 15
       (box :class "card" :height 220 :width 300 :orientation "v" :spacing 22 :padding 25
         (sys-bar :icon "󰕾" :val {vol ?: 0} :text "${vol ?: 0}%" :col "p")
@@ -54,10 +54,10 @@
         (sys-bar :icon "󰂄" :val {bat ?: 0} :text "${bat ?: 0}%" :col "w"))
 
       (box :class "card" :height 220 :width 300 :orientation "h" :space-evenly true :style "padding: 15px;"
-        (circulo_memoria :porcentaje storage_fixed :libre storage_free :etiqueta "/" :color_etiqueta "#a0fca0")
-        (circulo_memoria :porcentaje cloud_fixed :libre cloud_free :etiqueta "cloud" :color_etiqueta "#a0fca0")))
+        (memory_circle :percentage storage_fixed :free storage_free :label "/" :label_color "#a0fca0")
+        (memory_circle :percentage cloud_fixed :free cloud_free :label "cloud" :label_color "#a0fca0")))
 
-    ;; Columna 3: Reloj y Calendario
+    ;; Column 3: Clock and Calendar
     (box :orientation "v" :space-evenly false :spacing 15
       (box :class "card" :height 120 :width 285
         (box :space-evenly false :halign "center" :valign "center"
@@ -71,22 +71,22 @@
   )
 )
 
-;; --- Widgets Auxiliares ---
+;; --- Auxiliary Widgets ---
 (defwidget sys-bar [icon val text col]
   (box :space-evenly false :spacing 12 :halign "center"
     (label :text icon :style "font-size: 20px; color: #f8f8f2;")
     (scale :min 0 :max 101 :active false :value {val ?: 0} :class "bar-${col}" :width 160)
     (label :text text :style "font-size: 14px; color: #f8f8f2;")))
 
-(defwidget circulo_memoria [porcentaje libre etiqueta color_etiqueta]
+(defwidget memory_circle [percentage free label label_color]
   (box :orientation "v" :space-evenly false :valign "center"
-    (label :text etiqueta :style "color: ${color_etiqueta}; font-size: 19px; font-weight: bold; margin-bottom: 8px;")
+    (label :text label :style "color: ${label_color}; font-size: 19px; font-weight: bold; margin-bottom: 8px;")
     (box :halign "center"
-      (circular-progress :value porcentaje 
+      (circular-progress :value percentage 
                          :thickness 12 
                          :start-at 75 
                          :width 90 :height 90
                          :class "storage-ring"
-                         :style "color: #ff8a7a;" ;; SALMÓN INYECTADO
-        (label :text "${porcentaje}%" :style "color: white; font-size: 13px; font-weight: bold;")))
-    (label :text "${libre} free" :style "color: #b0b4bc; font-size: 11px; margin-top: 10px;")))
+                         :style "color: #ff8a7a;" ;; INJECTED SALMON
+        (label :text "${percentage}%" :style "color: white; font-size: 13px; font-weight: bold;")))
+    (label :text "${free} free" :style "color: #b0b4bc; font-size: 11px; margin-top: 10px;")))

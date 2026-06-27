@@ -1,4 +1,4 @@
-;; --- 1. POLLERS CON PREFIJO ÚNICO ---
+;; --- 1. POLLERS WITH UNIQUE PREFIX ---
 (defpoll sys_cpu :interval "3s"
   "uptime | awk -F'load average:' '{ print $2 }' | cut -d, -f1 | awk '{usage=$1*12.5; if(usage>100) print 100; else print usage}'")
 
@@ -8,12 +8,12 @@
 (defpoll sys_storage :interval "600s"
   "df -h /sdcard | tail -n 1 | awk '{print $5}' | tr -d '%'")
 
-(defpoll sys_bat :interval "15s" "~/.config/eww/scripts/bateria.sh")
-(defpoll sys_bright :interval "1s" "~/.config/eww/scripts/brillo.sh")
+(defpoll sys_bat :interval "15s" "~/.config/eww/scripts/battery.sh")
+(defpoll sys_bright :interval "1s" "~/.config/eww/scripts/brightness.sh")
 (defpoll sys_vol :interval "1s" "termux-volume | jq '.[] | select(.stream==\"music\") | .volume'")
 (defpoll sys_time :interval "1s" "date '+%A, %b %d'")
 
-;; --- 2. VENTANA DASHBOARD (Ajustada a la derecha) ---
+;; --- 2. DASHBOARD WINDOW (Adjusted to the right) ---
 (defwindow cpu
   :stacking "fg"
   :windowtype "normal"
@@ -25,27 +25,24 @@
                       :anchor "right center")
   (cpu_layout))
 
-;; --- 3. LAYOUT PRINCIPAL CON ESTILOS INYECTADOS ---
+;; --- 3. MAIN LAYOUT WITH INJECTED STYLES ---
 (defwidget cpu_layout []
   (box :style "background-color: #1a1b26; border-radius: 28px; border: 2px solid #89b4fa; padding: 10px;"
-;;border: 1px solid #2d2a28; padding: 10px;"
-;;#1a1918
        :orientation "h" 
        :space-evenly false
 
-    ;; --- COLUMNA IZQUIERDA (Info y Sliders) ---
+    ;; --- LEFT COLUMN (Info and Sliders) ---
     (box :orientation "v" :space-evenly false :width 280
 
-      ;; Perfil
+      ;; Profile
       (box :style "background-color: #1a1918; border-radius: 18px; margin: 6px; padding: 5px;"
-;;#221f1e; 
            :orientation "h" :space-evenly false
         (box :style "background-image: url('assets/cat.jpg'); background-size: cover; min-width: 65px; min-height: 65px; border-radius: 50%; border: 3px solid #7aa2f7; margin: 15px;")
         (box :orientation "v" :valign "center"
           (label :text "sushi" :halign "start" :style "font-size: 24px; color: #c0caf5; font-weight: bold;")
           (label :text "on Termux" :halign "start" :style "font-size: 14px; color: #c0caf5;")))
 
-;; Sliders
+      ;; Sliders
       (box :class "sliders-box" :orientation "v" :spacing 15 :valign "center" :vexpand true
         (box :orientation "h" :space-evenly false :spacing 10
           (label :text "󰃠" :class "slider-icon-br")
@@ -54,7 +51,7 @@
           (label :text "󰕾" :class "slider-icon-vol")
           (scale :value 70 :class "s-vol" :hexpand true)))
 
-      ;; Info Inferior
+      ;; Bottom Info
       (box :style "background-color: #1a1918; border-radius: 18px; margin: 6px; padding: 10px;" 
            :orientation "h"
         (label :text sys_time :halign "start" :style "color: #c0caf5; font-weight: bold; margin-left: 10px;")
@@ -62,20 +59,18 @@
           (label :text "${sys_bat}%" :style "color: #c0caf5; font-weight: bold;")
           (label :text "󰁹" :style "color: #c0caf5; font-size: 20px; margin-right: 10px;"))))
 
-    ;; --- COLUMNA DERECHA (Anillos de Sistema) ---
+    ;; --- RIGHT COLUMN (System Rings) ---
     (box :style "background-color: #1a1918; border-radius: 18px; margin: 6px;" 
          :orientation "v" :space-evenly true :width 120
-      (stat_ring :porcentaje {sys_ram ?: 0} :icon "󰍛" :color "#7aa2f7")
-      (stat_ring :porcentaje {sys_cpu ?: 0} :icon "󰻠" :color "#a0fca0")
-      (stat_ring :porcentaje {sys_storage ?: 0} :icon "󰋊" :color "#ff79c6"))
-;;"#e000ed"))
-;;"#f01c99"))
+      (stat_ring :percentage {sys_ram ?: 0} :icon "󰍛" :color "#7aa2f7")
+      (stat_ring :percentage {sys_cpu ?: 0} :icon "󰻠" :color "#a0fca0")
+      (stat_ring :percentage {sys_storage ?: 0} :icon "󰋊" :color "#ff79c6"))
   ))
 
-;; --- 4. WIDGET DE ANILLOS (Optimizado) ---
-(defwidget stat_ring [porcentaje icon color]
+;; --- 4. RING WIDGET (Optimized) ---
+(defwidget stat_ring [percentage icon color]
   (box :halign "center" :valign "center"
-    (circular-progress :value porcentaje
+    (circular-progress :value percentage
                        :thickness 10
                        :start-at 75
                        :width 65 :height 65

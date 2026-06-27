@@ -34,5 +34,5 @@ eww daemon &
 
 sleep 2
 
-# Botones
-eww open mis_botones &
+# Buttons
+eww open my_buttons &

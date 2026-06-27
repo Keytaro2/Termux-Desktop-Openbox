@@ -3,8 +3,8 @@
 status=$(termux-wifi-connectioninfo | jq -r '.supplicant_state')
 
 if [ "$status" == "COMPLETED" ]; then
-    echo "󰖩"  # Icono de conectado
+    echo "󰖩"  # Connected icon
 else
-    echo "󰖪"  # Icono de desconectado/error
+    echo "󰖪"  # Disconnected/error icon
 fi
 

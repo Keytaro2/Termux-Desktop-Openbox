@@ -75,6 +75,6 @@ if __name__ == "__main__":
     try:
         main()
     except KeyboardInterrupt:
-        # Se captura Ctrl + C y se cierra el script sin errores en consola
-        print(f"\n{Colors.PINK}[!] Instalación cancelada. (Ctrl + C){Colors.RESET}")
+        # Ctrl + C is captured and the script closes without console errors
+        print(f"\n{Colors.PINK}[!] Installation cancelled {Colors.RESET}")
         sys.exit(0)
