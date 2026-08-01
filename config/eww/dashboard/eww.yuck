@@ -4,7 +4,6 @@
 (defpoll song_artist :interval "2s" "audtool current-song-tuple-data artist || echo 'Audacious'")
 (defpoll music_status :interval "1s" "audtool playback-status | grep -q 'playing' && echo '󰏤' || echo '󰐊'")
 
-;; Static values (48% and 81% with salmon color)
 (defvar storage_fixed 48)
 (defvar cloud_fixed 81)
 (defpoll storage_free :interval "60s" "df -h /data | awk 'NR==2 {print $4}'")
@@ -15,63 +14,49 @@
 (defpoll bri :interval "2s" "~/.config/eww/scripts/brightness.sh")
 (defpoll bat :interval "15s" "~/.config/eww/scripts/battery.sh")
 
-;; --- Window ---
-(defwindow dashboard
-  :stacking "fg"
-  :windowtype "normal"
-  :wm-ignore true
-  :geometry (geometry :width "900px" :height "520px" :anchor "center center")
-  (main))
+;; --- Widgets Modulares ---
 
-;; --- Main Layout ---
-(defwidget main []
-  (box :class "bg" :space-evenly false :spacing 15 
-       :style "background-color: rgba(30, 34, 42, 0.1); padding: 18px;" ;; TRANSPARENCY HERE
+(defwidget music_module []
+  (box :class "card" :height 375 :width 230 :orientation "v" :space-evenly false
+    (box :class "art" :height 170 :width 170 :halign "center" :style "margin-top: 25px; background-image: url('${music_cover}');")
+    (label :text song_title :limit-width 18 :class "m-title" :style "margin-top: 25px;")
+    (label :text song_artist :limit-width 20 :style "font-size: 12px; color: #bd93f9; margin-top: 10px;")
+    (box :class "m-controls" :spacing 25 :halign "center" :style "margin-top: 30px;"
+      (button :onclick "audtool playlist-reverse" :style "font-size: 20px;" "󰒮")
+      (button :onclick "audtool playback-playpause" :style "font-size: 25px;" music_status)
+      (button :onclick "audtool playlist-advance" :style "font-size: 20px;" "󰒭"))))
 
-    ;; Column 1: Music and Config
-    (box :orientation "v" :space-evenly false :spacing 15
-      (box :class "card" :height 375 :width 230 :orientation "v" :space-evenly false
-        (box :class "art" :height 170 :width 170 :halign "center" :style "margin-top: 25px; background-image: url('${music_cover}');")
-        (label :text song_title :limit-width 18 :class "m-title" :style "margin-top: 25px;")
-        (label :text song_artist :limit-width 20 :style "font-size: 12px; color: #bd93f9; margin-top: 10px;")
-        (box :class "m-controls" :spacing 25 :halign "center" :style "margin-top: 30px;"
-          (button :onclick "audtool playlist-reverse" :style "font-size: 20px;" "󰒮")
-          (button :onclick "audtool playback-playpause" :style "font-size: 25px;" music_status)
-          (button :onclick "audtool playlist-advance" :style "font-size: 20px;" "󰒭")))
+(defwidget config_module []
+  (button :onclick "lxappearance &" :style "border-radius: 30px;"
+    (box :class "card" :height 65 :width 230 :halign "center" :valign "center" :style "border-radius: 30px;"
+      (box :orientation "h" :space-evenly false :spacing 12 :halign "center"
+        (label :text "󰒓" :style "color: #50fa7b; font-size: 20px;")
+        (label :text "CONFIG" :style "color: white; font-weight: bold; font-size: 13px;")))))
 
-      (button :onclick "lxappearance &" :style "border-radius: 30px;"
-        (box :class "card" :height 65 :width 230 :halign "center" :valign "center" :style "border-radius: 30px;"
-          (box :orientation "h" :space-evenly false :spacing 12 :halign "center"
-            (label :text "󰒓" :style "color: #50fa7b; font-size: 20px;")
-            (label :text "CONFIG" :style "color: white; font-weight: bold; font-size: 13px;"))))
-    )
+(defwidget system_module []
+  (box :class "card" :height 220 :width 300 :orientation "v" :spacing 22 :padding 25
+    (sys-bar :icon "󰕾" :val {vol ?: 0} :text "${vol ?: 0}%" :col "p")
+    (sys-bar :icon "󰃠" :val {bri ?: 0} :text "${bri ?: 0}%" :col "g")
+    (sys-bar :icon "󰂄" :val {bat ?: 0} :text "${bat ?: 0}%" :col "w")))
 
-    ;; Column 2: System and Memory
-    (box :orientation "v" :space-evenly false :spacing 15
-      (box :class "card" :height 220 :width 300 :orientation "v" :spacing 22 :padding 25
-        (sys-bar :icon "󰕾" :val {vol ?: 0} :text "${vol ?: 0}%" :col "p")
-        (sys-bar :icon "󰃠" :val {bri ?: 0} :text "${bri ?: 0}%" :col "g")
-        (sys-bar :icon "󰂄" :val {bat ?: 0} :text "${bat ?: 0}%" :col "w"))
+(defwidget memory_module []
+  (box :class "card" :height 220 :width 300 :orientation "h" :space-evenly true :style "padding: 15px;"
+    (memory_circle :percentage storage_fixed :free storage_free :label "/" :label_color "#a0fca0")
+    (memory_circle :percentage cloud_fixed :free cloud_free :label "cloud" :label_color "#a0fca0")))
 
-      (box :class "card" :height 220 :width 300 :orientation "h" :space-evenly true :style "padding: 15px;"
-        (memory_circle :percentage storage_fixed :free storage_free :label "/" :label_color "#a0fca0")
-        (memory_circle :percentage cloud_fixed :free cloud_free :label "cloud" :label_color "#a0fca0")))
+(defwidget clock_module []
+  (box :class "card" :height 120 :width 285
+    (box :space-evenly false :halign "center" :valign "center"
+      (label :text "${time.hour}" :class "t-h")
+      (label :text ":" :style "font-size: 38px; color: white;")
+      (label :text "${time.min}" :class "t-m"))))
 
-    ;; Column 3: Clock and Calendar
-    (box :orientation "v" :space-evenly false :spacing 15
-      (box :class "card" :height 120 :width 285
-        (box :space-evenly false :halign "center" :valign "center"
-          (label :text "${time.hour}" :class "t-h")
-          (label :text ":" :style "font-size: 38px; color: white;")
-          (label :text "${time.min}" :class "t-m")))
+(defwidget calendar_module []
+  (box :class "card" :height 320 :style "padding: 5px;"
+    (calendar :day {time.day} :month {time.month} :year {time.year})))
 
-      (box :class "card" :height 320 :style "padding: 5px;"
-        (calendar :day {time.day} :month {time.month} :year {time.year}))
-    )
-  )
-)
+;; --- Componentes Auxiliares ---
 
-;; --- Auxiliary Widgets ---
 (defwidget sys-bar [icon val text col]
   (box :space-evenly false :spacing 12 :halign "center"
     (label :text icon :style "font-size: 20px; color: #f8f8f2;")
@@ -87,6 +72,53 @@
                          :start-at 75 
                          :width 90 :height 90
                          :class "storage-ring"
-                         :style "color: #ff8a7a;" ;; INJECTED SALMON
+                         :style "color: #ff8a7a;"
         (label :text "${percentage}%" :style "color: white; font-size: 13px; font-weight: bold;")))
     (label :text "${free} free" :style "color: #b0b4bc; font-size: 11px; margin-top: 10px;")))
+
+;; --- Ventanas Independientes ---
+;; Ajusta las posiciones "x" y "y" dependiendo de la resolución de tu pantalla.
+
+;; --- Ventanas Independientes Centradas Dinámicamente ---
+
+(defwindow w_music
+  :stacking "fg"
+  :windowtype "normal"
+  :wm-ignore true
+  :geometry (geometry :width 230 :height 390 :anchor "center center" :x -308 :y -35)
+  (music_module))
+
+(defwindow w_config
+  :stacking "fg"
+  :windowtype "normal"
+  :wm-ignore true
+  :geometry (geometry :width 230 :height 65 :anchor "center center" :x -308 :y 210)
+  (config_module))
+
+(defwindow w_system
+  :stacking "fg"
+  :windowtype "normal"
+  :wm-ignore true
+  :geometry (geometry :width 300 :height 220 :anchor "center center" :x -28 :y -118)
+  (system_module))
+
+(defwindow w_memory
+  :stacking "fg"
+  :windowtype "normal"
+  :wm-ignore true
+  :geometry (geometry :width 300 :height 230 :anchor "center center" :x -28 :y 128)
+  (memory_module))
+
+(defwindow w_clock
+  :stacking "fg"
+  :windowtype "normal"
+  :wm-ignore true
+  :geometry (geometry :width 347 :height 120 :anchor "center center" :x 313 :y -167)
+  (clock_module))
+
+(defwindow w_calendar
+  :stacking "fg"
+  :windowtype "normal"
+  :wm-ignore true
+  :geometry (geometry :width 310 :height 300 :anchor "center center" :x 310 :y 75)
+  (calendar_module))

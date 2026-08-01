@@ -430,7 +430,9 @@ button_padding = 4 4
 # button_padding = 0 4 
 button_background_id = 9
 button_centered = 1
-button_lclick_command = eww --config ~/.config/eww/dashboard open --toggle dashboard
+button_lclick_command = sh -c 'if eww --config ~/.config/eww/dashboard active-windows | grep -q "w_music"; then eww --config ~/.config/eww/dashboard close w_music w_config w_system w_memory w_clock w_calendar; else eww --config ~/.config/eww/dashboard open-many w_music w_config w_system w_memory w_clock w_calendar; fi'
+
+#eww --config ~/.config/eww/dashboard open --toggle dashboard
 
 
 #-------------------------------------
