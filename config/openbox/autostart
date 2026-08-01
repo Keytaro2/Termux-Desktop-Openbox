@@ -12,7 +12,15 @@ picom &
 tint2 -c ~/.config/tint2/dd.tint2rc &
 sleep 2
 
-feh --bg-fill ~/.config/Wallpaper/a.png
+# Wallpaper
+if [ -f ~/.fehbg ]; then
+    bash ~/.fehbg &
+else
+    feh --bg-fill ~/.config/Wallpaper/a.png &
+fi
+
+
+#feh --bg-fill ~/.config/Wallpaper/a.png
 
 # dock
 #tint2 > /dev/null 2>&1 &
